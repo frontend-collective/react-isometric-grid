@@ -1,0 +1,116 @@
+{
+  "name": "react-isometric-grids",
+  "version": "0.0.1",
+  "description": "Isometric grid components for React",
+  "scripts": {
+    "build": "npm run clean && cross-env NODE_ENV=production TARGET=umd webpack --bail",
+    "build:demo": "npm run clean:demo && cross-env NODE_ENV=production TARGET=demo webpack --bail && npm run build-storybook",
+    "clean": "rimraf dist",
+    "clean:demo": "rimraf build",
+    "start": "cross-env NODE_ENV=development TARGET=development webpack-dev-server --inline --hot",
+    "lint": "eslint src examples",
+    "prettier": "prettier --single-quote --trailing-comma es5 --write \"{src,examples}/**/*.{js,scss}\"",
+    "prepublishOnly": "npm run lint && npm run test && npm run build",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "test:coverage": "jest --coverage && ./cc-test-reporter after-build --id=\"8d0aff521cd607622b6e44a1e299ca0796e416b439f22142b97634a8a2306371\"",
+    "deploy": "npm run build:demo && gh-pages -d build",
+    "storybook": "cross-env TARGET=development start-storybook -p ${PORT:-3001} -h 0.0.0.0",
+    "build-storybook": "cross-env NODE_ENV=production TARGET=demo build-storybook -o build/storybook"
+  },
+  "main": "dist/main.js",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wuweiweiwu/react-isometric-grids"
+  },
+  "homepage": "https://github.com/wuweiweiwu/react-isometric-gridsn",
+  "bugs": "https://github.com/wuweiweiwu/react-isometric-grids/issues",
+  "authors": [
+    "Wei-Wei Wu"
+  ],
+  "license": "MIT",
+  "jest": {
+    "setupTestFrameworkScriptFile": "./node_modules/jest-enzyme/lib/index.js",
+    "setupFiles": [
+      "./test-config/shim.js",
+      "./test-config/test-setup.js"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "jsx",
+      "json"
+    ],
+    "moduleDirectories": [
+      "node_modules"
+    ],
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|scss|less)$": "identity-obj-proxy"
+    }
+  },
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "react": "^15.3.0 || ^16.0.0",
+    "react-dom": "^15.3.0 || ^16.0.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.3.9",
+    "@storybook/addon-notes": "^3.3.9",
+    "@storybook/addon-options": "^3.3.9",
+    "@storybook/addon-storyshots": "^3.3.9",
+    "@storybook/react": "^3.3.9",
+    "autoprefixer": "^7.2.5",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-jest": "^22.0.6",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.11.1",
+    "cross-env": "^5.1.3",
+    "css-loader": "^0.28.8",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^7.5.1",
+    "file-loader": "^1.1.6",
+    "gh-pages": "^1.1.0",
+    "html-webpack-plugin": "^2.30.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^22.0.6",
+    "jest-enzyme": "^4.0.2",
+    "json-loader": "^0.5.4",
+    "node-sass": "^4.7.2",
+    "postcss-loader": "^2.0.10",
+    "prettier": "^1.10.2",
+    "react": "^16.2.0",
+    "react-addons-shallow-compare": "^15.6.2",
+    "react-dnd-test-backend": "^2.5.4",
+    "react-dnd-touch-backend": "^0.3.20",
+    "react-dom": "^16.2.0",
+    "react-hot-loader": "^3.1.3",
+    "react-sortable-tree-theme-file-explorer": "^1.1.2",
+    "react-test-renderer": "^16.2.0",
+    "rimraf": "^2.6.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.10.1",
+    "webpack-node-externals": "^1.6.0"
+  },
+  "keywords": [
+    "react",
+    "react-component"
+  ]
+}
