@@ -51,8 +51,7 @@
       "\\.(css|scss|less)$": "identity-obj-proxy"
     }
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "peerDependencies": {
     "react": "^15.3.0 || ^16.0.0",
     "react-dom": "^15.3.0 || ^16.0.0"
