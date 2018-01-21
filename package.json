@@ -1,7 +1,7 @@
 {
-  "name": "react-isometric-grids",
+  "name": "react-isometric-grid",
   "version": "0.0.1",
-  "description": "Isometric grid components for React",
+  "description": "Isometric grid component for React",
   "scripts": {
     "build": "npm run clean && cross-env NODE_ENV=production TARGET=umd webpack --bail",
     "build:demo": "npm run clean:demo && cross-env NODE_ENV=production TARGET=demo webpack --bail && npm run build-storybook",
@@ -24,10 +24,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/wuweiweiwu/react-isometric-grids"
+    "url": "https://github.com/wuweiweiwu/react-isometric-grid"
   },
-  "homepage": "https://github.com/wuweiweiwu/react-isometric-gridsn",
-  "bugs": "https://github.com/wuweiweiwu/react-isometric-grids/issues",
+  "homepage": "https://github.com/wuweiweiwu/react-isometric-grid",
+  "bugs": "https://github.com/wuweiweiwu/react-isometric-grid/issues",
   "authors": [
     "Wei-Wei Wu"
   ],
