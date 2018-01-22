@@ -8,14 +8,7 @@ import styles from './stylesheets/app.scss';
 class App extends Component {
   render() {
     return (
-      <div className={styles['main-content']}>
-        {/* <PrettyInteractionIcon
-          cssAnimation="flash"
-          cssInfinite={false}
-          icon="thumbs-up"
-          start
-        /> */}
-      </div>
+      <h1>Hello, World!</h1>
     );
   }
 }
