@@ -14,9 +14,16 @@ body {
   transform-origin: 50% 100%;
 }
 
-.js .grid,
-.js .grid__item,
-.js .grid__link {
+/* .grid,
+.grid__item,
+.grid__link {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+} */
+
+.grid,
+.grid__item,
+.grid__link {
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
@@ -30,9 +37,10 @@ body {
 
 .grid__item {
   width: 300px;
+  /* transform-style: preserve-3d; */
 }
 
-.js .grid__item {
+.grid__item {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
@@ -41,6 +49,7 @@ body {
   position: relative;
   z-index: 1;
   display: block;
+  /* transform-style: preserve-3d; */
 }
 
 .grid__img {
@@ -290,11 +299,11 @@ body {
 
 /* Flip effect for the scrollable grid */
 
-.js .grid--effect-flip .grid__item {
+.grid--effect-flip .grid__item {
   opacity: 0;
 }
 
-.js .grid--effect-flip .grid__item.shown {
+.grid--effect-flip .grid__item.shown {
   opacity: 1;
 }
 
@@ -322,17 +331,17 @@ body {
 }
 
 /* Loading effect */
-.js .grid {
+.grid {
   opacity: 0;
   -webkit-transition: opacity 0.3s;
   transition: opacity 0.3s;
 }
 
-.js .grid.grid--loaded {
+.grid.grid--loaded {
   opacity: 1;
 }
 
-.js body::after {
+body::after {
   content: '';
   position: fixed;
   z-index: 1000;
@@ -365,6 +374,6 @@ body {
   }
 }
 
-.js body.grid-loaded::after {
+body.grid-loaded::after {
   opacity: 0;
 }

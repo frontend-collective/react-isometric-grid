@@ -2,6 +2,7 @@ import styles from '../react-isometric-grid.css';
 var bonzo = require('bonzo');
 var AnimOnScroll = require('./animOnScroll');
 const dynamics = require('dynamics.js');
+// const dynamics = require('./dynamics.min.js');
 const imagesLoaded = require('imagesloaded');
 const Masonry = require('masonry-layout');
 

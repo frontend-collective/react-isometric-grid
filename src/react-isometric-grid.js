@@ -9,6 +9,7 @@ const dynamics = require('dynamics.js');
 // const AnimOnScroll = require('./js/animOnScroll');
 // const classie = require('./js/classie');
 const classNames = require('classnames');
+var bonzo = require('bonzo');
 
 // scss class names
 import styles from './react-isometric-grid.css';
@@ -49,6 +50,9 @@ class ReactIsometricGrid extends Component {
             delay: (itemstotal - pos - 1) * 40,
           };
         },
+      },
+      onGridLoaded: function() {
+        bonzo(document.body).addClass(styles['grid-loaded']);
       },
     });
   }
