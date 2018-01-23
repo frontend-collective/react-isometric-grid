@@ -3,20 +3,22 @@ import PropTypes from 'prop-types';
 
 // helper libraries
 // const Masonry = require('masonry-layout');
-const dynamics = require('dynamics.js');
+// const dynamics = require('dynamics.js');
+import dynamics from 'dynamics.js';
 // const imageloaded = require('imagesloaded');
 //
 // const AnimOnScroll = require('./js/animOnScroll');
 // const classie = require('./js/classie');
-const classNames = require('classnames');
-var bonzo = require('bonzo');
+import classNames from 'classnames';
+import bonzo from 'bonzo';
 
 // scss class names
 import styles from './react-isometric-grid.scss';
 
 import img1 from './img/Dribbble/1.png';
 
-const IsoGrid = require('./js/isoGrid');
+import IsoGrid from './isometric-grid';
+// import IsoGrid from './iso';
 
 class ReactIsometricGrid extends Component {
   constructor(props) {

@@ -13,7 +13,7 @@
 
 // adding modernizr
 require('./modernizr.custom');
-var bonzo = require('bonzo');
+import bonzo from 'bonzo';
 import styles from '../react-isometric-grid.scss';
 
 var docElem = window.document.documentElement;
@@ -210,4 +210,4 @@ AnimOnScroll.prototype = {
   },
 };
 
-module.exports = AnimOnScroll;
+export default AnimOnScroll;
