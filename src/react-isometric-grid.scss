@@ -20,6 +20,12 @@ body {
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
 } */
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 .grid,
 .grid__item,

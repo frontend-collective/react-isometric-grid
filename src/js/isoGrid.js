@@ -1,4 +1,4 @@
-import styles from '../react-isometric-grid.css';
+import styles from '../react-isometric-grid.scss';
 var bonzo = require('bonzo');
 var AnimOnScroll = require('./animOnScroll');
 const dynamics = require('dynamics.js');

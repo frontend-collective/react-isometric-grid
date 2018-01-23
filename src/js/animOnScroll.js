@@ -14,7 +14,7 @@
 // adding modernizr
 require('./modernizr.custom');
 var bonzo = require('bonzo');
-import styles from '../react-isometric-grid.css';
+import styles from '../react-isometric-grid.scss';
 
 var docElem = window.document.documentElement;
 

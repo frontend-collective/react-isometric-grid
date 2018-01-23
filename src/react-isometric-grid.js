@@ -12,7 +12,7 @@ const classNames = require('classnames');
 var bonzo = require('bonzo');
 
 // scss class names
-import styles from './react-isometric-grid.css';
+import styles from './react-isometric-grid.scss';
 
 import img1 from './img/Dribbble/1.png';
 
