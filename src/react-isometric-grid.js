@@ -2,20 +2,20 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 // helper libraries
-const Masonry = require('masonry-layout');
+// const Masonry = require('masonry-layout');
 const dynamics = require('dynamics.js');
-const imageloaded = require('imagesloaded');
-
-const AnimOnScroll = require('./js/animOnScroll');
-const classie = require('./js/classie');
+// const imageloaded = require('imagesloaded');
+//
+// const AnimOnScroll = require('./js/animOnScroll');
+// const classie = require('./js/classie');
 const classNames = require('classnames');
 
 // scss class names
-import styles from './react-isometric-grid.scss';
+import styles from './react-isometric-grid.css';
 
 import img1 from './img/Dribbble/1.png';
 
-require('./js/main');
+const IsoGrid = require('./js/isoGrid');
 
 class ReactIsometricGrid extends Component {
   constructor(props) {
@@ -23,11 +23,12 @@ class ReactIsometricGrid extends Component {
   }
 
   componentDidMount() {
+    // console.log(styles);
     function getRandomInt(min, max) {
       return Math.floor(Math.random() * (max - min + 1)) + min;
     }
 
-    new window.IsoGrid(document.querySelector(styles['isolayer--deco1']), {
+    new IsoGrid(document.querySelector(`.${styles['isolayer--deco1']}`), {
       transform:
         'translateX(33vw) translateY(-340px) rotateX(45deg) rotateZ(45deg)',
       stackItemsAnimation: {
@@ -64,7 +65,97 @@ class ReactIsometricGrid extends Component {
         <ul className={styles.grid}>
           <li className={styles.grid__item}>
             <a
-              className={styles.grid_link}
+              className={styles.grid__link}
+              href="https://dribbble.com/fuviz"
+            >
+              <div className={styles.layer} />
+              <div className={styles.layer} />
+              <div className={styles.layer} />
+              <img
+                alt="01"
+                className={classNames([styles.grid__img, styles.layer])}
+                src={img1}
+              />
+            </a>
+          </li>
+          <li className={styles.grid__item}>
+            <a
+              className={styles.grid__link}
+              href="https://dribbble.com/fuviz"
+            >
+              <div className={styles.layer} />
+              <div className={styles.layer} />
+              <div className={styles.layer} />
+              <img
+                alt="01"
+                className={classNames([styles.grid__img, styles.layer])}
+                src={img1}
+              />
+            </a>
+          </li>
+          <li className={styles.grid__item}>
+            <a
+              className={styles.grid__link}
+              href="https://dribbble.com/fuviz"
+            >
+              <div className={styles.layer} />
+              <div className={styles.layer} />
+              <div className={styles.layer} />
+              <img
+                alt="01"
+                className={classNames([styles.grid__img, styles.layer])}
+                src={img1}
+              />
+            </a>
+          </li>
+          <li className={styles.grid__item}>
+            <a
+              className={styles.grid__link}
+              href="https://dribbble.com/fuviz"
+            >
+              <div className={styles.layer} />
+              <div className={styles.layer} />
+              <div className={styles.layer} />
+              <img
+                alt="01"
+                className={classNames([styles.grid__img, styles.layer])}
+                src={img1}
+              />
+            </a>
+          </li>
+          <li className={styles.grid__item}>
+            <a
+              className={styles.grid__link}
+              href="https://dribbble.com/fuviz"
+            >
+              <div className={styles.layer} />
+              <div className={styles.layer} />
+              <div className={styles.layer} />
+              <img
+                alt="01"
+                className={classNames([styles.grid__img, styles.layer])}
+                src={img1}
+              />
+            </a>
+          </li>
+          <li className={styles.grid__item}>
+            <a
+              className={styles.grid__link}
+              href="https://dribbble.com/fuviz"
+            >
+              <div className={styles.layer} />
+              <div className={styles.layer} />
+              <div className={styles.layer} />
+              <img
+                alt="01"
+                className={classNames([styles.grid__img, styles.layer])}
+                src={img1}
+              />
+            </a>
+          </li>
+          <li className={styles.grid__item}>
+            <a
+              className={styles.grid__link}
               href="https://dribbble.com/fuviz"
             >
               <div className={styles.layer} />
