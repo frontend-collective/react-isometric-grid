@@ -24,51 +24,24 @@ class ReactIsometricGrid extends Component {
       return Math.floor(Math.random() * (max - min + 1)) + min;
     }
 
-    new IsoGrid(document.querySelector(`.${styles['isolayer--deco1']}`), {
-      transform: 'rotateX(45deg) rotateZ(45deg)',
-      stackItemsAnimation: {
-        properties: function(pos) {
-          return {
-            translateZ: (pos + 1) * 30,
-            rotateZ: getRandomInt(-4, 4),
-          };
-        },
-        options: function(pos, itemstotal) {
-          return {
-            type: dynamics.bezier,
-            duration: 500,
-            points: [
-              { x: 0, y: 0, cp: [{ x: 0.2, y: 1 }] },
-              { x: 1, y: 1, cp: [{ x: 0.3, y: 1 }] },
-            ],
-            delay: (itemstotal - pos - 1) * 40,
-          };
-        },
-      },
-      onGridLoaded: function() {
-        bonzo(document.body).addClass(styles['grid-loaded']);
-      },
-    });
-    // new IsoGrid(document.querySelector(`.${styles['isolayer--deco1']}`), {
-    //   perspective: 30000,
-    //   transform: 'translateY(-150px) rotateX(55deg) rotateZ(-45deg)',
+    // new IsoGrid(document.querySelector(`.${styles['isolayer--deco4']}`), {
+    //   transform: 'rotateX(45deg) rotateZ(45deg)',
     //   stackItemsAnimation: {
     //     properties: function(pos) {
     //       return {
-    //         translateX: getRandomInt(-60, 60),
-    //         translateY: getRandomInt(-60, 60),
-    //         rotateZ: getRandomInt(-10, 10),
+    //         translateZ: (pos + 1) * 30,
+    //         rotateZ: getRandomInt(-4, 4),
     //       };
     //     },
     //     options: function(pos, itemstotal) {
     //       return {
     //         type: dynamics.bezier,
-    //         duration: 800,
+    //         duration: 500,
     //         points: [
     //           { x: 0, y: 0, cp: [{ x: 0.2, y: 1 }] },
     //           { x: 1, y: 1, cp: [{ x: 0.3, y: 1 }] },
     //         ],
-    //         delay: (itemstotal - pos - 1) * 20,
+    //         delay: (itemstotal - pos - 1) * 40,
     //       };
     //     },
     //   },
@@ -77,10 +50,39 @@ class ReactIsometricGrid extends Component {
     //   },
     // });
 
-    // new IsoGrid(document.querySelector(`.${styles['isolayer--deco4']}`), {
+    new IsoGrid(document.querySelector(`.${styles.isolayer}`), {
+      perspective: 30000,
+      // transform: 'rotateX(55deg) rotateZ(-45deg)',
+      transform: 'scale3d(0.8,0.8,1) rotateY(45deg) rotateZ(-10deg)',
+
+      stackItemsAnimation: {
+        properties: function(pos) {
+          return {
+            translateX: getRandomInt(-20, 20),
+            translateY: getRandomInt(-20, 20),
+            rotateZ: getRandomInt(-5, 5),
+          };
+        },
+        options: function(pos, itemstotal) {
+          return {
+            type: dynamics.bezier,
+            duration: 800,
+            points: [
+              { x: 0, y: 0, cp: [{ x: 0.2, y: 1 }] },
+              { x: 1, y: 1, cp: [{ x: 0.3, y: 1 }] },
+            ],
+            delay: (itemstotal - pos - 1) * 20,
+          };
+        },
+      },
+      onGridLoaded: function() {
+        bonzo(document.body).addClass(styles['grid-loaded']);
+      },
+    });
+
+    // new IsoGrid(document.querySelector(`.${styles.isolayer}`), {
     //   perspective: 3000,
-    //   transform:
-    //     'translate3d(-200px,-200px,0) scale3d(0.8,0.8,1) rotateY(45deg) rotateZ(-10deg)',
+    //   transform: 'scale3d(0.8,0.8,1) rotateY(45deg) rotateZ(-10deg)',
     //   stackItemsAnimation: {
     //     properties: function(pos) {
     //       return {
@@ -105,8 +107,8 @@ class ReactIsometricGrid extends Component {
       <div
         className={classNames([
           styles.isolayer,
-          styles['isolayer--deco1'],
-          styles['isolayer--shadow'],
+          // styles['isolayer--deco4'],
+          // styles['isolayer--shadow'],
         ])}
       >
         <ul className={styles.grid}>
