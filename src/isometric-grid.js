@@ -3,7 +3,7 @@ import dynamics from 'dynamics.js';
 import imagesLoaded from 'imagesloaded';
 import Masonry from 'masonry-layout';
 
-import AnimOnScroll from './utils/anim-on-scroll'
+import AnimOnScroll from './utils/anim-on-scroll';
 import { getComputedTranslateY, scrollY, extend } from './utils/misc';
 import {
   getRequestAnimationFrame,

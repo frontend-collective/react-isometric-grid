@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
-import styles from '../react-isometric-grid.scss';
-import { isValidColor } from '../utils/misc';
+import styles from './react-isometric-grid.scss';
+import { isValidColor } from './utils/misc';
 
-class PopupStackCell extends Component {
+class Cell extends Component {
   render() {
     const { layers, link, title } = this.props;
 
@@ -34,19 +34,16 @@ class PopupStackCell extends Component {
 
     return (
       <li className={styles.grid__item}>
-        <a
-          className={styles.grid__link}
-          href={link}
-        >
+        <a className={styles.grid__link} href={link}>
           {layerList.reverse()}
-          {!!title && <span className={styles['grid__title']}>{title}</span>}
+          {!!title && <span className={styles.grid__title}>{title}</span>}
         </a>
       </li>
     );
   }
 }
 
-PopupStackCell.propTypes = {
+Cell.propTypes = {
   // arry of images to be in the stack, or hex string for layer colors
   layers: PropTypes.arrayOf(PropTypes.string).isRequired,
 
@@ -57,4 +54,4 @@ PopupStackCell.propTypes = {
   title: PropTypes.string,
 };
 
-export default PopupStackCell;
+export default Cell;

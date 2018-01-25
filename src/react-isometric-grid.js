@@ -11,7 +11,7 @@ import img1 from './img/Dribbble/1.png';
 
 import IsoGrid from './isometric-grid';
 
-import PopupStackCell from './cells';
+import Cell from './cell';
 
 class ReactIsometricGrid extends Component {
   constructor(props) {
@@ -83,13 +83,13 @@ class ReactIsometricGrid extends Component {
         ])}
       >
         <ul className={styles.grid}>
-          <PopupStackCell layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']} />
-          <PopupStackCell layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']} />
-          <PopupStackCell layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']} />
-          <PopupStackCell layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']} />
-          <PopupStackCell layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']} />
-          <PopupStackCell layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']} />
-          <PopupStackCell layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']} />
+          <Cell layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']} />
+          <Cell layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']} />
+          <Cell layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']} />
+          <Cell layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']} />
+          <Cell layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']} />
+          <Cell layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']} />
+
           {/* <li className={styles.grid__item}>
             <a
               className={styles.grid__link}
