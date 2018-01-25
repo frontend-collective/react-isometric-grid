@@ -15,24 +15,25 @@
 require('./modernizr.custom');
 import bonzo from 'bonzo';
 import styles from '../react-isometric-grid.scss';
+import { scrollY, getViewportH } from './misc';
 
-var docElem = window.document.documentElement;
-
-// some helper functions
-function scrollY() {
-  return window.pageYOffset || docElem.scrollTop;
-}
-
-function getViewportH() {
-  var client = docElem['clientHeight'],
-    inner = window['innerHeight'];
-
-  if (client < inner) {
-    return inner;
-  } else {
-    return client;
-  }
-}
+// var docElem = window.document.documentElement;
+//
+// // some helper functions
+// function scrollY() {
+//   return window.pageYOffset || docElem.scrollTop;
+// }
+//
+// function getViewportH() {
+//   var client = docElem['clientHeight'],
+//     inner = window['innerHeight'];
+//
+//   if (client < inner) {
+//     return inner;
+//   } else {
+//     return client;
+//   }
+// }
 
 // http://stackoverflow.com/a/5598797/989439
 function getOffset(el) {

@@ -37,3 +37,16 @@ export function getViewportH() {
     return client;
   }
 }
+
+function isValidColor(color) {
+  if (color.charAt(0) === '#') {
+    color = color.substring(1);
+    return (
+      [3, 4, 6, 8].indexOf(color.length) > -1 && !isNaN(parseInt(color, 16))
+    );
+  } else {
+    return /^(rgb|hsl)a?\((\d+%?(deg|rad|grad|turn)?[,\s]+){2,3}[\s\/]*[\d\.]+%?\)$/i.test(
+      color
+    );
+  }
+}

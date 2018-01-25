@@ -1,14 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-
-// helper libraries
-// const Masonry = require('masonry-layout');
-// const dynamics = require('dynamics.js');
 import dynamics from 'dynamics.js';
-// const imageloaded = require('imagesloaded');
-//
-// const AnimOnScroll = require('./js/animOnScroll');
-// const classie = require('./js/classie');
 import classNames from 'classnames';
 import bonzo from 'bonzo';
 
@@ -18,7 +10,8 @@ import styles from './react-isometric-grid.scss';
 import img1 from './img/Dribbble/1.png';
 
 import IsoGrid from './isometric-grid';
-// import IsoGrid from './iso';
+
+import PopupStackCell from './cells';
 
 class ReactIsometricGrid extends Component {
   constructor(props) {
@@ -90,6 +83,8 @@ class ReactIsometricGrid extends Component {
         ])}
       >
         <ul className={styles.grid}>
+          {/* <PopupStackCell
+            layers={[]}/> */}
           <li className={styles.grid__item}>
             <a
               className={styles.grid__link}
