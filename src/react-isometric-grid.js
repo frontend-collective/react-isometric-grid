@@ -103,6 +103,8 @@ class ReactIsometricGrid extends Component {
   }
 
   render() {
+    const { height, width } = this.props;
+
     return (
       <div
         className={classNames([
@@ -110,6 +112,7 @@ class ReactIsometricGrid extends Component {
           // styles['isolayer--deco4'],
           // styles['isolayer--shadow'],
         ])}
+        style={{ height, width }}
       >
         <ul className={styles.grid}>
           <Cell
@@ -141,6 +144,12 @@ class ReactIsometricGrid extends Component {
 ReactIsometricGrid.propTypes = {
   // have a shadown under the cells
   shadow: PropTypes.bool,
+
+  // height of grid
+  height: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+
+  // width of grid
+  width: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
 export default ReactIsometricGrid;
