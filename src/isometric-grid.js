@@ -79,8 +79,9 @@ class IsoGrid {
       // initialize masonry
       self.msnry = new Masonry(self.gridEl, {
         // itemSelector: '.grid__item',
-        itemSelector: `.${styles['grid__item']}`,
+        itemSelector: `.${styles.grid__item}`,
         isFitWidth: true,
+        horizontalOrder: true,
       });
 
       // the isolayer div element will be positioned fixed and will have a transformation based on the values defined in the HTML (data-attrs for the isolayer div element)
@@ -126,21 +127,21 @@ class IsoGrid {
   /**
    * Creates the div element that will force the height for scrolling
    */
-  _createPseudoScroller() {
-    // element that will force the height for scrolling
-    this.pseudoScrollerEl = document.createElement('div');
-    this.pseudoScrollerEl.className = styles['pseudo-scroller'];
-    // insert it inside the main container (same level of isolayerEl)
-    this.isolayerEl.parentNode.insertBefore(
-      this.pseudoScrollerEl,
-      this.isolayerEl
-    );
-    // set the height of the pseudoScroller (grid´s height + additional space between the top of the rotated isolayerEl and the page - value set for the translation on the Y axis)
-    this.pseudoScrollerEl.style.height =
-      this.gridEl.offsetHeight +
-      getComputedTranslateY(this.isolayerEl) * Math.sqrt(2) +
-      'px';
-  }
+  // _createPseudoScroller() {
+  //   // element that will force the height for scrolling
+  //   this.pseudoScrollerEl = document.createElement('div');
+  //   this.pseudoScrollerEl.className = styles['pseudo-scroller'];
+  //   // insert it inside the main container (same level of isolayerEl)
+  //   this.isolayerEl.parentNode.insertBefore(
+  //     this.pseudoScrollerEl,
+  //     this.isolayerEl
+  //   );
+  //   // set the height of the pseudoScroller (grid´s height + additional space between the top of the rotated isolayerEl and the page - value set for the translation on the Y axis)
+  //   this.pseudoScrollerEl.style.height =
+  //     this.gridEl.offsetHeight +
+  //     getComputedTranslateY(this.isolayerEl) * Math.sqrt(2) +
+  //     'px';
+  // }
 
   /**
    * Initialize/Bind events fn.
@@ -148,30 +149,30 @@ class IsoGrid {
   _initEvents() {
     var self = this;
 
-    if (this.options.type === 'scrollable') {
-      // // update the transform (ty) on scroll
-      // window.addEventListener(
-      //   'scroll',
-      //   () => {
-      //     this.requestAnimationFrame(function() {
-      //       if (!self.didscroll) {
-      //         self.didscroll = true;
-      //         self._scrollPage();
-      //       }
-      //     });
-      //   },
-      //   false
-      // );
-      // // on resize (layoutComplete for the masonry instance) recalculate height
-      // this.msnry.on('layoutComplete', function(laidOutItems) {
-      //   // reset the height of the pseudoScroller (grid´s height + additional space between the top of the rotated isolayerEl and the page)
-      //   self.pseudoScrollerEl.style.height =
-      //     self.gridEl.offsetHeight +
-      //     self.isolayerEl.offsetTop * Math.sqrt(2) +
-      //     'px';
-      //   self._scrollPage();
-      // });
-    }
+    // if (this.options.type === 'scrollable') {
+    //   // update the transform (ty) on scroll
+    //   window.addEventListener(
+    //     'scroll',
+    //     () => {
+    //       this.requestAnimationFrame(function() {
+    //         if (!self.didscroll) {
+    //           self.didscroll = true;
+    //           self._scrollPage();
+    //         }
+    //       });
+    //     },
+    //     false
+    //   );
+    //   // on resize (layoutComplete for the masonry instance) recalculate height
+    //   this.msnry.on('layoutComplete', function(laidOutItems) {
+    //     // reset the height of the pseudoScroller (grid´s height + additional space between the top of the rotated isolayerEl and the page)
+    //     self.pseudoScrollerEl.style.height =
+    //       self.gridEl.offsetHeight +
+    //       self.isolayerEl.offsetTop * Math.sqrt(2) +
+    //       'px';
+    //     self._scrollPage();
+    //   });
+    // }
 
     this.gridItems.forEach(function(item) {
       item.addEventListener('mouseenter', e => self._expandSubItems(e.target));
@@ -184,9 +185,7 @@ class IsoGrid {
   _expandSubItems(item) {
     var self = this,
       itemLink = item.querySelector('a'),
-      subItems = [].slice.call(
-        itemLink.querySelectorAll(`.${styles['layer']}`)
-      ),
+      subItems = [].slice.call(itemLink.querySelectorAll(`.${styles.layer}`)),
       subItemsTotal = subItems.length;
 
     itemLink.style.zIndex = item.style.zIndex = this.gridItemsTotal;
@@ -204,7 +203,7 @@ class IsoGrid {
   _collapseSubItems(item) {
     var itemLink = item.querySelector('a');
     [].slice
-      .call(itemLink.querySelectorAll(`.${styles['layer']}`))
+      .call(itemLink.querySelectorAll(`.${styles.layer}`))
       .forEach(function(subitem, pos) {
         dynamics.stop(subitem);
         dynamics.animate(

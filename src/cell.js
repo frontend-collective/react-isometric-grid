@@ -34,7 +34,10 @@ class Cell extends Component {
 
     return (
       <li className={styles.grid__item}>
-        <a className={styles.grid__link} href={link}>
+        <a
+          className={styles.grid__link}
+          href={link}
+        >
           {layerList.reverse()}
           {!!title && <span className={styles.grid__title}>{title}</span>}
         </a>

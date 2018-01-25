@@ -110,12 +110,26 @@ class ReactIsometricGrid extends Component {
         ])}
       >
         <ul className={styles.grid}>
-          <Cell layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']} />
-          <Cell layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']} />
-          <Cell layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']} />
-          <Cell layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']} />
-          <Cell layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']} />
-          <Cell layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']} />
+          <Cell
+            layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']}
+            title="TESTING TITLE"
+          />
+          <Cell
+            layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']}
+            title="TESTING TITLE"
+          />
+          <Cell
+            layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']}
+            title="TESTING TITLE"
+          />
+          <Cell
+            layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']}
+            title="TESTING TITLE"
+          />
+          <Cell
+            layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']}
+            title="TESTING TITLE"
+          />
         </ul>
       </div>
     );
