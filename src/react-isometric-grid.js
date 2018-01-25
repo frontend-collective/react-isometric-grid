@@ -25,8 +25,7 @@ class ReactIsometricGrid extends Component {
     }
 
     new IsoGrid(document.querySelector(`.${styles['isolayer--deco1']}`), {
-      transform:
-        'translateX(33vw) translateY(-340px) rotateX(45deg) rotateZ(45deg)',
+      transform: 'rotateX(45deg) rotateZ(45deg)',
       stackItemsAnimation: {
         properties: function(pos) {
           return {
@@ -50,6 +49,34 @@ class ReactIsometricGrid extends Component {
         bonzo(document.body).addClass(styles['grid-loaded']);
       },
     });
+    // new IsoGrid(document.querySelector(`.${styles['isolayer--deco1']}`), {
+    //   perspective: 30000,
+    //   transform: 'translateY(-150px) rotateX(55deg) rotateZ(-45deg)',
+    //   stackItemsAnimation: {
+    //     properties: function(pos) {
+    //       return {
+    //         translateX: getRandomInt(-60, 60),
+    //         translateY: getRandomInt(-60, 60),
+    //         rotateZ: getRandomInt(-10, 10),
+    //       };
+    //     },
+    //     options: function(pos, itemstotal) {
+    //       return {
+    //         type: dynamics.bezier,
+    //         duration: 800,
+    //         points: [
+    //           { x: 0, y: 0, cp: [{ x: 0.2, y: 1 }] },
+    //           { x: 1, y: 1, cp: [{ x: 0.3, y: 1 }] },
+    //         ],
+    //         delay: (itemstotal - pos - 1) * 20,
+    //       };
+    //     },
+    //   },
+    //   onGridLoaded: function() {
+    //     bonzo(document.body).addClass(styles['grid-loaded']);
+    //   },
+    // });
+
     // new IsoGrid(document.querySelector(`.${styles['isolayer--deco4']}`), {
     //   perspective: 3000,
     //   transform:
@@ -89,117 +116,15 @@ class ReactIsometricGrid extends Component {
           <Cell layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']} />
           <Cell layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']} />
           <Cell layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']} />
-
-          {/* <li className={styles.grid__item}>
-            <a
-              className={styles.grid__link}
-              href="https://dribbble.com/fuviz"
-            >
-              <div className={styles.layer} />
-              <div className={styles.layer} />
-              <div className={styles.layer} />
-              <span className={styles['grid__title']}>Cosmin Capitanu</span>
-              <img
-                alt="01"
-                className={classNames([styles.grid__img, styles.layer])}
-                src={img1}
-              />
-            </a>
-          </li>
-          <li className={styles.grid__item}>
-            <a
-              className={styles.grid__link}
-              href="https://dribbble.com/fuviz"
-            >
-              <div className={styles.layer} />
-              <div className={styles.layer} />
-              <div className={styles.layer} />
-              <img
-                alt="01"
-                className={classNames([styles.grid__img, styles.layer])}
-                src={img1}
-              />
-            </a>
-          </li>
-          <li className={styles.grid__item}>
-            <a
-              className={styles.grid__link}
-              href="https://dribbble.com/fuviz"
-            >
-              <div className={styles.layer} />
-              <div className={styles.layer} />
-              <div className={styles.layer} />
-              <img
-                alt="01"
-                className={classNames([styles.grid__img, styles.layer])}
-                src={img1}
-              />
-            </a>
-          </li>
-          <li className={styles.grid__item}>
-            <a
-              className={styles.grid__link}
-              href="https://dribbble.com/fuviz"
-            >
-              <div className={styles.layer} />
-              <div className={styles.layer} />
-              <div className={styles.layer} />
-              <img
-                alt="01"
-                className={classNames([styles.grid__img, styles.layer])}
-                src={img1}
-              />
-            </a>
-          </li>
-          <li className={styles.grid__item}>
-            <a
-              className={styles.grid__link}
-              href="https://dribbble.com/fuviz"
-            >
-              <div className={styles.layer} />
-              <div className={styles.layer} />
-              <div className={styles.layer} />
-              <img
-                alt="01"
-                className={classNames([styles.grid__img, styles.layer])}
-                src={img1}
-              />
-            </a>
-          </li>
-          <li className={styles.grid__item}>
-            <a
-              className={styles.grid__link}
-              href="https://dribbble.com/fuviz"
-            >
-              <div className={styles.layer} />
-              <div className={styles.layer} />
-              <div className={styles.layer} />
-              <img
-                alt="01"
-                className={classNames([styles.grid__img, styles.layer])}
-                src={img1}
-              />
-            </a>
-          </li>
-          <li className={styles.grid__item}>
-            <a
-              className={styles.grid__link}
-              href="https://dribbble.com/fuviz"
-            >
-              <div className={styles.layer} />
-              <div className={styles.layer} />
-              <div className={styles.layer} />
-              <img
-                alt="01"
-                className={classNames([styles.grid__img, styles.layer])}
-                src={img1}
-              />
-            </a>
-          </li> */}
         </ul>
       </div>
     );
   }
 }
+
+ReactIsometricGrid.propTypes = {
+  // have a shadown under the cells
+  shadow: PropTypes.bool,
+};
 
 export default ReactIsometricGrid;
