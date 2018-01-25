@@ -139,17 +139,17 @@ body {
   width: 1200px;
   height: 900px;
   .grid__link {
-    .layer {
-      &:first-child:not(img) {
-        background: #ac5cf5;
-      }
-      &:nth-child(2):not(img) {
-        background: #5db4eb;
-      }
-      &:nth-child(3):not(img) {
-        background: #5debb4;
-      }
-    }
+    // .layer {
+    //   &:first-child:not(img) {
+    //     background: #ac5cf5;
+    //   }
+    //   &:nth-child(2):not(img) {
+    //     background: #5db4eb;
+    //   }
+    //   &:nth-child(3):not(img) {
+    //     background: #5debb4;
+    //   }
+    // }
     div.layer {
       width: 370px;
       height: 270px;

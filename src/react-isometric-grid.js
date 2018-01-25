@@ -83,9 +83,14 @@ class ReactIsometricGrid extends Component {
         ])}
       >
         <ul className={styles.grid}>
-          {/* <PopupStackCell
-            layers={[]}/> */}
-          <li className={styles.grid__item}>
+          <PopupStackCell layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']} />
+          <PopupStackCell layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']} />
+          <PopupStackCell layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']} />
+          <PopupStackCell layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']} />
+          <PopupStackCell layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']} />
+          <PopupStackCell layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']} />
+          <PopupStackCell layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']} />
+          {/* <li className={styles.grid__item}>
             <a
               className={styles.grid__link}
               href="https://dribbble.com/fuviz"
@@ -190,7 +195,7 @@ class ReactIsometricGrid extends Component {
                 src={img1}
               />
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     );

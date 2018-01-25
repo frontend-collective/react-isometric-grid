@@ -9,7 +9,7 @@ class PopupStackCell extends Component {
   render() {
     const { layers, link, title } = this.props;
 
-    const layerList = layers.map(layer => {
+    const layerList = layers.map((layer, index) => {
       if (!layer) {
         return;
       }
@@ -17,6 +17,7 @@ class PopupStackCell extends Component {
         return (
           <div
             className={styles.layer}
+            key={index}
             style={{ backgroundColor: layer }}
           />
         );
@@ -24,6 +25,7 @@ class PopupStackCell extends Component {
         return (
           <img
             className={classNames([styles.grid__img, styles.layer])}
+            key={index}
             src={layer}
           />
         );
@@ -44,7 +46,7 @@ class PopupStackCell extends Component {
   }
 }
 
-PopupStackCell.PropTypes = {
+PopupStackCell.propTypes = {
   // arry of images to be in the stack, or hex string for layer colors
   layers: PropTypes.arrayOf(PropTypes.string).isRequired,
 

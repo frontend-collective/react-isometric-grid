@@ -38,7 +38,7 @@ export function getViewportH() {
   }
 }
 
-function isValidColor(color) {
+export function isValidColor(color) {
   if (color.charAt(0) === '#') {
     color = color.substring(1);
     return (
