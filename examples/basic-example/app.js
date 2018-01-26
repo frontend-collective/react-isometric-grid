@@ -1,7 +1,7 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
 
-import IsometricGrid from '../../src';
+import IsometricGrid, { Cell } from '../../src';
 
 // import styles from './stylesheets/app.scss';
 

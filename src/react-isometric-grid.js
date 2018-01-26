@@ -150,6 +150,9 @@ ReactIsometricGrid.propTypes = {
 
   // style
   style: PropTypes.object,
+
+  // cells
+  cells: PropTypes.arrayOf(PropTypes.instanceOf(Cell)),
 };
 
 ReactIsometricGrid.defaultProps = {
