@@ -1,9 +1,8 @@
-import bonzo from 'bonzo';
 import dynamics from 'dynamics.js';
 import imagesLoaded from 'imagesloaded';
 import Masonry from 'masonry-layout';
 
-import { getComputedTranslateY, scrollY, extend } from './utils/misc';
+import { extend } from './utils/misc';
 import {
   getRequestAnimationFrame,
   getCancelAnimationFrame,
@@ -21,13 +20,13 @@ const defaultOptions = {
   stackItemsAnimation: {
     // this follows the dynamics.js (https://github.com/michaelvillar/dynamics.js) animate fn syntax
     // properties (pos is the current subitem position)
-    properties: function(pos) {
+    properties(pos) {
       return {
         translateZ: (pos + 1) * 50,
       };
     },
     // animation options (pos is the current subitem position); itemstotal is the total number of subitems
-    options: function(pos, itemstotal) {
+    options() {
       return {
         type: dynamics.bezier,
         duration: 500,
@@ -39,7 +38,7 @@ const defaultOptions = {
     },
   },
   // callback for loaded grid
-  onGridLoaded: function() {
+  onGridLoaded() {
     return false;
   },
 };
@@ -62,17 +61,17 @@ class IsometricGrid {
 
     this.didscroll = false;
 
-    this._init();
+    this.init();
 
     // animation frame functions
     this.requestAnimationFrame = getRequestAnimationFrame();
     this.cancelAnimationFrame = getCancelAnimationFrame();
   }
 
-  _init() {
-    var self = this;
+  init() {
+    const self = this;
 
-    imagesLoaded(this.gridEl, function() {
+    imagesLoaded(this.gridEl, () => {
       // initialize masonry
       self.msnry = new Masonry(self.gridEl, {
         itemSelector: `.${styles.grid__item}`,
@@ -80,20 +79,20 @@ class IsometricGrid {
         horizontalOrder: true,
       });
 
-      self.isolayerEl.style.WebkitTransformStyle = self.isolayerEl.style.transformStyle =
-        'preserve-3d';
+      self.isolayerEl.style.WebkitTransformStyle = 'preserve-3d';
+      self.isolayerEl.style.transformStyle = 'preserve-3d';
 
-      var transformValue =
-        self.options.perspective != 0
-          ? 'perspective(' +
-            self.options.perspective +
-            'px) ' +
-            self.options.transform
+      const transformValue =
+        self.options.perspective !== 0
+          ? `perspective(${self.options.perspective}px) ${
+              self.options.transform
+            }`
           : self.options.transform;
-      self.isolayerEl.style.WebkitTransform = self.isolayerEl.style.transform = transformValue;
+      self.isolayerEl.style.WebkitTransform = transformValue;
+      self.isolayerEl.style.transform = transformValue;
 
       // init/bind events
-      self._initEvents();
+      self.initEvents();
 
       // grid is "loaded" (all images are loaded)
       self.options.onGridLoaded();
@@ -104,26 +103,27 @@ class IsometricGrid {
   /**
    * Initialize/Bind events fn.
    */
-  _initEvents() {
-    var self = this;
+  initEvents() {
+    const self = this;
 
-    this.gridItems.forEach(function(item) {
-      item.addEventListener('mouseenter', e => self._expandSubItems(e.target));
-      item.addEventListener('mouseleave', e =>
-        self._collapseSubItems(e.target)
-      );
+    this.gridItems.forEach(item => {
+      item.addEventListener('mouseenter', e => self.expandSubItems(e.target));
+      item.addEventListener('mouseleave', e => self.collapseSubItems(e.target));
     });
   }
 
-  _expandSubItems(item) {
-    var self = this,
-      itemLink = item.querySelector('a'),
-      subItems = [].slice.call(itemLink.querySelectorAll(`.${styles.layer}`)),
-      subItemsTotal = subItems.length;
+  expandSubItems(item) {
+    const self = this;
+    const itemLink = item.querySelector('a');
+    const subItems = [].slice.call(
+      itemLink.querySelectorAll(`.${styles.layer}`)
+    );
+    const subItemsTotal = subItems.length;
 
-    itemLink.style.zIndex = item.style.zIndex = this.gridItemsTotal;
+    itemLink.style.zIndex = this.gridItemsTotal;
+    item.style.zIndex = this.gridItemsTotal; // eslint-disable-line no-param-reassign
 
-    subItems.forEach(function(subitem, pos) {
+    subItems.forEach((subitem, pos) => {
       dynamics.stop(subitem);
       dynamics.animate(
         subitem,
@@ -133,21 +133,24 @@ class IsometricGrid {
     });
   }
 
-  _collapseSubItems(item) {
-    var itemLink = item.querySelector('a');
+  // eslint-disable-next-line class-methods-use-this
+  collapseSubItems(item) {
+    const itemLink = item.querySelector('a');
     [].slice
       .call(itemLink.querySelectorAll(`.${styles.layer}`))
-      .forEach(function(subitem, pos) {
+      .forEach(subitem => {
         dynamics.stop(subitem);
         dynamics.animate(
           subitem,
           {
-            translateZ: 0, // enough to reset any transform value previously set
+            // enough to reset any transform value previously set
+            translateZ: 0,
           },
           {
             duration: 100,
-            complete: function() {
-              itemLink.style.zIndex = item.style.zIndex = 1;
+            complete() {
+              itemLink.style.zIndex = 1;
+              item.style.zIndex = 1; // eslint-disable-line no-param-reassign
             },
           }
         );

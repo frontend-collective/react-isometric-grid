@@ -1,7 +1,7 @@
 // from: http://stackoverflow.com/a/21913575
 export function getComputedTranslateY(obj) {
   if (!window.getComputedStyle) {
-    return;
+    return 0;
   }
   const style = getComputedStyle(obj);
   const transform =
@@ -20,34 +20,25 @@ export function scrollY() {
 }
 
 export function extend(a, b) {
-  for (let key in b) {
-    if (b.hasOwnProperty(key)) {
-      a[key] = b[key];
-    }
-  }
-  return a;
+  return Object.assign(a, b);
 }
 
 export function getViewportH() {
-  const client = window.document.documentElement['clientHeight'],
-    inner = window['innerHeight'];
+  const client = window.document.documentElement.clientHeight;
+  const inner = window.innerHeight;
 
   if (client < inner) {
     return inner;
-  } else {
-    return client;
   }
+  return client;
 }
 
 export function isValidColor(color) {
   if (color.charAt(0) === '#') {
-    color = color.substring(1);
-    return (
-      [3, 4, 6, 8].indexOf(color.length) > -1 && !isNaN(parseInt(color, 16))
-    );
-  } else {
-    return /^(rgb|hsl)a?\((\d+%?(deg|rad|grad|turn)?[,\s]+){2,3}[\s\/]*[\d\.]+%?\)$/i.test(
-      color
-    );
+    const hexValue = color.substring(1);
+    return [3, 4, 6, 8].indexOf(hexValue.length) > -1 && parseInt(hexValue, 16);
   }
+  return /^(rgb|hsl)a?\((\d+%?(deg|rad|grad|turn)?[,\s]+){2,3}[\s]*[\d]+%?\)$/i.test(
+    color
+  );
 }

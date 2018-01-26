@@ -9,35 +9,32 @@ class Cell extends Component {
   render() {
     const { layers, link, title } = this.props;
 
-    const layerList = layers.map((layer, index) => {
+    const layerList = layers.map(layer => {
       if (!layer) {
-        return;
+        return null;
       }
       if (isValidColor(layer)) {
         return (
           <div
             className={styles.layer}
-            key={index}
+            key={layer}
             style={{ backgroundColor: layer }}
           />
         );
-      } else {
-        return (
-          <img
-            className={classNames([styles.grid__img, styles.layer])}
-            key={index}
-            src={layer}
-          />
-        );
       }
+      return (
+        <img
+          alt=""
+          className={classNames([styles.grid__img, styles.layer])}
+          key={layer}
+          src={layer}
+        />
+      );
     });
 
     return (
       <li className={styles.grid__item}>
-        <a
-          className={styles.grid__link}
-          href={link}
-        >
+        <a className={styles.grid__link} href={link}>
           {layerList.reverse()}
           {!!title && <span className={styles.grid__title}>{title}</span>}
         </a>
@@ -55,6 +52,11 @@ Cell.propTypes = {
 
   // optional tital for the stack
   title: PropTypes.string,
+};
+
+Cell.defaultProps = {
+  link: '',
+  title: '',
 };
 
 export default Cell;
