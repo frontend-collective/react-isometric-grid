@@ -5,12 +5,7 @@ import classNames from 'classnames';
 import bonzo from 'bonzo';
 
 import styles from './react-isometric-grid.scss';
-
-import img1 from './img/Dribbble/1.png';
-
 import IsoGrid from './isometric-grid';
-
-import Cell from './cell';
 
 class ReactIsometricGrid extends Component {
   constructor(props) {
@@ -96,14 +91,12 @@ class ReactIsometricGrid extends Component {
           };
         },
       },
-      onGridLoaded: function() {
-        // bonzo(document.body).addClass(styles['grid-loaded']);
-      },
+      onGridLoaded,
     });
   }
 
   render() {
-    const { style, shadow } = this.props;
+    const { style, shadow, cells } = this.props;
 
     return (
       <div
@@ -113,35 +106,14 @@ class ReactIsometricGrid extends Component {
         })}
         style={style}
       >
-        <ul className={styles.grid}>
-          <Cell
-            layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']}
-            title="TESTING TITLE"
-          />
-          <Cell
-            layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']}
-            title="TESTING TITLE"
-          />
-          <Cell
-            layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']}
-            title="TESTING TITLE"
-          />
-          <Cell
-            layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']}
-            title="TESTING TITLE"
-          />
-          <Cell
-            layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']}
-            title="TESTING TITLE"
-          />
-        </ul>
+        <ul className={styles.grid}>{cells}</ul>
       </div>
     );
   }
 }
 
 ReactIsometricGrid.propTypes = {
-  // have a shadown under the cells
+  // have a shadow under the cells
   shadow: PropTypes.bool,
 
   // ongridloaded callback
@@ -151,7 +123,7 @@ ReactIsometricGrid.propTypes = {
   style: PropTypes.object,
 
   // cells
-  cells: PropTypes.arrayOf(PropTypes.instanceOf(Cell)),
+  cells: PropTypes.arrayOf(PropTypes.element).isRequired,
 };
 
 ReactIsometricGrid.defaultProps = {
