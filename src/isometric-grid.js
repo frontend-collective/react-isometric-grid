@@ -120,7 +120,7 @@ class IsoGrid {
 
       // grid is "loaded" (all images are loaded)
       self.options.onGridLoaded();
-      bonzo(self.gridEl).addClass(styles['grid--loaded']);
+      // bonzo(self.gridEl).addClass(styles['grid--loaded']);
     });
   }
 

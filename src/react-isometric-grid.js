@@ -98,7 +98,7 @@ class ReactIsometricGrid extends Component {
         },
       },
       onGridLoaded: function() {
-        bonzo(document.body).addClass(styles['grid-loaded']);
+        // bonzo(document.body).addClass(styles['grid-loaded']);
       },
     });
   }
