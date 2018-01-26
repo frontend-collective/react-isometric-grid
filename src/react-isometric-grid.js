@@ -19,12 +19,13 @@ class ReactIsometricGrid extends Component {
   }
 
   componentDidMount() {
+    const { onGridLoaded } = this.props;
     // console.log(styles);
     function getRandomInt(min, max) {
       return Math.floor(Math.random() * (max - min + 1)) + min;
     }
 
-    // new IsoGrid(document.querySelector(`.${styles['isolayer--deco4']}`), {
+    // new IsoGrid(document.querySelector(`.${styles.isolayer}`), {
     //   transform: 'rotateX(45deg) rotateZ(45deg)',
     //   stackItemsAnimation: {
     //     properties: function(pos) {
@@ -50,49 +51,28 @@ class ReactIsometricGrid extends Component {
     //   },
     // });
 
-    new IsoGrid(document.querySelector(`.${styles.isolayer}`), {
-      perspective: 30000,
-      // transform: 'rotateX(55deg) rotateZ(-45deg)',
-      transform: 'scale3d(0.8,0.8,1) rotateY(45deg) rotateZ(-10deg)',
-
-      stackItemsAnimation: {
-        properties: function(pos) {
-          return {
-            translateX: getRandomInt(-20, 20),
-            translateY: getRandomInt(-20, 20),
-            rotateZ: getRandomInt(-5, 5),
-          };
-        },
-        options: function(pos, itemstotal) {
-          return {
-            type: dynamics.bezier,
-            duration: 800,
-            points: [
-              { x: 0, y: 0, cp: [{ x: 0.2, y: 1 }] },
-              { x: 1, y: 1, cp: [{ x: 0.3, y: 1 }] },
-            ],
-            delay: (itemstotal - pos - 1) * 20,
-          };
-        },
-      },
-      onGridLoaded: function() {
-        bonzo(document.body).addClass(styles['grid-loaded']);
-      },
-    });
-
     // new IsoGrid(document.querySelector(`.${styles.isolayer}`), {
-    //   perspective: 3000,
+    //   perspective: 30000,
+    //   // transform: 'rotateX(55deg) rotateZ(-45deg)',
     //   transform: 'scale3d(0.8,0.8,1) rotateY(45deg) rotateZ(-10deg)',
+    //
     //   stackItemsAnimation: {
     //     properties: function(pos) {
     //       return {
-    //         rotateX: (pos + 1) * -15,
+    //         translateX: getRandomInt(-20, 20),
+    //         translateY: getRandomInt(-20, 20),
+    //         rotateZ: getRandomInt(-5, 5),
     //       };
     //     },
     //     options: function(pos, itemstotal) {
     //       return {
-    //         type: dynamics.spring,
-    //         delay: (itemstotal - pos - 1) * 30,
+    //         type: dynamics.bezier,
+    //         duration: 800,
+    //         points: [
+    //           { x: 0, y: 0, cp: [{ x: 0.2, y: 1 }] },
+    //           { x: 1, y: 1, cp: [{ x: 0.3, y: 1 }] },
+    //         ],
+    //         delay: (itemstotal - pos - 1) * 20,
     //       };
     //     },
     //   },
@@ -100,19 +80,39 @@ class ReactIsometricGrid extends Component {
     //     bonzo(document.body).addClass(styles['grid-loaded']);
     //   },
     // });
+
+    new IsoGrid(document.querySelector(`.${styles.isolayer}`), {
+      perspective: 3000,
+      transform: 'scale3d(0.8,0.8,1) rotateY(45deg) rotateZ(-10deg)',
+      stackItemsAnimation: {
+        properties: function(pos) {
+          return {
+            rotateX: (pos + 1) * -15,
+          };
+        },
+        options: function(pos, itemstotal) {
+          return {
+            type: dynamics.spring,
+            delay: (itemstotal - pos - 1) * 30,
+          };
+        },
+      },
+      onGridLoaded: function() {
+        bonzo(document.body).addClass(styles['grid-loaded']);
+      },
+    });
   }
 
   render() {
-    const { height, width } = this.props;
+    const { style, shadow } = this.props;
 
     return (
       <div
-        className={classNames([
-          styles.isolayer,
-          // styles['isolayer--deco4'],
-          // styles['isolayer--shadow'],
-        ])}
-        style={{ height, width }}
+        className={classNames({
+          [styles.isolayer]: true,
+          [styles['isolayer--shadow']]: shadow,
+        })}
+        style={style}
       >
         <ul className={styles.grid}>
           <Cell
@@ -145,11 +145,23 @@ ReactIsometricGrid.propTypes = {
   // have a shadown under the cells
   shadow: PropTypes.bool,
 
-  // height of grid
-  height: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  // ongridloaded callback
+  onGridLoaded: PropTypes.func,
 
-  // width of grid
-  width: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  // style
+  style: PropTypes.object,
+};
+
+ReactIsometricGrid.defaultProps = {
+  shadow: false,
+  onGridLoaded: () => {},
+  style: {
+    height: '600px',
+    width: '600px',
+    position: 'absolute',
+    left: 0,
+    top: 0,
+  },
 };
 
 export default ReactIsometricGrid;

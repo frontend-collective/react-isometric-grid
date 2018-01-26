@@ -7,7 +7,7 @@ import IsometricGrid from '../../src';
 
 class App extends Component {
   render() {
-    return <IsometricGrid />;
+    return <IsometricGrid shadow />;
   }
 }
 
