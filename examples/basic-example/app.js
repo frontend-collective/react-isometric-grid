@@ -9,10 +9,14 @@ class App extends Component {
   render() {
     return (
       <IsometricGrid
-        cells={[<Cell
-          key={1}
-          layers={[img1, 'rgb(133, 189, 85)']}
-                />]}
+        cells={[
+          <Cell key={1} layers={[img1, 'rgb(133, 189, 85)']} />,
+          <Cell key={1} layers={[img1, 'rgb(133, 189, 85)']} />,
+          <Cell key={1} layers={[img1, 'rgb(133, 189, 85)']} />,
+          <Cell key={1} layers={[img1, 'rgb(133, 189, 85)']} />,
+          <Cell key={1} layers={[img1, 'rgb(133, 189, 85)']} />,
+          <Cell key={1} layers={[img1, 'rgb(133, 189, 85)']} />,
+        ]}
         shadow
       />
     );

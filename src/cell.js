@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import stylePropType from 'react-style-proptype';
 import classNames from 'classnames';
 
 import styles from './react-isometric-grid.scss';
@@ -7,7 +8,7 @@ import { isValidColor } from './utils/misc';
 
 class Cell extends Component {
   render() {
-    const { layers, link, title } = this.props;
+    const { layers, link, title, style } = this.props;
 
     const layerList = layers.map(layer => {
       if (!layer) {
@@ -18,7 +19,7 @@ class Cell extends Component {
           <div
             className={styles.layer}
             key={layer}
-            style={{ backgroundColor: layer }}
+            style={{ ...style, backgroundColor: layer }}
           />
         );
       }
@@ -28,6 +29,7 @@ class Cell extends Component {
           className={classNames([styles.grid__img, styles.layer])}
           key={layer}
           src={layer}
+          style={style}
         />
       );
     });
@@ -52,11 +54,19 @@ Cell.propTypes = {
 
   // optional tital for the stack
   title: PropTypes.string,
+
+  // styling
+  style: stylePropType,
 };
 
 Cell.defaultProps = {
   link: '',
   title: '',
+  style: {
+    transformOrigin: '50% 100%',
+    width: '270px',
+    height: '203px',
+  },
 };
 
 export default Cell;
