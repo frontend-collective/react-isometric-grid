@@ -45,7 +45,7 @@ const defaultOptions = {
 };
 
 // iso grid class
-class IsoGrid {
+class IsometricGrid {
   constructor(el, options) {
     this.isolayerEl = el;
 
@@ -155,4 +155,4 @@ class IsoGrid {
   }
 }
 
-export default IsoGrid;
+export default IsometricGrid;

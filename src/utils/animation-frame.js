@@ -1,13 +1,13 @@
 /**********************************************/
 /** https://gist.github.com/desandro/1866474 **/
 /**********************************************/
-var prefixes = 'webkit moz ms o'.split(' ');
-var lastTime = 0;
+const prefixes = 'webkit moz ms o'.split(' ');
+let lastTime = 0;
 
 export function getRequestAnimationFrame() {
-  var requestAnimationFrame = window.requestAnimationFrame;
-  var prefix;
-  for (var i = 0; i < prefixes.length; i++) {
+  let requestAnimationFrame = window.requestAnimationFrame;
+  let prefix;
+  for (let i = 0; i < prefixes.length; i++) {
     if (requestAnimationFrame) {
       break;
     }
@@ -18,9 +18,9 @@ export function getRequestAnimationFrame() {
   // fallback to setTimeout and clearTimeout if either request/cancel is not supported
   if (!requestAnimationFrame) {
     requestAnimationFrame = function(callback, element) {
-      var currTime = new Date().getTime();
-      var timeToCall = Math.max(0, 16 - (currTime - lastTime));
-      var id = window.setTimeout(function() {
+      const currTime = new Date().getTime();
+      const timeToCall = Math.max(0, 16 - (currTime - lastTime));
+      const id = window.setTimeout(function() {
         callback(currTime + timeToCall);
       }, timeToCall);
       lastTime = currTime + timeToCall;
@@ -31,9 +31,9 @@ export function getRequestAnimationFrame() {
 }
 
 export function getCancelAnimationFrame() {
-  var cancelAnimationFrame = window.cancelAnimationFrame;
-  var prefix;
-  for (var i = 0; i < prefixes.length; i++) {
+  let cancelAnimationFrame = window.cancelAnimationFrame;
+  let prefix;
+  for (let i = 0; i < prefixes.length; i++) {
     if (cancelAnimationFrame) {
       break;
     }

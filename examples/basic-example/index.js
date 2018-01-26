@@ -14,6 +14,7 @@ ReactDOM.render(
   </AppContainer>,
   rootEl
 );
+/* eslint-disable global-require, import/newline-after-import */
 if (module.hot) {
   module.hot.accept('./app', () => {
     const NextApp = require('./app').default;
@@ -25,3 +26,4 @@ if (module.hot) {
     );
   });
 }
+/* eslint-enable global-require, import/newline-after-import */

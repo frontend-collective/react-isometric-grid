@@ -3,9 +3,10 @@ export function getComputedTranslateY(obj) {
   if (!window.getComputedStyle) {
     return;
   }
-  var style = getComputedStyle(obj),
-    transform = style.transform || style.webkitTransform || style.mozTransform;
-  var mat = transform.match(/^matrix3d\((.+)\)$/);
+  const style = getComputedStyle(obj);
+  const transform =
+    style.transform || style.webkitTransform || style.mozTransform;
+  let mat = transform.match(/^matrix3d\((.+)\)$/);
   if (mat) {
     return parseFloat(mat[1].split(', ')[13]);
   }
@@ -19,7 +20,7 @@ export function scrollY() {
 }
 
 export function extend(a, b) {
-  for (var key in b) {
+  for (let key in b) {
     if (b.hasOwnProperty(key)) {
       a[key] = b[key];
     }
@@ -28,7 +29,7 @@ export function extend(a, b) {
 }
 
 export function getViewportH() {
-  var client = window.document.documentElement['clientHeight'],
+  const client = window.document.documentElement['clientHeight'],
     inner = window['innerHeight'];
 
   if (client < inner) {
