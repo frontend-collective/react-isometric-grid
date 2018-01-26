@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import stylePropType from 'react-style-proptype';
 import classNames from 'classnames';
+import uniqid from 'uniqid';
 
 import styles from './react-isometric-grid.scss';
 import { isValidColor } from './utils/misc';
@@ -18,7 +19,7 @@ class Cell extends Component {
         return (
           <div
             className={styles.layer}
-            key={layer}
+            key={uniqid()}
             style={{ ...style, backgroundColor: layer }}
           />
         );
@@ -27,7 +28,7 @@ class Cell extends Component {
         <img
           alt=""
           className={classNames([styles.grid__img, styles.layer])}
-          key={layer}
+          key={uniqid()}
           src={layer}
           style={style}
         />
