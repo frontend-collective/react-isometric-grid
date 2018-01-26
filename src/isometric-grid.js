@@ -10,8 +10,6 @@ import {
 import styles from './react-isometric-grid.scss';
 
 const defaultOptions = {
-  // static or scrollable
-  type: 'static',
   // grid perspective value
   perspective: 0,
   // grid transform
