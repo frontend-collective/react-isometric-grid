@@ -4,7 +4,6 @@ import dynamics from 'dynamics.js';
 import classNames from 'classnames';
 import bonzo from 'bonzo';
 
-// scss class names
 import styles from './react-isometric-grid.scss';
 
 import img1 from './img/Dribbble/1.png';
