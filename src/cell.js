@@ -65,8 +65,8 @@ Cell.defaultProps = {
   title: '',
   style: {
     transformOrigin: '50% 100%',
-    width: '270px',
-    height: '203px',
+    width: '200px',
+    height: '200px',
   },
 };
 
