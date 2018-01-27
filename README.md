@@ -33,6 +33,7 @@ class App extends Component {
 
     return (
       <IsometricGrid
+        shadow
         transform="rotateX(45deg) rotateZ(45deg)"
         stackItemsAnimation={{
           properties: function(pos) {
