@@ -1,3 +1,8 @@
+/*
+Credit to codrops for most of this code. I rewrote it as a class and
+used npm packages instead of .js files but most of the code is from codrops.com.
+ */
+
 import dynamics from 'dynamics.js';
 import imagesLoaded from 'imagesloaded';
 import Masonry from 'masonry-layout';
