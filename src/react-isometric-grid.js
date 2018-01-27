@@ -61,14 +61,17 @@ ReactIsometricGrid.propTypes = {
   perspective: PropTypes.number,
 
   // transform of the isometric grid in 3d space
+  // https://www.w3schools.com/cssref/css3_pr_transform.asp
   transform: PropTypes.string,
 
   // animation values for each cell dynamicjs
   stackItemsAnimation: PropTypes.shape({
     // object of the properties/values you want to animate
+    // https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function
     properties: PropTypes.func,
 
     // object representing the animation like duration and easing
+    // https://github.com/michaelvillar/dynamics.js#dynamicsanimateel-properties-options
     options: PropTypes.func,
   }),
 };

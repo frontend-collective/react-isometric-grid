@@ -10,17 +10,16 @@ class App extends Component {
     return (
       <IsometricGrid
         cells={[
-          <Cell
-            key={1}
-            layers={[img1, 'rgb(133, 189, 85)', 'rgb(133, 189, 85)']}
-          />,
-          <Cell key={2} layers={[img1, 'rgb(133, 189, 85)']} />,
-          <Cell key={3} layers={[img1, 'rgb(133, 189, 85)']} />,
-          <Cell key={4} layers={[img1, 'rgb(133, 189, 85)']} />,
-          <Cell key={5} layers={[img1, 'rgb(133, 189, 85)']} />,
-          <Cell key={6} layers={[img1, 'rgb(133, 189, 85)']} />,
+          <Cell key={1} layers={[img1, '#9972fc', '#c322a3', '#9eb5c2']} />,
+          <Cell key={1} layers={[img1, '#9972fc', '#c322a3', '#9eb5c2']} />,
+          <Cell key={1} layers={[img1, '#9972fc', '#c322a3', '#9eb5c2']} />,
+          <Cell key={1} layers={[img1, '#9972fc', '#c322a3', '#9eb5c2']} />,
+          <Cell key={1} layers={[img1, '#9972fc', '#c322a3', '#9eb5c2']} />,
+          <Cell key={1} layers={[img1, '#9972fc', '#c322a3', '#9eb5c2']} />,
+          <Cell key={1} layers={[img1, '#9972fc', '#c322a3', '#9eb5c2']} />,
         ]}
         shadow
+        style={{ height: '800px', width: '100%' }}
       />
     );
   }
