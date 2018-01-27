@@ -117,6 +117,10 @@ dynamic.js animations parameters
 | style               | object          | inline styling for the inner item                                     | `{ transformOrigin: '50% 100%', width: '200px', height: '200px' }` |
 | title               | string          | title that is under the layers. Shown on mouse over                   | `""`                                                               |
 
+## Troubleshooting
+
+**Z-animations aren't working** Make sure you dont have `overflow` css property set. That fucks up z-axis animations. https://stackoverflow.com/questions/21248111/overflow-behavior-after-using-css3-transform
+
 ## Contributing
 
 After cloning the repository and running `npm install` inside, you can use the following commands to develop and build the project.
