@@ -13,45 +13,132 @@ import img5 from './img/5.jpg';
 import img6 from './img/6.jpg';
 import img7 from './img/7.jpg';
 
+import styles from './stylesheets/app.scss';
+import '../shared/favicon/apple-touch-icon.png';
+import '../shared/favicon/favicon-16x16.png';
+import '../shared/favicon/favicon-32x32.png';
+import '../shared/favicon/favicon.ico';
+import '../shared/favicon/safari-pinned-tab.svg';
+
 class App extends Component {
   render() {
+    const projectName = 'React Isometric Grid';
+    const authorName = 'Wei-Wei Wu';
+    const authorUrl = 'https://github.com/wuweiweiwu';
+    const githubUrl = 'https://github.com/wuweiweiwu/react-isometric-grid';
+
     function getRandomInt(min, max) {
       return Math.floor(Math.random() * (max - min + 1)) + min;
     }
 
     return (
-      <IsometricGrid
-        transform="rotateX(45deg) rotateZ(45deg)"
-        stackItemsAnimation={{
-          properties: function(pos) {
-            return {
-              translateZ: (pos + 1) * 30,
-              rotateZ: getRandomInt(-4, 4),
-            };
-          },
-          options: function(pos, itemstotal) {
-            return {
-              type: dynamics.bezier,
-              duration: 500,
-              points: [
-                { x: 0, y: 0, cp: [{ x: 0.2, y: 1 }] },
-                { x: 1, y: 1, cp: [{ x: 0.3, y: 1 }] },
-              ],
-              delay: (itemstotal - pos - 1) * 40,
-            };
-          },
-        }}
-        cells={[
-          <Cell key={1} layers={[img1, '#9972fc', '#c322a3', '#9eb5c2']} />,
-          <Cell key={1} layers={[img2, '#9972fc', '#c322a3', '#9eb5c2']} />,
-          <Cell key={1} layers={[img3, '#9972fc', '#c322a3', '#9eb5c2']} />,
-          <Cell key={1} layers={[img4, '#9972fc', '#c322a3', '#9eb5c2']} />,
-          <Cell key={1} layers={[img5, '#9972fc', '#c322a3', '#9eb5c2']} />,
-          <Cell key={1} layers={[img6, '#9972fc', '#c322a3', '#9eb5c2']} />,
-          <Cell key={1} layers={[img7, '#9972fc', '#c322a3', '#9eb5c2']} />,
-        ]}
-        style={{ height: '800px', width: '900px' }}
-      />
+      <div>
+        <section className={styles['page-header']}>
+          <h1 className={styles['project-name']}>{projectName}</h1>
+
+          <h2 className={styles['project-tagline']}>
+            Isometric grid layout and animation for presenting photos
+          </h2>
+        </section>
+        <section className={styles['main-content']}>
+          <h3>Demo</h3>
+          <div style={{ height: '600px' }}>
+            <IsometricGrid
+              shadow
+              transform="rotateX(45deg) rotateZ(45deg)"
+              stackItemsAnimation={{
+                properties: function(pos) {
+                  return {
+                    translateZ: (pos + 1) * 30,
+                    rotateZ: getRandomInt(-4, 4),
+                  };
+                },
+                options: function(pos, itemstotal) {
+                  return {
+                    type: dynamics.bezier,
+                    duration: 500,
+                    points: [
+                      { x: 0, y: 0, cp: [{ x: 0.2, y: 1 }] },
+                      { x: 1, y: 1, cp: [{ x: 0.3, y: 1 }] },
+                    ],
+                    delay: (itemstotal - pos - 1) * 40,
+                  };
+                },
+              }}
+              cells={[
+                <Cell
+                  key={1}
+                  layers={[img1, '#9972fc', '#c322a3', '#9eb5c2']}
+                />,
+                <Cell
+                  key={1}
+                  layers={[img2, '#9972fc', '#c322a3', '#9eb5c2']}
+                />,
+                <Cell
+                  key={1}
+                  layers={[img3, '#9972fc', '#c322a3', '#9eb5c2']}
+                />,
+                <Cell
+                  key={1}
+                  layers={[img4, '#9972fc', '#c322a3', '#9eb5c2']}
+                />,
+                <Cell
+                  key={1}
+                  layers={[img5, '#9972fc', '#c322a3', '#9eb5c2']}
+                />,
+                <Cell
+                  key={1}
+                  layers={[img6, '#9972fc', '#c322a3', '#9eb5c2']}
+                />,
+                <Cell
+                  key={1}
+                  layers={[img7, '#9972fc', '#c322a3', '#9eb5c2']}
+                />,
+                <Cell
+                  key={1}
+                  layers={[img1, '#9972fc', '#c322a3', '#9eb5c2']}
+                />,
+                <Cell
+                  key={1}
+                  layers={[img2, '#9972fc', '#c322a3', '#9eb5c2']}
+                />,
+              ]}
+              style={{
+                height: '500px',
+                width: '800px',
+                position: 'absolute',
+                left: '25%',
+              }}
+            />
+          </div>
+          <a href={githubUrl}>Documentation on Github</a>
+          <br />
+          <a href="storybook/index.html">More examples on Storybook</a>
+          <footer className={styles['site-footer']}>
+            <span className={styles['site-footer-owner']}>
+              <a href={githubUrl}>{projectName}</a> is maintained by{' '}
+              <a href={authorUrl}>{authorName}</a>.
+            </span>
+
+            <span className={styles['site-footer-credits']}>
+              This page was generated by{' '}
+              <a href="https://pages.github.com">GitHub Pages</a> using the{' '}
+              <a href="https://github.com/jasonlong/cayman-theme">
+                Cayman theme
+              </a>{' '}
+              by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+            </span>
+          </footer>
+        </section>
+        <a href={githubUrl}>
+          <img
+            style={{ position: 'absolute', top: 0, right: 0, border: 0 }}
+            src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67"
+            alt="Fork me on GitHub"
+            data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"
+          />
+        </a>
+      </div>
     );
   }
 }
