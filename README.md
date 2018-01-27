@@ -6,7 +6,7 @@ React Isometric Grids :stuck_out_tongue: Inspired by https://github.com/codrops/
 
 ## [Demo](http://weiweiwu.me/react-isometric-grid)
 
-![Example](https://media.giphy.com/media/1iZS7zj75q9zAFLa/giphy.gif)
+![Example](./desktop.gif)
 
 ## Usage
 
@@ -85,7 +85,7 @@ export default App;
 | stackItemsAnimation | object        | animation properties for each cell using dynamic.js                                            | below                                                                        |
 | cells _(required)_  | array of Cell | Cells inside the grid                                                                          |                                                                              |
 
-#### stackItemsAnimation
+#### stackItemsAnimation prop example
 
 dynamic.js animations parameters
 
@@ -119,7 +119,9 @@ dynamic.js animations parameters
 
 ## Troubleshooting
 
-**Z-animations aren't working** Make sure you dont have `overflow` css property set. That fucks up z-axis animations. https://stackoverflow.com/questions/21248111/overflow-behavior-after-using-css3-transform
+**z-animations aren't working** Make sure you dont have `overflow` css property set. That fucks up z-axis animations. https://stackoverflow.com/questions/21248111/overflow-behavior-after-using-css3-transform
+
+**The axis of rotation is weird** set the `transformOrigin` property of style prop of Cell. https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin
 
 ## Contributing
 
