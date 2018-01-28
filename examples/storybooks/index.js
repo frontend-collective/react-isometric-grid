@@ -31,5 +31,5 @@ storiesOf('Basics', module)
   .add('Side Stack', () => wrapWithSource(<SideStack />, 'side-stack.js'));
 
 storiesOf('Advanced', module).add('onGridLoaded Callback', () =>
-  wrapWithSource(<LoadedCallback />, 'loaded-callback')
+  wrapWithSource(<LoadedCallback />, 'loaded-callback.js')
 );
