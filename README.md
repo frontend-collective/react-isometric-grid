@@ -90,15 +90,15 @@ export default App;
 
 ### Isometric Grid
 
-| Prop                                                                        | Type          | Description                                         | Default                                                                      |
-| --------------------------------------------------------------------------- | ------------- | --------------------------------------------------- | ---------------------------------------------------------------------------- |
-| cells _(required)_                                                          | array of Cell | Cells inside the grid                               |                                                                              |
-| [perspective](https://developer.mozilla.org/en-US/docs/Web/CSS/perspective) | number        | px from the z axis                                  | `3000`                                                                       |
-| [transform](https://www.w3schools.com/cssref/css3_pr_transform.asp)         | string        | css transform applied to the whole grid             | `"scale3d(0.8,0.8,1) rotateY(45deg) rotateZ(-10deg)"`                        |
-| stackItemsAnimation                                                         | object        | animation properties for each cell using dynamic.js | below                                                                        |
-| shadow                                                                      | boolean       | Display a shadow under the cells                    | false                                                                        |
-| onGridLoaded                                                                | function      | Callback when the grid is loaded                    | `()=>{}`                                                                     |
-| style                                                                       | object        | inline css styling for the inner div                | `{ height: '600px', width: '600px', position: 'absolute', left: 0, top: 0 }` |
+| Prop                                                                        | Type           | Description                                         | Default                                                                      |
+| --------------------------------------------------------------------------- | -------------- | --------------------------------------------------- | ---------------------------------------------------------------------------- |
+| children _(required)_                                                       | React elements | Cells inside the grid                               |                                                                              |
+| [perspective](https://developer.mozilla.org/en-US/docs/Web/CSS/perspective) | number         | px from the z axis                                  | `3000`                                                                       |
+| [transform](https://www.w3schools.com/cssref/css3_pr_transform.asp)         | string         | css transform applied to the whole grid             | `"scale3d(0.8,0.8,1) rotateY(45deg) rotateZ(-10deg)"`                        |
+| stackItemsAnimation                                                         | object         | animation properties for each cell using dynamic.js | below                                                                        |
+| shadow                                                                      | boolean        | Display a shadow under the cells                    | false                                                                        |
+| onGridLoaded                                                                | function       | Callback when the grid is loaded                    | `()=>{}`                                                                     |
+| style                                                                       | object         | inline css styling for the inner div                | `{ height: '600px', width: '600px', position: 'absolute', left: 0, top: 0 }` |
 
 #### stackItemsAnimation prop example
 
