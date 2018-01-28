@@ -42,13 +42,13 @@ class App extends Component {
         }}
         cells={[
           <Cell key={1} layers={[img7, img1, img6, img1]} />,
-          <Cell key={1} layers={[img2, img2, img2, img2]} />,
-          <Cell key={1} layers={[img7, img5, img1, img1]} />,
-          <Cell key={1} layers={[img3, img3, img3, img3]} />,
-          <Cell key={1} layers={[img4, img4, img5, img4]} />,
-          <Cell key={1} layers={[img3, img6, img5, img5]} />,
-          <Cell key={1} layers={[img6, img1, img3, img4]} />,
-          <Cell key={1} layers={[img1, img5, img2, img7]} />,
+          <Cell key={2} layers={[img2, img2, img2, img2]} />,
+          <Cell key={3} layers={[img7, img5, img1, img1]} />,
+          <Cell key={4} layers={[img3, img3, img3, img3]} />,
+          <Cell key={5} layers={[img4, img4, img5, img4]} />,
+          <Cell key={6} layers={[img3, img6, img5, img5]} />,
+          <Cell key={7} layers={[img6, img1, img3, img4]} />,
+          <Cell key={8} layers={[img1, img5, img2, img7]} />,
         ]}
         style={{
           height: '500px',

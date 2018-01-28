@@ -54,6 +54,10 @@ class IsometricGrid {
     this.options = extend({}, defaultOptions);
     extend(this.options, options);
 
+    if (!this.isolayerEl){
+      return;
+    }
+
     this.gridEl = this.isolayerEl.querySelector(`.${styles.grid}`);
 
     // grid items

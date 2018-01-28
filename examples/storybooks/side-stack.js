@@ -30,14 +30,14 @@ class App extends Component {
         }}
         cells={[
           <Cell key={1} layers={[img1, '#9972fc', '#c322a3', '#9eb5c2']} />,
-          <Cell key={1} layers={[img2, '#9972fc', '#c322a3', '#9eb5c2']} />,
-          <Cell key={1} layers={[img3, '#9972fc', '#c322a3', '#9eb5c2']} />,
-          <Cell key={1} layers={[img4, '#9972fc', '#c322a3', '#9eb5c2']} />,
-          <Cell key={1} layers={[img5, '#9972fc', '#c322a3', '#9eb5c2']} />,
-          <Cell key={1} layers={[img6, '#9972fc', '#c322a3', '#9eb5c2']} />,
-          <Cell key={1} layers={[img7, '#9972fc', '#c322a3', '#9eb5c2']} />,
-          <Cell key={1} layers={[img1, '#9972fc', '#c322a3', '#9eb5c2']} />,
-          <Cell key={1} layers={[img2, '#9972fc', '#c322a3', '#9eb5c2']} />,
+          <Cell key={2} layers={[img2, '#9972fc', '#c322a3', '#9eb5c2']} />,
+          <Cell key={3} layers={[img3, '#9972fc', '#c322a3', '#9eb5c2']} />,
+          <Cell key={4} layers={[img4, '#9972fc', '#c322a3', '#9eb5c2']} />,
+          <Cell key={5} layers={[img5, '#9972fc', '#c322a3', '#9eb5c2']} />,
+          <Cell key={6} layers={[img6, '#9972fc', '#c322a3', '#9eb5c2']} />,
+          <Cell key={7} layers={[img7, '#9972fc', '#c322a3', '#9eb5c2']} />,
+          <Cell key={8} layers={[img1, '#9972fc', '#c322a3', '#9eb5c2']} />,
+          <Cell key={9} layers={[img2, '#9972fc', '#c322a3', '#9eb5c2']} />,
         ]}
         style={{
           height: '500px',

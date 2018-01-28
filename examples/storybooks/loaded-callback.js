@@ -54,7 +54,7 @@ class App extends Component {
                 ]}
               />,
               <Cell
-                key={1}
+                key={2}
                 layers={[
                   'https://picsum.photos/200/300/?random',
                   '#9972fc',
@@ -63,7 +63,7 @@ class App extends Component {
                 ]}
               />,
               <Cell
-                key={1}
+                key={3}
                 layers={[
                   'https://picsum.photos/200/300/?random',
                   '#9972fc',
@@ -72,7 +72,7 @@ class App extends Component {
                 ]}
               />,
               <Cell
-                key={1}
+                key={4}
                 layers={[
                   'https://picsum.photos/200/300/?random',
                   '#9972fc',
@@ -81,7 +81,7 @@ class App extends Component {
                 ]}
               />,
               <Cell
-                key={1}
+                key={5}
                 layers={[
                   'https://picsum.photos/200/300/?random',
                   '#9972fc',
@@ -90,7 +90,7 @@ class App extends Component {
                 ]}
               />,
               <Cell
-                key={1}
+                key={6}
                 layers={[
                   'https://picsum.photos/200/300/?random',
                   '#9972fc',
@@ -99,7 +99,7 @@ class App extends Component {
                 ]}
               />,
               <Cell
-                key={1}
+                key={7}
                 layers={[
                   'https://picsum.photos/200/300/?random',
                   '#9972fc',
@@ -108,7 +108,7 @@ class App extends Component {
                 ]}
               />,
               <Cell
-                key={1}
+                key={8}
                 layers={[
                   'https://picsum.photos/200/300/?random',
                   '#9972fc',
@@ -117,7 +117,7 @@ class App extends Component {
                 ]}
               />,
               <Cell
-                key={1}
+                key={9}
                 layers={[
                   'https://picsum.photos/200/300/?random',
                   '#9972fc',
