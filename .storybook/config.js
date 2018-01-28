@@ -3,8 +3,8 @@ import { configure } from '@storybook/react';
 import { setOptions } from '@storybook/addon-options';
 
 setOptions({
-  name: 'React Sortable Tree',
-  url: 'https://github.com/fritz-c/react-sortable-tree',
+  name: 'React Isometric Grid',
+  url: 'https://github.com/wuweiweiwu/react-isometric-grid',
 });
 
 function loadStories() {

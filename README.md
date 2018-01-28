@@ -76,15 +76,15 @@ export default App;
 
 ### Isometric Grid
 
-| Prop                | Type          | Description                                                                                    | Default                                                                      |
-| ------------------- | ------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| shadow              | boolean       | Display a shadow under the cells                                                               | false                                                                        |
-| onGridLoaded        | function      | Callback when the grid is loaded                                                               | `()=>{}`                                                                     |
-| style               | object        | inline css styling for the inner div                                                           | `{ height: '600px', width: '600px', position: 'absolute', left: 0, top: 0 }` |
-| perspective         | number        | px from the z axis https://developer.mozilla.org/en-US/docs/Web/CSS/perspective                | `3000`                                                                       |
-| transform           | string        | css transform applied to the whole grid https://www.w3schools.com/cssref/css3_pr_transform.asp | `"scale3d(0.8,0.8,1) rotateY(45deg) rotateZ(-10deg)"`                        |
-| stackItemsAnimation | object        | animation properties for each cell using dynamic.js                                            | below                                                                        |
-| cells _(required)_  | array of Cell | Cells inside the grid                                                                          |                                                                              |
+| Prop                                                                        | Type          | Description                                         | Default                                                                      |
+| --------------------------------------------------------------------------- | ------------- | --------------------------------------------------- | ---------------------------------------------------------------------------- |
+| shadow                                                                      | boolean       | Display a shadow under the cells                    | false                                                                        |
+| onGridLoaded                                                                | function      | Callback when the grid is loaded                    | `()=>{}`                                                                     |
+| style                                                                       | object        | inline css styling for the inner div                | `{ height: '600px', width: '600px', position: 'absolute', left: 0, top: 0 }` |
+| [perspective](https://developer.mozilla.org/en-US/docs/Web/CSS/perspective) | number        | px from the z axis                                  | `3000`                                                                       |
+| [transform](https://www.w3schools.com/cssref/css3_pr_transform.asp)         | string        | css transform applied to the whole grid             | `"scale3d(0.8,0.8,1) rotateY(45deg) rotateZ(-10deg)"`                        |
+| stackItemsAnimation                                                         | object        | animation properties for each cell using dynamic.js | below                                                                        |
+| cells _(required)_                                                          | array of Cell | Cells inside the grid                               |                                                                              |
 
 #### stackItemsAnimation prop example
 
@@ -111,12 +111,12 @@ dynamic.js animations parameters
 
 ### Cell
 
-| Prop                | Type            | Description                                                           | Default                                                            |
-| ------------------- | --------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------ |
-| layers _(required)_ | array of string | what each layer is in the cell. Can be image urls or valid css colors |                                                                    |
-| link                | string          | Callback when the grid is loaded                                      | `""`                                                               |
-| style               | object          | inline styling for the inner item                                     | `{ transformOrigin: '50% 100%', width: '200px', height: '200px' }` |
-| title               | string          | title that is under the layers. Shown on mouse over                   | `""`                                                               |
+| Prop                | Type            | Description                                                                 | Default                                                            |
+| ------------------- | --------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| layers _(required)_ | array of string | what each layer is in the cell. <br/> Can be image urls or valid css colors |                                                                    |
+| link                | string          | Callback when the grid is loaded                                            | `""`                                                               |
+| style               | object          | inline styling for the inner item                                           | `{ transformOrigin: '50% 100%', width: '200px', height: '200px' }` |
+| title               | string          | title that is under the layers. Shown on mouse over                         | `""`                                                               |
 
 ## Troubleshooting
 
