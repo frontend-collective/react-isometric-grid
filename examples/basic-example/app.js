@@ -1,9 +1,8 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
+import dynamics from 'dynamics.js';
 
 import IsometricGrid, { Cell } from '../../src';
-
-import dynamics from 'dynamics.js';
 
 import img1 from './img/1.jpg';
 import img2 from './img/2.jpg';
@@ -47,13 +46,13 @@ class App extends Component {
               shadow
               transform="rotateX(45deg) rotateZ(45deg)"
               stackItemsAnimation={{
-                properties: function(pos) {
+                properties(pos) {
                   return {
                     translateZ: (pos + 1) * 30,
                     rotateZ: getRandomInt(-4, 4),
                   };
                 },
-                options: function(pos, itemstotal) {
+                options(pos, itemstotal) {
                   return {
                     type: dynamics.bezier,
                     duration: 500,
