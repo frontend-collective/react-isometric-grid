@@ -61,51 +61,23 @@ class App extends Component {
                   };
                 },
               }}
-              cells={[
-                <Cell
-                  key={1}
-                  layers={[img1, '#9972fc', '#c322a3', '#9eb5c2']}
-                />,
-                <Cell
-                  key={1}
-                  layers={[img2, '#9972fc', '#c322a3', '#9eb5c2']}
-                />,
-                <Cell
-                  key={1}
-                  layers={[img3, '#9972fc', '#c322a3', '#9eb5c2']}
-                />,
-                <Cell
-                  key={1}
-                  layers={[img4, '#9972fc', '#c322a3', '#9eb5c2']}
-                />,
-                <Cell
-                  key={1}
-                  layers={[img5, '#9972fc', '#c322a3', '#9eb5c2']}
-                />,
-                <Cell
-                  key={1}
-                  layers={[img6, '#9972fc', '#c322a3', '#9eb5c2']}
-                />,
-                <Cell
-                  key={1}
-                  layers={[img7, '#9972fc', '#c322a3', '#9eb5c2']}
-                />,
-                <Cell
-                  key={1}
-                  layers={[img1, '#9972fc', '#c322a3', '#9eb5c2']}
-                />,
-                <Cell
-                  key={1}
-                  layers={[img2, '#9972fc', '#c322a3', '#9eb5c2']}
-                />,
-              ]}
               style={{
                 height: '500px',
                 width: '800px',
                 position: 'absolute',
                 left: '25%',
               }}
-            />
+            >
+              <Cell layers={[img1, '#9972fc', '#c322a3', '#9eb5c2']} />
+              <Cell layers={[img2, '#9972fc', '#c322a3', '#9eb5c2']} />
+              <Cell layers={[img3, '#9972fc', '#c322a3', '#9eb5c2']} />
+              <Cell layers={[img4, '#9972fc', '#c322a3', '#9eb5c2']} />
+              <Cell layers={[img5, '#9972fc', '#c322a3', '#9eb5c2']} />
+              <Cell layers={[img6, '#9972fc', '#c322a3', '#9eb5c2']} />
+              <Cell layers={[img7, '#9972fc', '#c322a3', '#9eb5c2']} />
+              <Cell layers={[img1, '#9972fc', '#c322a3', '#9eb5c2']} />
+              <Cell layers={[img2, '#9972fc', '#c322a3', '#9eb5c2']} />
+            </IsometricGrid>
           </div>
           <a href={githubUrl}>Documentation on Github</a>
           <br />

@@ -28,7 +28,7 @@ class ReactIsometricGrid extends Component {
   }
 
   render() {
-    const { style, shadow, cells } = this.props;
+    const { style, shadow, children } = this.props;
 
     return (
       <div
@@ -38,7 +38,7 @@ class ReactIsometricGrid extends Component {
         })}
         style={style}
       >
-        <ul className={styles.grid}>{cells}</ul>
+        <ul className={styles.grid}>{children}</ul>
       </div>
     );
   }
@@ -54,8 +54,8 @@ ReactIsometricGrid.propTypes = {
   // style
   style: stylePropType,
 
-  // cells
-  cells: PropTypes.arrayOf(PropTypes.element).isRequired,
+  // children (Cell elements)
+  children: PropTypes.arrayOf(PropTypes.element).isRequired,
 
   // perspective value, # of px distance from z origin
   perspective: PropTypes.number,
