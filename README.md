@@ -6,14 +6,14 @@ React Isometric Grids :stuck_out_tongue: Inspired by https://github.com/codrops/
 
 ## [Demo](http://weiweiwu.me/react-isometric-grid)
 
-![Example](./desktop.gif)
+![Example](https://media.giphy.com/media/l4pTkeY0fDzNwhMzK/giphy.gif)
 
 ## Usage
 
 ```javascript
 import React, { Component } from 'react';
 
-import IsometricGrid, { Cell } from '../../src';
+import IsometricGrid, { Cell } from 'react-isometric-grid';
 
 import dynamics from 'dynamics.js';
 
@@ -78,13 +78,13 @@ export default App;
 
 | Prop                                                                        | Type          | Description                                         | Default                                                                      |
 | --------------------------------------------------------------------------- | ------------- | --------------------------------------------------- | ---------------------------------------------------------------------------- |
-| shadow                                                                      | boolean       | Display a shadow under the cells                    | false                                                                        |
-| onGridLoaded                                                                | function      | Callback when the grid is loaded                    | `()=>{}`                                                                     |
-| style                                                                       | object        | inline css styling for the inner div                | `{ height: '600px', width: '600px', position: 'absolute', left: 0, top: 0 }` |
+| cells _(required)_                                                          | array of Cell | Cells inside the grid                               |                                                                              |
 | [perspective](https://developer.mozilla.org/en-US/docs/Web/CSS/perspective) | number        | px from the z axis                                  | `3000`                                                                       |
 | [transform](https://www.w3schools.com/cssref/css3_pr_transform.asp)         | string        | css transform applied to the whole grid             | `"scale3d(0.8,0.8,1) rotateY(45deg) rotateZ(-10deg)"`                        |
 | stackItemsAnimation                                                         | object        | animation properties for each cell using dynamic.js | below                                                                        |
-| cells _(required)_                                                          | array of Cell | Cells inside the grid                               |                                                                              |
+| shadow                                                                      | boolean       | Display a shadow under the cells                    | false                                                                        |
+| onGridLoaded                                                                | function      | Callback when the grid is loaded                    | `()=>{}`                                                                     |
+| style                                                                       | object        | inline css styling for the inner div                | `{ height: '600px', width: '600px', position: 'absolute', left: 0, top: 0 }` |
 
 #### stackItemsAnimation prop example
 
@@ -115,12 +115,12 @@ dynamic.js animations parameters
 | ------------------- | --------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------ |
 | layers _(required)_ | array of string | what each layer is in the cell. <br/> Can be image urls or valid css colors |                                                                    |
 | link                | string          | Callback when the grid is loaded                                            | `""`                                                               |
-| style               | object          | inline styling for the inner item                                           | `{ transformOrigin: '50% 100%', width: '200px', height: '200px' }` |
 | title               | string          | title that is under the layers. Shown on mouse over                         | `""`                                                               |
+| style               | object          | inline styling for the inner item                                           | `{ transformOrigin: '50% 100%', width: '200px', height: '200px' }` |
 
 ## Troubleshooting
 
-**z-animations aren't working** Make sure you dont have `overflow` css property set. That fucks up z-axis animations. https://stackoverflow.com/questions/21248111/overflow-behavior-after-using-css3-transform
+**z-animations aren't working** Make sure you dont have `overflow` css property set. That messes up z-axis animations. https://stackoverflow.com/questions/21248111/overflow-behavior-after-using-css3-transform
 
 **The axis of rotation is weird** set the `transformOrigin` property of style prop of Cell. https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin
 
