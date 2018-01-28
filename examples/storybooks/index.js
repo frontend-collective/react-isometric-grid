@@ -17,6 +17,7 @@ import { storiesOf } from '@storybook/react';
 // import TreeToTreeExample from './tree-to-tree';
 import styles from './generic.scss';
 import BasicStack from './basic-stack';
+import Spread from './spread';
 //
 const wrapWithSource = (node, src) => (
   <div>
@@ -34,9 +35,9 @@ const wrapWithSource = (node, src) => (
   </div>
 );
 
-storiesOf('Basics', module).add('Basic Stack', () =>
-  wrapWithSource(<BasicStack />, 'basic-stack.js')
-);
+storiesOf('Basics', module)
+  .add('Basic Stack', () => wrapWithSource(<BasicStack />, 'basic-stack.js'))
+  .add('Spread', () => wrapWithSource(<Spread />, 'spread.js'));
 //   .add('treeData import/export', () =>
 //     wrapWithSource(<TreeDataIOExample />, 'tree-data-io.js')
 //   )
