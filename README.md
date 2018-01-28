@@ -12,18 +12,8 @@ React Isometric Grids :stuck_out_tongue: Inspired by https://github.com/codrops/
 
 ```javascript
 import React, { Component } from 'react';
-
 import IsometricGrid, { Cell } from 'react-isometric-grid';
-
 import dynamics from 'dynamics.js';
-
-import img1 from './img/1.jpg';
-import img2 from './img/2.jpg';
-import img3 from './img/3.jpg';
-import img4 from './img/4.jpg';
-import img5 from './img/5.jpg';
-import img6 from './img/6.jpg';
-import img7 from './img/7.jpg';
 
 class App extends Component {
   render() {
@@ -54,17 +44,41 @@ class App extends Component {
             };
           },
         }}
-        cells={[
-          <Cell key={1} layers={[img1, '#9972fc', '#c322a3', '#9eb5c2']} />,
-          <Cell key={1} layers={[img2, '#9972fc', '#c322a3', '#9eb5c2']} />,
-          <Cell key={1} layers={[img3, '#9972fc', '#c322a3', '#9eb5c2']} />,
-          <Cell key={1} layers={[img4, '#9972fc', '#c322a3', '#9eb5c2']} />,
-          <Cell key={1} layers={[img5, '#9972fc', '#c322a3', '#9eb5c2']} />,
-          <Cell key={1} layers={[img6, '#9972fc', '#c322a3', '#9eb5c2']} />,
-          <Cell key={1} layers={[img7, '#9972fc', '#c322a3', '#9eb5c2']} />,
-        ]}
         style={{ height: '800px', width: '900px' }}
-      />
+      >
+        <Cell
+          layers={[
+            'https://picsum.photos/600/600/?random',
+            '#9972fc',
+            '#c322a3',
+            '#9eb5c2',
+          ]}
+        />
+        <Cell
+          layers={[
+            'https://picsum.photos/200/300/?random',
+            '#9972fc',
+            '#c322a3',
+            '#9eb5c2',
+          ]}
+        />
+        <Cell
+          layers={[
+            'https://picsum.photos/400/300/?random',
+            '#9972fc',
+            '#c322a3',
+            '#9eb5c2',
+          ]}
+        />
+        <Cell
+          layers={[
+            'https://picsum.photos/200/500/?random',
+            '#9972fc',
+            '#c322a3',
+            '#9eb5c2',
+          ]}
+        />
+      </ReactIsometricGrid>
     );
   }
 }
