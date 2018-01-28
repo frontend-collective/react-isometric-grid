@@ -15,28 +15,28 @@ import { storiesOf } from '@storybook/react';
 // import TouchSupportExample from './touch-support';
 // import TreeDataIOExample from './tree-data-io';
 // import TreeToTreeExample from './tree-to-tree';
-// import styles from './generic.scss';
+import styles from './generic.scss';
+import BasicStack from './basic-stack';
 //
-// const wrapWithSource = (node, src) => (
-//   <div>
-//     {node}
-//
-//     <br />
-//     <a
-//       href={`https://github.com/fritz-c/react-sortable-tree/blob/master/examples/storybooks/${src}`}
-//       target="_top"
-//       rel="noopener noreferrer"
-//       className={styles.sourceLink}
-//     >
-//       VIEW SOURCE →
-//     </a>
-//   </div>
-// );
+const wrapWithSource = (node, src) => (
+  <div>
+    {node}
 
-storiesOf('Basics', module).add('filler idk', () => <div>testing</div>);
-//   .add('Minimal implementation', () =>
-//     wrapWithSource(<BarebonesExample />, 'barebones.js')
-//   )
+    <br />
+    <a
+      href={`https://github.com/wuweiweiwu/react-isometric-grid/blob/master/examples/storybooks/${src}`}
+      target="_top"
+      rel="noopener noreferrer"
+      className={styles.sourceLink}
+    >
+      VIEW SOURCE →
+    </a>
+  </div>
+);
+
+storiesOf('Basics', module).add('Basic Stack', () =>
+  wrapWithSource(<BasicStack />, 'basic-stack.js')
+);
 //   .add('treeData import/export', () =>
 //     wrapWithSource(<TreeDataIOExample />, 'tree-data-io.js')
 //   )
