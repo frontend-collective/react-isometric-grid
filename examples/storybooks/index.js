@@ -3,23 +3,12 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 // import { action } from '@storybook/addon-actions';
-// import AddRemoveExample from './add-remove';
-// import BarebonesExample from './barebones';
-// import CanDropExample from './can-drop';
-// import DragOutToRemoveExample from './drag-out-to-remove';
-// import ExternalNodeExample from './external-node';
-// import GenerateNodePropsExample from './generate-node-props';
-// import ModifyNodesExample from './modify-nodes';
-// import SearchExample from './search';
-// import ThemesExample from './themes';
-// import TouchSupportExample from './touch-support';
-// import TreeDataIOExample from './tree-data-io';
-// import TreeToTreeExample from './tree-to-tree';
 import styles from './generic.scss';
 import BasicStack from './basic-stack';
 import Spread from './spread';
 import SideStack from './side-stack';
-//
+import LoadedCallback from './loaded-callback';
+
 const wrapWithSource = (node, src) => (
   <div>
     {node}
@@ -40,32 +29,7 @@ storiesOf('Basics', module)
   .add('Basic Stack', () => wrapWithSource(<BasicStack />, 'basic-stack.js'))
   .add('Spread', () => wrapWithSource(<Spread />, 'spread.js'))
   .add('Side Stack', () => wrapWithSource(<SideStack />, 'side-stack.js'));
-//   .add('treeData import/export', () =>
-//     wrapWithSource(<TreeDataIOExample />, 'tree-data-io.js')
-//   )
-//   .add('Add and remove nodes programmatically', () =>
-//     wrapWithSource(<AddRemoveExample />, 'add-remove.js')
-//   )
-//   .add('Modify nodes', () =>
-//     wrapWithSource(<ModifyNodesExample />, 'modify-nodes.js')
-//   )
-//   .add('Prevent drop', () => wrapWithSource(<CanDropExample />, 'can-drop.js'))
-//   .add('Search', () => wrapWithSource(<SearchExample />, 'search.js'))
-//   .add('Themes', () => wrapWithSource(<ThemesExample />, 'themes.js'));
-//
-// storiesOf('Advanced', module)
-//   .add('Drag from external source', () =>
-//     wrapWithSource(<ExternalNodeExample />, 'external-node.js')
-//   )
-//   .add('Touch support (Experimental)', () =>
-//     wrapWithSource(<TouchSupportExample />, 'touch-support.js')
-//   )
-//   .add('Tree-to-tree dragging', () =>
-//     wrapWithSource(<TreeToTreeExample />, 'tree-to-tree.js')
-//   )
-//   .add('Playing with generateNodeProps', () =>
-//     wrapWithSource(<GenerateNodePropsExample />, 'generate-node-props.js')
-//   )
-//   .add('Drag out to remove', () =>
-//     wrapWithSource(<DragOutToRemoveExample />, 'drag-out-to-remove.js')
-//   );
+
+storiesOf('Advanced', module).add('onGridLoaded Callback', () =>
+  wrapWithSource(<LoadedCallback />, 'loaded-callback')
+);
