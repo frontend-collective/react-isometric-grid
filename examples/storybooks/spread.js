@@ -21,14 +21,14 @@ class App extends Component {
         shadow
         transform="rotateX(55deg) rotateZ(-45deg)"
         stackItemsAnimation={{
-          properties: function(pos) {
+          properties() {
             return {
               translateX: getRandomInt(-20, 20),
               translateY: getRandomInt(-20, 20),
               rotateZ: getRandomInt(-10, 10),
             };
           },
-          options: function(pos, itemstotal) {
+          options(pos, itemstotal) {
             return {
               type: dynamics.bezier,
               duration: 800,
