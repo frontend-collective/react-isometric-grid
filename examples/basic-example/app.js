@@ -36,7 +36,8 @@ class App extends Component {
           <h1 className={styles['project-name']}>{projectName}</h1>
 
           <h2 className={styles['project-tagline']}>
-            Isometric grid layout and animation for presenting photos
+            Isometric grid layout and animation for presenting photos and
+            projects
           </h2>
         </section>
         <section className={styles['main-content']}>
