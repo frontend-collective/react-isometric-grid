@@ -128,9 +128,9 @@ dynamic.js animations parameters
 | Prop                | Type            | Description                                                                                     | Default                                                            |
 | ------------------- | --------------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
 | layers _(required)_ | array of string | what each layer is in the cell. <br/> Can be image urls or valid css colors                     |                                                                    |
-| href                | string          | url that the image will link to when clicked                                                    | `""`                                                               |
+| href                | string          | url that the image will link to when clicked                                                    | `null`                                                               |
 | onClick             | function        | what is executed when the image is clicked. If using with `href`, be sure to `preventDefault()` | `null`                                                             |
-| title               | string          | title that is under the layers. Shown on mouse over                                             | `""`                                                               |
+| title               | string          | title that is under the layers. Shown on mouse over                                             | `null`                                                               |
 | style               | object          | inline styling for the inner item                                                               | `{ transformOrigin: '50% 100%', width: '200px', height: '200px' }` |
 
 ## Troubleshooting
