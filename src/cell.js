@@ -9,7 +9,7 @@ import { isValidColor } from './utils/misc';
 
 class Cell extends Component {
   render() {
-    const { layers, link, title, style } = this.props;
+    const { layers, href, title, style, onClick } = this.props;
 
     const layerList = layers.map(layer => {
       if (!layer) {
@@ -34,10 +34,16 @@ class Cell extends Component {
         />
       );
     });
-
     return (
       <li className={styles.grid__item}>
-        <a className={styles.grid__link} href={link}>
+        <a
+          className={classNames({
+            [styles.grid__link]: true,
+            [styles['grid__link--onclick']]: !!onClick,
+          })}
+          href={href || null}
+          onClick={onClick}
+        >
           {layerList.reverse()}
           {!!title && <span className={styles.grid__title}>{title}</span>}
         </a>
@@ -51,7 +57,10 @@ Cell.propTypes = {
   layers: PropTypes.arrayOf(PropTypes.string).isRequired,
 
   // onclick navigation link
-  link: PropTypes.string,
+  href: PropTypes.string,
+
+  // onClick function
+  onClick: PropTypes.func,
 
   // optional tital for the stack
   title: PropTypes.string,
@@ -61,8 +70,9 @@ Cell.propTypes = {
 };
 
 Cell.defaultProps = {
-  link: '',
-  title: '',
+  href: null,
+  onClick: null,
+  title: null,
   style: {
     transformOrigin: '50% 100%',
     width: '200px',

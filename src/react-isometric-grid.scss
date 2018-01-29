@@ -30,6 +30,10 @@
   display: block;
 }
 
+.grid__link.grid__link--onclick:hover {
+  cursor: pointer;
+}
+
 .grid__img {
   display: block;
   max-width: 100%;
