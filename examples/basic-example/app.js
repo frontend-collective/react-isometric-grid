@@ -75,15 +75,42 @@ class App extends Component {
                   left: '25%',
                 }}
               >
-                <Cell layers={[img1, '#9972fc', '#c322a3', '#9eb5c2']} />
-                <Cell layers={[img2, '#9972fc', '#c322a3', '#9eb5c2']} />
-                <Cell layers={[img3, '#9972fc', '#c322a3', '#9eb5c2']} />
-                <Cell layers={[img4, '#9972fc', '#c322a3', '#9eb5c2']} />
-                <Cell layers={[img5, '#9972fc', '#c322a3', '#9eb5c2']} />
-                <Cell layers={[img6, '#9972fc', '#c322a3', '#9eb5c2']} />
-                <Cell layers={[img7, '#9972fc', '#c322a3', '#9eb5c2']} />
-                <Cell layers={[img1, '#9972fc', '#c322a3', '#9eb5c2']} />
-                <Cell layers={[img2, '#9972fc', '#c322a3', '#9eb5c2']} />
+                <Cell
+                  href="https://dribbble.com/fuviz"
+                  layers={[img1, '#9972fc', '#c322a3', '#9eb5c2']}
+                />
+                <Cell
+                  href="https://dribbble.com/fuviz"
+                  layers={[img2, '#9972fc', '#c322a3', '#9eb5c2']}
+                />
+                <Cell
+                  href="https://dribbble.com/fuviz"
+                  layers={[img3, '#9972fc', '#c322a3', '#9eb5c2']}
+                />
+                <Cell
+                  href="https://dribbble.com/fuviz"
+                  layers={[img4, '#9972fc', '#c322a3', '#9eb5c2']}
+                />
+                <Cell
+                  href="https://dribbble.com/fuviz"
+                  layers={[img5, '#9972fc', '#c322a3', '#9eb5c2']}
+                />
+                <Cell
+                  href="https://dribbble.com/fuviz"
+                  layers={[img6, '#9972fc', '#c322a3', '#9eb5c2']}
+                />
+                <Cell
+                  href="https://dribbble.com/fuviz"
+                  layers={[img7, '#9972fc', '#c322a3', '#9eb5c2']}
+                />
+                <Cell
+                  href="https://dribbble.com/fuviz"
+                  layers={[img1, '#9972fc', '#c322a3', '#9eb5c2']}
+                />
+                <Cell
+                  href="https://dribbble.com/fuviz"
+                  layers={[img2, '#9972fc', '#c322a3', '#9eb5c2']}
+                />
               </IsometricGrid>
             </div>
           </div>
