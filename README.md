@@ -1,8 +1,6 @@
-# react-isometric-grids
+# react-isometric-grids [![Build Status](https://travis-ci.org/wuweiweiwu/react-isometric-grid.svg?branch=master)](https://travis-ci.org/wuweiweiwu/react-isometric-grid) [![npm version](https://badge.fury.io/js/react-isometric-grid.svg)](https://badge.fury.io/js/react-isometric-grid)
 
 React Isometric Grids :stuck_out_tongue: Inspired by https://github.com/codrops/IsometricGrids
-
-[![Test Coverage](https://api.codeclimate.com/v1/badges/23aa36958fab6bfee77a/test_coverage)](https://codeclimate.com/github/wuweiweiwu/react-isometric-grid/test_coverage)[![Build Status](https://travis-ci.org/wuweiweiwu/react-isometric-grid.svg?branch=master)](https://travis-ci.org/wuweiweiwu/react-isometric-grid)
 
 ## [Demo](http://weiweiwu.me/react-isometric-grid)
 
