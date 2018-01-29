@@ -1,6 +1,7 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
 import dynamics from 'dynamics.js';
+import bonzo from 'bonzo';
 
 import IsometricGrid, { Cell } from '../../src';
 
@@ -38,46 +39,53 @@ class App extends Component {
         </section>
         <section className={styles['main-content']}>
           <h3>Demo</h3>
-          <div style={{ height: '600px' }}>
-            <IsometricGrid
-              shadow
-              transform="rotateX(45deg) rotateZ(45deg)"
-              stackItemsAnimation={{
-                properties(pos) {
-                  return {
-                    translateZ: (pos + 1) * 30,
-                    rotateZ: getRandomInt(-4, 4),
-                  };
-                },
-                options(pos, itemstotal) {
-                  return {
-                    type: dynamics.bezier,
-                    duration: 500,
-                    points: [
-                      { x: 0, y: 0, cp: [{ x: 0.2, y: 1 }] },
-                      { x: 1, y: 1, cp: [{ x: 0.3, y: 1 }] },
-                    ],
-                    delay: (itemstotal - pos - 1) * 40,
-                  };
-                },
-              }}
-              style={{
-                height: '500px',
-                width: '800px',
-                position: 'absolute',
-                left: '25%',
-              }}
-            >
-              <Cell layers={[img1, '#9972fc', '#c322a3', '#9eb5c2']} />
-              <Cell layers={[img2, '#9972fc', '#c322a3', '#9eb5c2']} />
-              <Cell layers={[img3, '#9972fc', '#c322a3', '#9eb5c2']} />
-              <Cell layers={[img4, '#9972fc', '#c322a3', '#9eb5c2']} />
-              <Cell layers={[img5, '#9972fc', '#c322a3', '#9eb5c2']} />
-              <Cell layers={[img6, '#9972fc', '#c322a3', '#9eb5c2']} />
-              <Cell layers={[img7, '#9972fc', '#c322a3', '#9eb5c2']} />
-              <Cell layers={[img1, '#9972fc', '#c322a3', '#9eb5c2']} />
-              <Cell layers={[img2, '#9972fc', '#c322a3', '#9eb5c2']} />
-            </IsometricGrid>
+          <div className={styles.wrapper} style={{ height: '600px' }}>
+            <div className={styles.component}>
+              <IsometricGrid
+                shadow
+                transform="rotateX(45deg) rotateZ(45deg)"
+                onGridLoaded={() =>
+                  bonzo(
+                    document.getElementsByClassName(styles.wrapper)[0]
+                  ).addClass(styles['grid-loaded'])
+                }
+                stackItemsAnimation={{
+                  properties(pos) {
+                    return {
+                      translateZ: (pos + 1) * 30,
+                      rotateZ: getRandomInt(-4, 4),
+                    };
+                  },
+                  options(pos, itemstotal) {
+                    return {
+                      type: dynamics.bezier,
+                      duration: 500,
+                      points: [
+                        { x: 0, y: 0, cp: [{ x: 0.2, y: 1 }] },
+                        { x: 1, y: 1, cp: [{ x: 0.3, y: 1 }] },
+                      ],
+                      delay: (itemstotal - pos - 1) * 40,
+                    };
+                  },
+                }}
+                style={{
+                  height: '500px',
+                  width: '800px',
+                  position: 'absolute',
+                  left: '25%',
+                }}
+              >
+                <Cell layers={[img1, '#9972fc', '#c322a3', '#9eb5c2']} />
+                <Cell layers={[img2, '#9972fc', '#c322a3', '#9eb5c2']} />
+                <Cell layers={[img3, '#9972fc', '#c322a3', '#9eb5c2']} />
+                <Cell layers={[img4, '#9972fc', '#c322a3', '#9eb5c2']} />
+                <Cell layers={[img5, '#9972fc', '#c322a3', '#9eb5c2']} />
+                <Cell layers={[img6, '#9972fc', '#c322a3', '#9eb5c2']} />
+                <Cell layers={[img7, '#9972fc', '#c322a3', '#9eb5c2']} />
+                <Cell layers={[img1, '#9972fc', '#c322a3', '#9eb5c2']} />
+                <Cell layers={[img2, '#9972fc', '#c322a3', '#9eb5c2']} />
+              </IsometricGrid>
+            </div>
           </div>
           <a href={githubUrl}>Documentation on Github</a>
           <br />
