@@ -125,12 +125,13 @@ dynamic.js animations parameters
 
 ### Cell
 
-| Prop                | Type            | Description                                                                 | Default                                                            |
-| ------------------- | --------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------ |
-| layers _(required)_ | array of string | what each layer is in the cell. <br/> Can be image urls or valid css colors |                                                                    |
-| link                | string          | Callback when the grid is loaded                                            | `""`                                                               |
-| title               | string          | title that is under the layers. Shown on mouse over                         | `""`                                                               |
-| style               | object          | inline styling for the inner item                                           | `{ transformOrigin: '50% 100%', width: '200px', height: '200px' }` |
+| Prop                | Type            | Description                                                                                     | Default                                                            |
+| ------------------- | --------------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| layers _(required)_ | array of string | what each layer is in the cell. <br/> Can be image urls or valid css colors                     |                                                                    |
+| href                | string          | url that the image will link to when clicked                                                    | `""`                                                               |
+| onClick             | function        | what is executed when the image is clicked. If using with `href`, be sure to `preventDefault()` | `null`                                                             |
+| title               | string          | title that is under the layers. Shown on mouse over                                             | `""`                                                               |
+| style               | object          | inline styling for the inner item                                                               | `{ transformOrigin: '50% 100%', width: '200px', height: '200px' }` |
 
 ## Troubleshooting
 
@@ -171,8 +172,8 @@ MIT
 
 ## Credits
 
+* [Codrops](http://www.codrops.com)
 * [Masonry](http://masonry.desandro.com/) by David DeSandro.
 * [Dynamics.js](http://dynamicsjs.com/) by Michael Villar.
 * [Unsplash](http://unsplash.com)
 * Dribbble artists: [Mike](https://dribbble.com/creativemints), [Forefathers](https://dribbble.com/forefathers), [Julian Lavallee](https://dribbble.com/JulienLavallee), [Cosmin Capitanu](https://dribbble.com/Radium)
-* [Codrops](http://www.codrops.com)
