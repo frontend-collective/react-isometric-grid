@@ -114,8 +114,6 @@ class App extends Component {
               </IsometricGrid>
             </div>
           </div>
-        </section>
-        <section className={styles.footer}>
           <a href={githubUrl}>Documentation on Github</a>
           <br />
           <a href="storybook/index.html">More examples on Storybook</a>
@@ -135,6 +133,7 @@ class App extends Component {
             </span>
           </footer>
         </section>
+
         <a href={githubUrl}>
           <img
             style={{ position: 'absolute', top: 0, right: 0, border: 0 }}
