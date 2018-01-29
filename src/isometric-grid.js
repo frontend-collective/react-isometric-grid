@@ -54,7 +54,7 @@ class IsometricGrid {
     this.options = extend({}, defaultOptions);
     extend(this.options, options);
 
-    if (!this.isolayerEl){
+    if (!this.isolayerEl) {
       return;
     }
 
