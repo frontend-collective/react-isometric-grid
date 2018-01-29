@@ -39,7 +39,7 @@ class App extends Component {
         </section>
         <section className={styles['main-content']}>
           <h3>Demo</h3>
-          <div className={styles.wrapper} style={{ height: '600px' }}>
+          <div className={styles.wrapper} style={{ height: '700px' }}>
             <div className={styles.component}>
               <IsometricGrid
                 shadow
@@ -77,43 +77,45 @@ class App extends Component {
               >
                 <Cell
                   href="https://dribbble.com/fuviz"
-                  layers={[img1, '#9972fc', '#c322a3', '#9eb5c2']}
+                  layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']}
                 />
                 <Cell
                   href="https://dribbble.com/fuviz"
-                  layers={[img2, '#9972fc', '#c322a3', '#9eb5c2']}
+                  layers={[img2, '#ac5cf5', '#5db4eb', '#5debb4']}
                 />
                 <Cell
                   href="https://dribbble.com/fuviz"
-                  layers={[img3, '#9972fc', '#c322a3', '#9eb5c2']}
+                  layers={[img3, '#ac5cf5', '#5db4eb', '#5debb4']}
                 />
                 <Cell
                   href="https://dribbble.com/fuviz"
-                  layers={[img4, '#9972fc', '#c322a3', '#9eb5c2']}
+                  layers={[img4, '#ac5cf5', '#5db4eb', '#5debb4']}
                 />
                 <Cell
                   href="https://dribbble.com/fuviz"
-                  layers={[img5, '#9972fc', '#c322a3', '#9eb5c2']}
+                  layers={[img5, '#ac5cf5', '#5db4eb', '#5debb4']}
                 />
                 <Cell
                   href="https://dribbble.com/fuviz"
-                  layers={[img6, '#9972fc', '#c322a3', '#9eb5c2']}
+                  layers={[img6, '#ac5cf5', '#5db4eb', '#5debb4']}
                 />
                 <Cell
                   href="https://dribbble.com/fuviz"
-                  layers={[img7, '#9972fc', '#c322a3', '#9eb5c2']}
+                  layers={[img7, '#ac5cf5', '#5db4eb', '#5debb4']}
                 />
                 <Cell
                   href="https://dribbble.com/fuviz"
-                  layers={[img1, '#9972fc', '#c322a3', '#9eb5c2']}
+                  layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']}
                 />
                 <Cell
                   href="https://dribbble.com/fuviz"
-                  layers={[img2, '#9972fc', '#c322a3', '#9eb5c2']}
+                  layers={[img2, '#ac5cf5', '#5db4eb', '#5debb4']}
                 />
               </IsometricGrid>
             </div>
           </div>
+        </section>
+        <section className={styles.footer}>
           <a href={githubUrl}>Documentation on Github</a>
           <br />
           <a href="storybook/index.html">More examples on Storybook</a>
