@@ -30,7 +30,8 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
           >
             <a
               className="grid__link"
-              href=""
+              href={null}
+              onClick={null}
             >
               <div
                 className="layer"
@@ -84,7 +85,8 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
           >
             <a
               className="grid__link"
-              href=""
+              href={null}
+              onClick={null}
             >
               <div
                 className="layer"
@@ -138,7 +140,8 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
           >
             <a
               className="grid__link"
-              href=""
+              href={null}
+              onClick={null}
             >
               <div
                 className="layer"
@@ -192,7 +195,8 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
           >
             <a
               className="grid__link"
-              href=""
+              href={null}
+              onClick={null}
             >
               <div
                 className="layer"
@@ -246,7 +250,8 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
           >
             <a
               className="grid__link"
-              href=""
+              href={null}
+              onClick={null}
             >
               <div
                 className="layer"
@@ -300,7 +305,8 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
           >
             <a
               className="grid__link"
-              href=""
+              href={null}
+              onClick={null}
             >
               <div
                 className="layer"
@@ -354,7 +360,8 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
           >
             <a
               className="grid__link"
-              href=""
+              href={null}
+              onClick={null}
             >
               <div
                 className="layer"
@@ -408,7 +415,8 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
           >
             <a
               className="grid__link"
-              href=""
+              href={null}
+              onClick={null}
             >
               <div
                 className="layer"
@@ -462,7 +470,8 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
           >
             <a
               className="grid__link"
-              href=""
+              href={null}
+              onClick={null}
             >
               <div
                 className="layer"
@@ -546,7 +555,8 @@ exports[`Storyshots Basics Basic Stack 1`] = `
       >
         <a
           className="grid__link"
-          href=""
+          href={null}
+          onClick={null}
         >
           <div
             className="layer"
@@ -600,7 +610,8 @@ exports[`Storyshots Basics Basic Stack 1`] = `
       >
         <a
           className="grid__link"
-          href=""
+          href={null}
+          onClick={null}
         >
           <div
             className="layer"
@@ -654,7 +665,8 @@ exports[`Storyshots Basics Basic Stack 1`] = `
       >
         <a
           className="grid__link"
-          href=""
+          href={null}
+          onClick={null}
         >
           <div
             className="layer"
@@ -708,7 +720,8 @@ exports[`Storyshots Basics Basic Stack 1`] = `
       >
         <a
           className="grid__link"
-          href=""
+          href={null}
+          onClick={null}
         >
           <div
             className="layer"
@@ -762,7 +775,8 @@ exports[`Storyshots Basics Basic Stack 1`] = `
       >
         <a
           className="grid__link"
-          href=""
+          href={null}
+          onClick={null}
         >
           <div
             className="layer"
@@ -816,7 +830,8 @@ exports[`Storyshots Basics Basic Stack 1`] = `
       >
         <a
           className="grid__link"
-          href=""
+          href={null}
+          onClick={null}
         >
           <div
             className="layer"
@@ -870,7 +885,8 @@ exports[`Storyshots Basics Basic Stack 1`] = `
       >
         <a
           className="grid__link"
-          href=""
+          href={null}
+          onClick={null}
         >
           <div
             className="layer"
@@ -924,7 +940,8 @@ exports[`Storyshots Basics Basic Stack 1`] = `
       >
         <a
           className="grid__link"
-          href=""
+          href={null}
+          onClick={null}
         >
           <div
             className="layer"
@@ -978,7 +995,8 @@ exports[`Storyshots Basics Basic Stack 1`] = `
       >
         <a
           className="grid__link"
-          href=""
+          href={null}
+          onClick={null}
         >
           <div
             className="layer"
@@ -1060,7 +1078,8 @@ exports[`Storyshots Basics Side Stack 1`] = `
       >
         <a
           className="grid__link"
-          href=""
+          href={null}
+          onClick={null}
         >
           <div
             className="layer"
@@ -1114,7 +1133,8 @@ exports[`Storyshots Basics Side Stack 1`] = `
       >
         <a
           className="grid__link"
-          href=""
+          href={null}
+          onClick={null}
         >
           <div
             className="layer"
@@ -1168,7 +1188,8 @@ exports[`Storyshots Basics Side Stack 1`] = `
       >
         <a
           className="grid__link"
-          href=""
+          href={null}
+          onClick={null}
         >
           <div
             className="layer"
@@ -1222,7 +1243,8 @@ exports[`Storyshots Basics Side Stack 1`] = `
       >
         <a
           className="grid__link"
-          href=""
+          href={null}
+          onClick={null}
         >
           <div
             className="layer"
@@ -1276,7 +1298,8 @@ exports[`Storyshots Basics Side Stack 1`] = `
       >
         <a
           className="grid__link"
-          href=""
+          href={null}
+          onClick={null}
         >
           <div
             className="layer"
@@ -1330,7 +1353,8 @@ exports[`Storyshots Basics Side Stack 1`] = `
       >
         <a
           className="grid__link"
-          href=""
+          href={null}
+          onClick={null}
         >
           <div
             className="layer"
@@ -1384,7 +1408,8 @@ exports[`Storyshots Basics Side Stack 1`] = `
       >
         <a
           className="grid__link"
-          href=""
+          href={null}
+          onClick={null}
         >
           <div
             className="layer"
@@ -1438,7 +1463,8 @@ exports[`Storyshots Basics Side Stack 1`] = `
       >
         <a
           className="grid__link"
-          href=""
+          href={null}
+          onClick={null}
         >
           <div
             className="layer"
@@ -1492,7 +1518,8 @@ exports[`Storyshots Basics Side Stack 1`] = `
       >
         <a
           className="grid__link"
-          href=""
+          href={null}
+          onClick={null}
         >
           <div
             className="layer"
@@ -1574,7 +1601,8 @@ exports[`Storyshots Basics Spread 1`] = `
       >
         <a
           className="grid__link"
-          href=""
+          href={null}
+          onClick={null}
         >
           <img
             alt=""
@@ -1631,7 +1659,8 @@ exports[`Storyshots Basics Spread 1`] = `
       >
         <a
           className="grid__link"
-          href=""
+          href={null}
+          onClick={null}
         >
           <img
             alt=""
@@ -1688,7 +1717,8 @@ exports[`Storyshots Basics Spread 1`] = `
       >
         <a
           className="grid__link"
-          href=""
+          href={null}
+          onClick={null}
         >
           <img
             alt=""
@@ -1745,7 +1775,8 @@ exports[`Storyshots Basics Spread 1`] = `
       >
         <a
           className="grid__link"
-          href=""
+          href={null}
+          onClick={null}
         >
           <img
             alt=""
@@ -1802,7 +1833,8 @@ exports[`Storyshots Basics Spread 1`] = `
       >
         <a
           className="grid__link"
-          href=""
+          href={null}
+          onClick={null}
         >
           <img
             alt=""
@@ -1859,7 +1891,8 @@ exports[`Storyshots Basics Spread 1`] = `
       >
         <a
           className="grid__link"
-          href=""
+          href={null}
+          onClick={null}
         >
           <img
             alt=""
@@ -1916,7 +1949,8 @@ exports[`Storyshots Basics Spread 1`] = `
       >
         <a
           className="grid__link"
-          href=""
+          href={null}
+          onClick={null}
         >
           <img
             alt=""
@@ -1973,7 +2007,8 @@ exports[`Storyshots Basics Spread 1`] = `
       >
         <a
           className="grid__link"
-          href=""
+          href={null}
+          onClick={null}
         >
           <img
             alt=""
