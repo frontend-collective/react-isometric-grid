@@ -150,7 +150,7 @@ dynamic.js animations parameters
 
 **z-animations aren't working** Make sure you dont have `overflow` css property set. That messes up z-axis animations. https://stackoverflow.com/questions/21248111/overflow-behavior-after-using-css3-transform
 
-**2d animations are acting weird** in the `style` prop of cell. set `transformStyle: flat` SEE #9 https://www.w3schools.com/cssref/css3_pr_transform-style.asp
+**2d animations are acting weird** in the `style` prop of cell. set `transformStyle: flat` SEE [#9](https://github.com/wuweiweiwu/react-isometric-grid/issues/9) https://www.w3schools.com/cssref/css3_pr_transform-style.asp
 
 **The axis of rotation is weird or not what you want** set the `transformOrigin` property of `layerStyle` prop of Cell. https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin
 
