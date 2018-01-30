@@ -32,6 +32,12 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
               className="grid__link"
               href={null}
               onClick={null}
+              style={
+                Object {
+                  "height": "200px",
+                  "width": "200px",
+                }
+              }
             >
               <div
                 className="layer"
@@ -87,6 +93,12 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
               className="grid__link"
               href={null}
               onClick={null}
+              style={
+                Object {
+                  "height": "200px",
+                  "width": "200px",
+                }
+              }
             >
               <div
                 className="layer"
@@ -142,6 +154,12 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
               className="grid__link"
               href={null}
               onClick={null}
+              style={
+                Object {
+                  "height": "200px",
+                  "width": "200px",
+                }
+              }
             >
               <div
                 className="layer"
@@ -197,6 +215,12 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
               className="grid__link"
               href={null}
               onClick={null}
+              style={
+                Object {
+                  "height": "200px",
+                  "width": "200px",
+                }
+              }
             >
               <div
                 className="layer"
@@ -252,6 +276,12 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
               className="grid__link"
               href={null}
               onClick={null}
+              style={
+                Object {
+                  "height": "200px",
+                  "width": "200px",
+                }
+              }
             >
               <div
                 className="layer"
@@ -307,6 +337,12 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
               className="grid__link"
               href={null}
               onClick={null}
+              style={
+                Object {
+                  "height": "200px",
+                  "width": "200px",
+                }
+              }
             >
               <div
                 className="layer"
@@ -362,6 +398,12 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
               className="grid__link"
               href={null}
               onClick={null}
+              style={
+                Object {
+                  "height": "200px",
+                  "width": "200px",
+                }
+              }
             >
               <div
                 className="layer"
@@ -417,6 +459,12 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
               className="grid__link"
               href={null}
               onClick={null}
+              style={
+                Object {
+                  "height": "200px",
+                  "width": "200px",
+                }
+              }
             >
               <div
                 className="layer"
@@ -472,6 +520,12 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
               className="grid__link"
               href={null}
               onClick={null}
+              style={
+                Object {
+                  "height": "200px",
+                  "width": "200px",
+                }
+              }
             >
               <div
                 className="layer"
@@ -557,6 +611,12 @@ exports[`Storyshots Basics Basic Stack 1`] = `
           className="grid__link"
           href={null}
           onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "width": "200px",
+            }
+          }
         >
           <div
             className="layer"
@@ -612,6 +672,12 @@ exports[`Storyshots Basics Basic Stack 1`] = `
           className="grid__link"
           href={null}
           onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "width": "200px",
+            }
+          }
         >
           <div
             className="layer"
@@ -667,6 +733,12 @@ exports[`Storyshots Basics Basic Stack 1`] = `
           className="grid__link"
           href={null}
           onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "width": "200px",
+            }
+          }
         >
           <div
             className="layer"
@@ -722,6 +794,12 @@ exports[`Storyshots Basics Basic Stack 1`] = `
           className="grid__link"
           href={null}
           onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "width": "200px",
+            }
+          }
         >
           <div
             className="layer"
@@ -777,6 +855,12 @@ exports[`Storyshots Basics Basic Stack 1`] = `
           className="grid__link"
           href={null}
           onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "width": "200px",
+            }
+          }
         >
           <div
             className="layer"
@@ -832,6 +916,12 @@ exports[`Storyshots Basics Basic Stack 1`] = `
           className="grid__link"
           href={null}
           onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "width": "200px",
+            }
+          }
         >
           <div
             className="layer"
@@ -887,6 +977,12 @@ exports[`Storyshots Basics Basic Stack 1`] = `
           className="grid__link"
           href={null}
           onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "width": "200px",
+            }
+          }
         >
           <div
             className="layer"
@@ -942,6 +1038,12 @@ exports[`Storyshots Basics Basic Stack 1`] = `
           className="grid__link"
           href={null}
           onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "width": "200px",
+            }
+          }
         >
           <div
             className="layer"
@@ -997,6 +1099,12 @@ exports[`Storyshots Basics Basic Stack 1`] = `
           className="grid__link"
           href={null}
           onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "width": "200px",
+            }
+          }
         >
           <div
             className="layer"
@@ -1080,6 +1188,12 @@ exports[`Storyshots Basics Side Stack 1`] = `
           className="grid__link"
           href={null}
           onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "width": "200px",
+            }
+          }
         >
           <div
             className="layer"
@@ -1135,6 +1249,12 @@ exports[`Storyshots Basics Side Stack 1`] = `
           className="grid__link"
           href={null}
           onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "width": "200px",
+            }
+          }
         >
           <div
             className="layer"
@@ -1190,6 +1310,12 @@ exports[`Storyshots Basics Side Stack 1`] = `
           className="grid__link"
           href={null}
           onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "width": "200px",
+            }
+          }
         >
           <div
             className="layer"
@@ -1245,6 +1371,12 @@ exports[`Storyshots Basics Side Stack 1`] = `
           className="grid__link"
           href={null}
           onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "width": "200px",
+            }
+          }
         >
           <div
             className="layer"
@@ -1300,6 +1432,12 @@ exports[`Storyshots Basics Side Stack 1`] = `
           className="grid__link"
           href={null}
           onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "width": "200px",
+            }
+          }
         >
           <div
             className="layer"
@@ -1355,6 +1493,12 @@ exports[`Storyshots Basics Side Stack 1`] = `
           className="grid__link"
           href={null}
           onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "width": "200px",
+            }
+          }
         >
           <div
             className="layer"
@@ -1410,6 +1554,12 @@ exports[`Storyshots Basics Side Stack 1`] = `
           className="grid__link"
           href={null}
           onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "width": "200px",
+            }
+          }
         >
           <div
             className="layer"
@@ -1465,6 +1615,12 @@ exports[`Storyshots Basics Side Stack 1`] = `
           className="grid__link"
           href={null}
           onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "width": "200px",
+            }
+          }
         >
           <div
             className="layer"
@@ -1520,6 +1676,12 @@ exports[`Storyshots Basics Side Stack 1`] = `
           className="grid__link"
           href={null}
           onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "width": "200px",
+            }
+          }
         >
           <div
             className="layer"
@@ -1585,7 +1747,7 @@ exports[`Storyshots Basics Side Stack 1`] = `
 exports[`Storyshots Basics Spread 1`] = `
 <div>
   <div
-    className="isolayer isolayer--shadow"
+    className="isolayer"
     style={
       Object {
         "height": "500px",
@@ -1603,6 +1765,12 @@ exports[`Storyshots Basics Spread 1`] = `
           className="grid__link"
           href={null}
           onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "width": "200px",
+            }
+          }
         >
           <img
             alt=""
@@ -1610,6 +1778,9 @@ exports[`Storyshots Basics Spread 1`] = `
             src="test-file-stub"
             style={
               Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
                 "height": "200px",
                 "transformOrigin": "50% 100%",
                 "width": "200px",
@@ -1622,6 +1793,9 @@ exports[`Storyshots Basics Spread 1`] = `
             src="test-file-stub"
             style={
               Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
                 "height": "200px",
                 "transformOrigin": "50% 100%",
                 "width": "200px",
@@ -1634,6 +1808,9 @@ exports[`Storyshots Basics Spread 1`] = `
             src="test-file-stub"
             style={
               Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
                 "height": "200px",
                 "transformOrigin": "50% 100%",
                 "width": "200px",
@@ -1646,6 +1823,9 @@ exports[`Storyshots Basics Spread 1`] = `
             src="test-file-stub"
             style={
               Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
                 "height": "200px",
                 "transformOrigin": "50% 100%",
                 "width": "200px",
@@ -1661,6 +1841,12 @@ exports[`Storyshots Basics Spread 1`] = `
           className="grid__link"
           href={null}
           onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "width": "200px",
+            }
+          }
         >
           <img
             alt=""
@@ -1668,6 +1854,9 @@ exports[`Storyshots Basics Spread 1`] = `
             src="test-file-stub"
             style={
               Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
                 "height": "200px",
                 "transformOrigin": "50% 100%",
                 "width": "200px",
@@ -1680,6 +1869,9 @@ exports[`Storyshots Basics Spread 1`] = `
             src="test-file-stub"
             style={
               Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
                 "height": "200px",
                 "transformOrigin": "50% 100%",
                 "width": "200px",
@@ -1692,6 +1884,9 @@ exports[`Storyshots Basics Spread 1`] = `
             src="test-file-stub"
             style={
               Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
                 "height": "200px",
                 "transformOrigin": "50% 100%",
                 "width": "200px",
@@ -1704,6 +1899,9 @@ exports[`Storyshots Basics Spread 1`] = `
             src="test-file-stub"
             style={
               Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
                 "height": "200px",
                 "transformOrigin": "50% 100%",
                 "width": "200px",
@@ -1719,6 +1917,12 @@ exports[`Storyshots Basics Spread 1`] = `
           className="grid__link"
           href={null}
           onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "width": "200px",
+            }
+          }
         >
           <img
             alt=""
@@ -1726,6 +1930,9 @@ exports[`Storyshots Basics Spread 1`] = `
             src="test-file-stub"
             style={
               Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
                 "height": "200px",
                 "transformOrigin": "50% 100%",
                 "width": "200px",
@@ -1738,6 +1945,9 @@ exports[`Storyshots Basics Spread 1`] = `
             src="test-file-stub"
             style={
               Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
                 "height": "200px",
                 "transformOrigin": "50% 100%",
                 "width": "200px",
@@ -1750,6 +1960,9 @@ exports[`Storyshots Basics Spread 1`] = `
             src="test-file-stub"
             style={
               Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
                 "height": "200px",
                 "transformOrigin": "50% 100%",
                 "width": "200px",
@@ -1762,6 +1975,9 @@ exports[`Storyshots Basics Spread 1`] = `
             src="test-file-stub"
             style={
               Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
                 "height": "200px",
                 "transformOrigin": "50% 100%",
                 "width": "200px",
@@ -1777,6 +1993,12 @@ exports[`Storyshots Basics Spread 1`] = `
           className="grid__link"
           href={null}
           onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "width": "200px",
+            }
+          }
         >
           <img
             alt=""
@@ -1784,6 +2006,9 @@ exports[`Storyshots Basics Spread 1`] = `
             src="test-file-stub"
             style={
               Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
                 "height": "200px",
                 "transformOrigin": "50% 100%",
                 "width": "200px",
@@ -1796,6 +2021,9 @@ exports[`Storyshots Basics Spread 1`] = `
             src="test-file-stub"
             style={
               Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
                 "height": "200px",
                 "transformOrigin": "50% 100%",
                 "width": "200px",
@@ -1808,6 +2036,9 @@ exports[`Storyshots Basics Spread 1`] = `
             src="test-file-stub"
             style={
               Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
                 "height": "200px",
                 "transformOrigin": "50% 100%",
                 "width": "200px",
@@ -1820,6 +2051,9 @@ exports[`Storyshots Basics Spread 1`] = `
             src="test-file-stub"
             style={
               Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
                 "height": "200px",
                 "transformOrigin": "50% 100%",
                 "width": "200px",
@@ -1835,6 +2069,12 @@ exports[`Storyshots Basics Spread 1`] = `
           className="grid__link"
           href={null}
           onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "width": "200px",
+            }
+          }
         >
           <img
             alt=""
@@ -1842,6 +2082,9 @@ exports[`Storyshots Basics Spread 1`] = `
             src="test-file-stub"
             style={
               Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
                 "height": "200px",
                 "transformOrigin": "50% 100%",
                 "width": "200px",
@@ -1854,6 +2097,9 @@ exports[`Storyshots Basics Spread 1`] = `
             src="test-file-stub"
             style={
               Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
                 "height": "200px",
                 "transformOrigin": "50% 100%",
                 "width": "200px",
@@ -1866,6 +2112,9 @@ exports[`Storyshots Basics Spread 1`] = `
             src="test-file-stub"
             style={
               Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
                 "height": "200px",
                 "transformOrigin": "50% 100%",
                 "width": "200px",
@@ -1878,6 +2127,9 @@ exports[`Storyshots Basics Spread 1`] = `
             src="test-file-stub"
             style={
               Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
                 "height": "200px",
                 "transformOrigin": "50% 100%",
                 "width": "200px",
@@ -1893,6 +2145,12 @@ exports[`Storyshots Basics Spread 1`] = `
           className="grid__link"
           href={null}
           onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "width": "200px",
+            }
+          }
         >
           <img
             alt=""
@@ -1900,6 +2158,9 @@ exports[`Storyshots Basics Spread 1`] = `
             src="test-file-stub"
             style={
               Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
                 "height": "200px",
                 "transformOrigin": "50% 100%",
                 "width": "200px",
@@ -1912,6 +2173,9 @@ exports[`Storyshots Basics Spread 1`] = `
             src="test-file-stub"
             style={
               Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
                 "height": "200px",
                 "transformOrigin": "50% 100%",
                 "width": "200px",
@@ -1924,6 +2188,9 @@ exports[`Storyshots Basics Spread 1`] = `
             src="test-file-stub"
             style={
               Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
                 "height": "200px",
                 "transformOrigin": "50% 100%",
                 "width": "200px",
@@ -1936,6 +2203,9 @@ exports[`Storyshots Basics Spread 1`] = `
             src="test-file-stub"
             style={
               Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
                 "height": "200px",
                 "transformOrigin": "50% 100%",
                 "width": "200px",
@@ -1951,6 +2221,12 @@ exports[`Storyshots Basics Spread 1`] = `
           className="grid__link"
           href={null}
           onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "width": "200px",
+            }
+          }
         >
           <img
             alt=""
@@ -1958,6 +2234,9 @@ exports[`Storyshots Basics Spread 1`] = `
             src="test-file-stub"
             style={
               Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
                 "height": "200px",
                 "transformOrigin": "50% 100%",
                 "width": "200px",
@@ -1970,6 +2249,9 @@ exports[`Storyshots Basics Spread 1`] = `
             src="test-file-stub"
             style={
               Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
                 "height": "200px",
                 "transformOrigin": "50% 100%",
                 "width": "200px",
@@ -1982,6 +2264,9 @@ exports[`Storyshots Basics Spread 1`] = `
             src="test-file-stub"
             style={
               Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
                 "height": "200px",
                 "transformOrigin": "50% 100%",
                 "width": "200px",
@@ -1994,6 +2279,9 @@ exports[`Storyshots Basics Spread 1`] = `
             src="test-file-stub"
             style={
               Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
                 "height": "200px",
                 "transformOrigin": "50% 100%",
                 "width": "200px",
@@ -2009,6 +2297,12 @@ exports[`Storyshots Basics Spread 1`] = `
           className="grid__link"
           href={null}
           onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "width": "200px",
+            }
+          }
         >
           <img
             alt=""
@@ -2016,6 +2310,9 @@ exports[`Storyshots Basics Spread 1`] = `
             src="test-file-stub"
             style={
               Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
                 "height": "200px",
                 "transformOrigin": "50% 100%",
                 "width": "200px",
@@ -2028,6 +2325,9 @@ exports[`Storyshots Basics Spread 1`] = `
             src="test-file-stub"
             style={
               Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
                 "height": "200px",
                 "transformOrigin": "50% 100%",
                 "width": "200px",
@@ -2040,6 +2340,9 @@ exports[`Storyshots Basics Spread 1`] = `
             src="test-file-stub"
             style={
               Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
                 "height": "200px",
                 "transformOrigin": "50% 100%",
                 "width": "200px",
@@ -2052,6 +2355,9 @@ exports[`Storyshots Basics Spread 1`] = `
             src="test-file-stub"
             style={
               Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
                 "height": "200px",
                 "transformOrigin": "50% 100%",
                 "width": "200px",
