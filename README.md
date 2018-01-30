@@ -137,20 +137,22 @@ dynamic.js animations parameters
 
 ### Cell
 
-| Prop                | Type            | Description                                                                                     | Default                                                            |
-| ------------------- | --------------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
-| layers _(required)_ | array of string | what each layer is in the cell. <br/> Can be image urls or valid css colors                     |                                                                    |
-| href                | string          | url that the image will link to when clicked                                                    | `null`                                                             |
-| onClick             | function        | what is executed when the image is clicked. If using with `href`, be sure to `preventDefault()` | `null`                                                             |
-| title               | string          | title that is under the layers. Shown on mouse over                                             | `null`                                                             |
-| style               | object          | inline styling for the Cell component                                                           | `{ width: '200px', height: '200px' }`                              |
-| layerStyle          | object          | inline styling for each inner layer                                                             | `{ transformOrigin: '50% 100%', width: '200px', height: '200px' }` |
+| Prop                | Type            | Description                                                                                     | Default                                                              |
+| ------------------- | --------------- | ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| layers _(required)_ | array of string | what each layer is in the cell. <br/> Can be image urls or valid css colors                     |                                                                      |
+| href                | string          | url that the image will link to when clicked                                                    | `null`                                                               |
+| onClick             | function        | what is executed when the image is clicked. If using with `href`, be sure to `preventDefault()` | `null`                                                               |
+| title               | string          | title that is under the layers. Shown on mouse over                                             | `null`                                                               |
+| style               | object          | inline styling for the Cell component                                                           | `{ width: '200px', height: '200px', transformStyle: 'preserve-3d' }` |
+| layerStyle          | object          | inline styling for each inner layer                                                             | `{ width: '200px', height: '200px' }`                                |
 
 ## Troubleshooting
 
 **z-animations aren't working** Make sure you dont have `overflow` css property set. That messes up z-axis animations. https://stackoverflow.com/questions/21248111/overflow-behavior-after-using-css3-transform
 
-**The axis of rotation is weird** set the `transformOrigin` property of style prop of Cell. https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin
+**2d animations are acting weird** in the `style` prop of cell. set `transformStyle: flat` SEE #9 https://www.w3schools.com/cssref/css3_pr_transform-style.asp
+
+**The axis of rotation is weird or not what you want** set the `transformOrigin` property of `layerStyle` prop of Cell. https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin
 
 ## Contributing
 
