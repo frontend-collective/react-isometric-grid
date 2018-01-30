@@ -6,6 +6,14 @@ import IsometricGrid, { Cell } from '../../src';
 
 import styles from './generic.scss';
 
+const img1 = 'https://picsum.photos/100/100/?random';
+const img2 = 'https://picsum.photos/200/100/?random';
+const img3 = 'https://picsum.photos/300/200/?random';
+const img4 = 'https://picsum.photos/400/400/?random';
+const img5 = 'https://picsum.photos/500/300/?random';
+const img6 = 'https://picsum.photos/700/500/?random';
+const img7 = 'https://picsum.photos/800/400/?random';
+
 class App extends Component {
   render() {
     function getRandomInt(min, max) {
@@ -48,78 +56,15 @@ class App extends Component {
               width: '800px',
             }}
           >
-            <Cell
-              layers={[
-                'https://picsum.photos/100/100/?random',
-                '#9972fc',
-                '#c322a3',
-                '#9eb5c2',
-              ]}
-            />
-            <Cell
-              layers={[
-                'https://picsum.photos/200/200/?random',
-                '#9972fc',
-                '#c322a3',
-                '#9eb5c2',
-              ]}
-            />
-            <Cell
-              layers={[
-                'https://picsum.photos/300/300/?random',
-                '#9972fc',
-                '#c322a3',
-                '#9eb5c2',
-              ]}
-            />
-            <Cell
-              layers={[
-                'https://picsum.photos/400/400/?random',
-                '#9972fc',
-                '#c322a3',
-                '#9eb5c2',
-              ]}
-            />
-            <Cell
-              layers={[
-                'https://picsum.photos/500/500/?random',
-                '#9972fc',
-                '#c322a3',
-                '#9eb5c2',
-              ]}
-            />
-            <Cell
-              layers={[
-                'https://picsum.photos/600/600/?random',
-                '#9972fc',
-                '#c322a3',
-                '#9eb5c2',
-              ]}
-            />
-            <Cell
-              layers={[
-                'https://picsum.photos/200/300/?random',
-                '#9972fc',
-                '#c322a3',
-                '#9eb5c2',
-              ]}
-            />
-            <Cell
-              layers={[
-                'https://picsum.photos/400/300/?random',
-                '#9972fc',
-                '#c322a3',
-                '#9eb5c2',
-              ]}
-            />
-            <Cell
-              layers={[
-                'https://picsum.photos/200/500/?random',
-                '#9972fc',
-                '#c322a3',
-                '#9eb5c2',
-              ]}
-            />
+            <Cell layers={[img1, '#9972fc', '#c322a3', '#9eb5c2']} />
+            <Cell layers={[img2, '#9972fc', '#c322a3', '#9eb5c2']} />
+            <Cell layers={[img3, '#9972fc', '#c322a3', '#9eb5c2']} />
+            <Cell layers={[img4, '#9972fc', '#c322a3', '#9eb5c2']} />
+            <Cell layers={[img5, '#9972fc', '#c322a3', '#9eb5c2']} />
+            <Cell layers={[img6, '#9972fc', '#c322a3', '#9eb5c2']} />
+            <Cell layers={[img7, '#9972fc', '#c322a3', '#9eb5c2']} />
+            <Cell layers={[img1, '#9972fc', '#c322a3', '#9eb5c2']} />
+            <Cell layers={[img2, '#9972fc', '#c322a3', '#9eb5c2']} />
           </IsometricGrid>
         </div>
       </div>

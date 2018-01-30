@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import dynamics from 'dynamics.js';
 import IsometricGrid, { Cell } from '../../src';
 
-import img1 from '../shared/img/1.jpg';
-import img2 from '../shared/img/2.jpg';
-import img3 from '../shared/img/3.jpg';
-import img4 from '../shared/img/4.jpg';
-import img5 from '../shared/img/5.jpg';
-import img6 from '../shared/img/6.jpg';
-import img7 from '../shared/img/7.jpg';
+const img1 = 'https://picsum.photos/100/100/?random';
+const img2 = 'https://picsum.photos/200/100/?random';
+const img3 = 'https://picsum.photos/300/200/?random';
+const img4 = 'https://picsum.photos/400/400/?random';
+const img5 = 'https://picsum.photos/500/300/?random';
+const img6 = 'https://picsum.photos/700/500/?random';
+const img7 = 'https://picsum.photos/800/400/?random';
 
 class App extends Component {
   render() {

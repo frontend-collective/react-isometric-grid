@@ -10,12 +10,19 @@ import BasicStackTitle from './basic-stack-with-title';
 import Spread from './spread';
 import SideStack from './side-stack';
 import LoadedCallback from './loaded-callback';
+import { handleClick, SANDBOX_URL } from './sandbox-utils';
 
 const wrapWithSource = (node, src) => (
   <div>
     {node}
 
     <br />
+    <form id="codesandbox-form" action={SANDBOX_URL} method="POST">
+      <input id="codesandbox-parameters" type="hidden" name="parameters" />
+    </form>
+    <button className={styles.sandboxButton} onClick={handleClick(src)}>
+      PLAY WITH THIS CODE →
+    </button>
     <a
       href={`https://github.com/wuweiweiwu/react-isometric-grid/blob/master/examples/storybooks/${src}`}
       target="_top"
