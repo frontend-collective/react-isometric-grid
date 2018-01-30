@@ -35,6 +35,7 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
               style={
                 Object {
                   "height": "200px",
+                  "transformStyle": "preserve-3d",
                   "width": "200px",
                 }
               }
@@ -45,7 +46,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                   Object {
                     "backgroundColor": "#9eb5c2",
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -56,7 +56,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                   Object {
                     "backgroundColor": "#c322a3",
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -67,7 +66,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                   Object {
                     "backgroundColor": "#9972fc",
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -79,7 +77,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                 style={
                   Object {
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -96,6 +93,7 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
               style={
                 Object {
                   "height": "200px",
+                  "transformStyle": "preserve-3d",
                   "width": "200px",
                 }
               }
@@ -106,7 +104,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                   Object {
                     "backgroundColor": "#9eb5c2",
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -117,7 +114,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                   Object {
                     "backgroundColor": "#c322a3",
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -128,7 +124,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                   Object {
                     "backgroundColor": "#9972fc",
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -140,7 +135,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                 style={
                   Object {
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -157,6 +151,7 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
               style={
                 Object {
                   "height": "200px",
+                  "transformStyle": "preserve-3d",
                   "width": "200px",
                 }
               }
@@ -167,7 +162,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                   Object {
                     "backgroundColor": "#9eb5c2",
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -178,7 +172,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                   Object {
                     "backgroundColor": "#c322a3",
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -189,7 +182,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                   Object {
                     "backgroundColor": "#9972fc",
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -201,7 +193,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                 style={
                   Object {
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -218,6 +209,7 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
               style={
                 Object {
                   "height": "200px",
+                  "transformStyle": "preserve-3d",
                   "width": "200px",
                 }
               }
@@ -228,7 +220,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                   Object {
                     "backgroundColor": "#9eb5c2",
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -239,7 +230,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                   Object {
                     "backgroundColor": "#c322a3",
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -250,7 +240,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                   Object {
                     "backgroundColor": "#9972fc",
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -262,7 +251,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                 style={
                   Object {
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -279,6 +267,7 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
               style={
                 Object {
                   "height": "200px",
+                  "transformStyle": "preserve-3d",
                   "width": "200px",
                 }
               }
@@ -289,7 +278,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                   Object {
                     "backgroundColor": "#9eb5c2",
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -300,7 +288,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                   Object {
                     "backgroundColor": "#c322a3",
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -311,7 +298,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                   Object {
                     "backgroundColor": "#9972fc",
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -323,7 +309,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                 style={
                   Object {
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -340,6 +325,7 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
               style={
                 Object {
                   "height": "200px",
+                  "transformStyle": "preserve-3d",
                   "width": "200px",
                 }
               }
@@ -350,7 +336,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                   Object {
                     "backgroundColor": "#9eb5c2",
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -361,7 +346,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                   Object {
                     "backgroundColor": "#c322a3",
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -372,7 +356,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                   Object {
                     "backgroundColor": "#9972fc",
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -384,7 +367,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                 style={
                   Object {
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -401,6 +383,7 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
               style={
                 Object {
                   "height": "200px",
+                  "transformStyle": "preserve-3d",
                   "width": "200px",
                 }
               }
@@ -411,7 +394,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                   Object {
                     "backgroundColor": "#9eb5c2",
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -422,7 +404,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                   Object {
                     "backgroundColor": "#c322a3",
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -433,7 +414,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                   Object {
                     "backgroundColor": "#9972fc",
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -445,7 +425,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                 style={
                   Object {
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -462,6 +441,7 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
               style={
                 Object {
                   "height": "200px",
+                  "transformStyle": "preserve-3d",
                   "width": "200px",
                 }
               }
@@ -472,7 +452,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                   Object {
                     "backgroundColor": "#9eb5c2",
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -483,7 +462,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                   Object {
                     "backgroundColor": "#c322a3",
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -494,7 +472,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                   Object {
                     "backgroundColor": "#9972fc",
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -506,7 +483,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                 style={
                   Object {
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -523,6 +499,7 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
               style={
                 Object {
                   "height": "200px",
+                  "transformStyle": "preserve-3d",
                   "width": "200px",
                 }
               }
@@ -533,7 +510,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                   Object {
                     "backgroundColor": "#9eb5c2",
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -544,7 +520,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                   Object {
                     "backgroundColor": "#c322a3",
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -555,7 +530,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                   Object {
                     "backgroundColor": "#9972fc",
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -567,7 +541,6 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
                 style={
                   Object {
                     "height": "200px",
-                    "transformOrigin": "50% 100%",
                     "width": "200px",
                   }
                 }
@@ -614,6 +587,7 @@ exports[`Storyshots Basics Basic Stack 1`] = `
           style={
             Object {
               "height": "200px",
+              "transformStyle": "preserve-3d",
               "width": "200px",
             }
           }
@@ -624,7 +598,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
               Object {
                 "backgroundColor": "#9eb5c2",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -635,7 +608,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
               Object {
                 "backgroundColor": "#c322a3",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -646,7 +618,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
               Object {
                 "backgroundColor": "#9972fc",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -658,7 +629,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
             style={
               Object {
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -675,6 +645,7 @@ exports[`Storyshots Basics Basic Stack 1`] = `
           style={
             Object {
               "height": "200px",
+              "transformStyle": "preserve-3d",
               "width": "200px",
             }
           }
@@ -685,7 +656,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
               Object {
                 "backgroundColor": "#9eb5c2",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -696,7 +666,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
               Object {
                 "backgroundColor": "#c322a3",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -707,7 +676,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
               Object {
                 "backgroundColor": "#9972fc",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -719,7 +687,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
             style={
               Object {
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -736,6 +703,7 @@ exports[`Storyshots Basics Basic Stack 1`] = `
           style={
             Object {
               "height": "200px",
+              "transformStyle": "preserve-3d",
               "width": "200px",
             }
           }
@@ -746,7 +714,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
               Object {
                 "backgroundColor": "#9eb5c2",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -757,7 +724,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
               Object {
                 "backgroundColor": "#c322a3",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -768,7 +734,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
               Object {
                 "backgroundColor": "#9972fc",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -780,7 +745,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
             style={
               Object {
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -797,6 +761,7 @@ exports[`Storyshots Basics Basic Stack 1`] = `
           style={
             Object {
               "height": "200px",
+              "transformStyle": "preserve-3d",
               "width": "200px",
             }
           }
@@ -807,7 +772,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
               Object {
                 "backgroundColor": "#9eb5c2",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -818,7 +782,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
               Object {
                 "backgroundColor": "#c322a3",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -829,7 +792,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
               Object {
                 "backgroundColor": "#9972fc",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -841,7 +803,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
             style={
               Object {
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -858,6 +819,7 @@ exports[`Storyshots Basics Basic Stack 1`] = `
           style={
             Object {
               "height": "200px",
+              "transformStyle": "preserve-3d",
               "width": "200px",
             }
           }
@@ -868,7 +830,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
               Object {
                 "backgroundColor": "#9eb5c2",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -879,7 +840,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
               Object {
                 "backgroundColor": "#c322a3",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -890,7 +850,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
               Object {
                 "backgroundColor": "#9972fc",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -902,7 +861,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
             style={
               Object {
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -919,6 +877,7 @@ exports[`Storyshots Basics Basic Stack 1`] = `
           style={
             Object {
               "height": "200px",
+              "transformStyle": "preserve-3d",
               "width": "200px",
             }
           }
@@ -929,7 +888,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
               Object {
                 "backgroundColor": "#9eb5c2",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -940,7 +898,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
               Object {
                 "backgroundColor": "#c322a3",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -951,7 +908,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
               Object {
                 "backgroundColor": "#9972fc",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -963,7 +919,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
             style={
               Object {
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -980,6 +935,7 @@ exports[`Storyshots Basics Basic Stack 1`] = `
           style={
             Object {
               "height": "200px",
+              "transformStyle": "preserve-3d",
               "width": "200px",
             }
           }
@@ -990,7 +946,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
               Object {
                 "backgroundColor": "#9eb5c2",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -1001,7 +956,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
               Object {
                 "backgroundColor": "#c322a3",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -1012,7 +966,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
               Object {
                 "backgroundColor": "#9972fc",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -1024,7 +977,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
             style={
               Object {
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -1041,6 +993,7 @@ exports[`Storyshots Basics Basic Stack 1`] = `
           style={
             Object {
               "height": "200px",
+              "transformStyle": "preserve-3d",
               "width": "200px",
             }
           }
@@ -1051,7 +1004,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
               Object {
                 "backgroundColor": "#9eb5c2",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -1062,7 +1014,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
               Object {
                 "backgroundColor": "#c322a3",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -1073,7 +1024,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
               Object {
                 "backgroundColor": "#9972fc",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -1085,7 +1035,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
             style={
               Object {
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -1102,6 +1051,7 @@ exports[`Storyshots Basics Basic Stack 1`] = `
           style={
             Object {
               "height": "200px",
+              "transformStyle": "preserve-3d",
               "width": "200px",
             }
           }
@@ -1112,7 +1062,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
               Object {
                 "backgroundColor": "#9eb5c2",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -1123,7 +1072,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
               Object {
                 "backgroundColor": "#c322a3",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -1134,7 +1082,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
               Object {
                 "backgroundColor": "#9972fc",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -1146,7 +1093,6 @@ exports[`Storyshots Basics Basic Stack 1`] = `
             style={
               Object {
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -1191,6 +1137,7 @@ exports[`Storyshots Basics Side Stack 1`] = `
           style={
             Object {
               "height": "200px",
+              "transformStyle": "preserve-3d",
               "width": "200px",
             }
           }
@@ -1252,6 +1199,7 @@ exports[`Storyshots Basics Side Stack 1`] = `
           style={
             Object {
               "height": "200px",
+              "transformStyle": "preserve-3d",
               "width": "200px",
             }
           }
@@ -1313,6 +1261,7 @@ exports[`Storyshots Basics Side Stack 1`] = `
           style={
             Object {
               "height": "200px",
+              "transformStyle": "preserve-3d",
               "width": "200px",
             }
           }
@@ -1374,6 +1323,7 @@ exports[`Storyshots Basics Side Stack 1`] = `
           style={
             Object {
               "height": "200px",
+              "transformStyle": "preserve-3d",
               "width": "200px",
             }
           }
@@ -1435,6 +1385,7 @@ exports[`Storyshots Basics Side Stack 1`] = `
           style={
             Object {
               "height": "200px",
+              "transformStyle": "preserve-3d",
               "width": "200px",
             }
           }
@@ -1496,6 +1447,7 @@ exports[`Storyshots Basics Side Stack 1`] = `
           style={
             Object {
               "height": "200px",
+              "transformStyle": "preserve-3d",
               "width": "200px",
             }
           }
@@ -1557,6 +1509,7 @@ exports[`Storyshots Basics Side Stack 1`] = `
           style={
             Object {
               "height": "200px",
+              "transformStyle": "preserve-3d",
               "width": "200px",
             }
           }
@@ -1618,6 +1571,7 @@ exports[`Storyshots Basics Side Stack 1`] = `
           style={
             Object {
               "height": "200px",
+              "transformStyle": "preserve-3d",
               "width": "200px",
             }
           }
@@ -1679,6 +1633,7 @@ exports[`Storyshots Basics Side Stack 1`] = `
           style={
             Object {
               "height": "200px",
+              "transformStyle": "preserve-3d",
               "width": "200px",
             }
           }
@@ -1768,6 +1723,8 @@ exports[`Storyshots Basics Spread 1`] = `
           style={
             Object {
               "height": "200px",
+              "padding": "20px",
+              "transformStyle": "flat",
               "width": "200px",
             }
           }
@@ -1780,9 +1737,8 @@ exports[`Storyshots Basics Spread 1`] = `
               Object {
                 "border": "20px solid #fff",
                 "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -1795,9 +1751,8 @@ exports[`Storyshots Basics Spread 1`] = `
               Object {
                 "border": "20px solid #fff",
                 "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -1810,9 +1765,8 @@ exports[`Storyshots Basics Spread 1`] = `
               Object {
                 "border": "20px solid #fff",
                 "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -1825,9 +1779,8 @@ exports[`Storyshots Basics Spread 1`] = `
               Object {
                 "border": "20px solid #fff",
                 "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -1844,6 +1797,8 @@ exports[`Storyshots Basics Spread 1`] = `
           style={
             Object {
               "height": "200px",
+              "padding": "20px",
+              "transformStyle": "flat",
               "width": "200px",
             }
           }
@@ -1856,9 +1811,8 @@ exports[`Storyshots Basics Spread 1`] = `
               Object {
                 "border": "20px solid #fff",
                 "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -1871,9 +1825,8 @@ exports[`Storyshots Basics Spread 1`] = `
               Object {
                 "border": "20px solid #fff",
                 "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -1886,9 +1839,8 @@ exports[`Storyshots Basics Spread 1`] = `
               Object {
                 "border": "20px solid #fff",
                 "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -1901,9 +1853,8 @@ exports[`Storyshots Basics Spread 1`] = `
               Object {
                 "border": "20px solid #fff",
                 "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -1920,6 +1871,8 @@ exports[`Storyshots Basics Spread 1`] = `
           style={
             Object {
               "height": "200px",
+              "padding": "20px",
+              "transformStyle": "flat",
               "width": "200px",
             }
           }
@@ -1932,9 +1885,8 @@ exports[`Storyshots Basics Spread 1`] = `
               Object {
                 "border": "20px solid #fff",
                 "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -1947,9 +1899,8 @@ exports[`Storyshots Basics Spread 1`] = `
               Object {
                 "border": "20px solid #fff",
                 "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -1962,9 +1913,8 @@ exports[`Storyshots Basics Spread 1`] = `
               Object {
                 "border": "20px solid #fff",
                 "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -1977,9 +1927,8 @@ exports[`Storyshots Basics Spread 1`] = `
               Object {
                 "border": "20px solid #fff",
                 "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -1996,6 +1945,8 @@ exports[`Storyshots Basics Spread 1`] = `
           style={
             Object {
               "height": "200px",
+              "padding": "20px",
+              "transformStyle": "flat",
               "width": "200px",
             }
           }
@@ -2008,9 +1959,8 @@ exports[`Storyshots Basics Spread 1`] = `
               Object {
                 "border": "20px solid #fff",
                 "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -2023,9 +1973,8 @@ exports[`Storyshots Basics Spread 1`] = `
               Object {
                 "border": "20px solid #fff",
                 "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -2038,9 +1987,8 @@ exports[`Storyshots Basics Spread 1`] = `
               Object {
                 "border": "20px solid #fff",
                 "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -2053,9 +2001,8 @@ exports[`Storyshots Basics Spread 1`] = `
               Object {
                 "border": "20px solid #fff",
                 "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -2072,6 +2019,8 @@ exports[`Storyshots Basics Spread 1`] = `
           style={
             Object {
               "height": "200px",
+              "padding": "20px",
+              "transformStyle": "flat",
               "width": "200px",
             }
           }
@@ -2084,9 +2033,8 @@ exports[`Storyshots Basics Spread 1`] = `
               Object {
                 "border": "20px solid #fff",
                 "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -2099,9 +2047,8 @@ exports[`Storyshots Basics Spread 1`] = `
               Object {
                 "border": "20px solid #fff",
                 "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -2114,9 +2061,8 @@ exports[`Storyshots Basics Spread 1`] = `
               Object {
                 "border": "20px solid #fff",
                 "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -2129,9 +2075,8 @@ exports[`Storyshots Basics Spread 1`] = `
               Object {
                 "border": "20px solid #fff",
                 "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -2148,6 +2093,8 @@ exports[`Storyshots Basics Spread 1`] = `
           style={
             Object {
               "height": "200px",
+              "padding": "20px",
+              "transformStyle": "flat",
               "width": "200px",
             }
           }
@@ -2160,9 +2107,8 @@ exports[`Storyshots Basics Spread 1`] = `
               Object {
                 "border": "20px solid #fff",
                 "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -2175,9 +2121,8 @@ exports[`Storyshots Basics Spread 1`] = `
               Object {
                 "border": "20px solid #fff",
                 "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -2190,9 +2135,8 @@ exports[`Storyshots Basics Spread 1`] = `
               Object {
                 "border": "20px solid #fff",
                 "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -2205,9 +2149,8 @@ exports[`Storyshots Basics Spread 1`] = `
               Object {
                 "border": "20px solid #fff",
                 "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -2224,6 +2167,8 @@ exports[`Storyshots Basics Spread 1`] = `
           style={
             Object {
               "height": "200px",
+              "padding": "20px",
+              "transformStyle": "flat",
               "width": "200px",
             }
           }
@@ -2236,9 +2181,8 @@ exports[`Storyshots Basics Spread 1`] = `
               Object {
                 "border": "20px solid #fff",
                 "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -2251,9 +2195,8 @@ exports[`Storyshots Basics Spread 1`] = `
               Object {
                 "border": "20px solid #fff",
                 "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -2266,9 +2209,8 @@ exports[`Storyshots Basics Spread 1`] = `
               Object {
                 "border": "20px solid #fff",
                 "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -2281,9 +2223,8 @@ exports[`Storyshots Basics Spread 1`] = `
               Object {
                 "border": "20px solid #fff",
                 "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -2300,6 +2241,8 @@ exports[`Storyshots Basics Spread 1`] = `
           style={
             Object {
               "height": "200px",
+              "padding": "20px",
+              "transformStyle": "flat",
               "width": "200px",
             }
           }
@@ -2312,9 +2255,8 @@ exports[`Storyshots Basics Spread 1`] = `
               Object {
                 "border": "20px solid #fff",
                 "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -2327,9 +2269,8 @@ exports[`Storyshots Basics Spread 1`] = `
               Object {
                 "border": "20px solid #fff",
                 "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -2342,9 +2283,8 @@ exports[`Storyshots Basics Spread 1`] = `
               Object {
                 "border": "20px solid #fff",
                 "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
@@ -2357,9 +2297,8 @@ exports[`Storyshots Basics Spread 1`] = `
               Object {
                 "border": "20px solid #fff",
                 "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.08)",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
                 "height": "200px",
-                "transformOrigin": "50% 100%",
                 "width": "200px",
               }
             }
