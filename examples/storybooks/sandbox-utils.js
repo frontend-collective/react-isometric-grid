@@ -44,6 +44,7 @@ const getPayload = code =>
             'react-dom': 'latest',
             'prop-types': 'latest',
             'react-isometric-grid': 'latest',
+            'dynamics.js': 'latest',
           },
         },
       },
