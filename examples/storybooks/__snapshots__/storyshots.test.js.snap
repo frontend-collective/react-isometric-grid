@@ -131,7 +131,7 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
               <img
                 alt=""
                 className="grid__img layer"
-                src="https://picsum.photos/200/200/?random"
+                src="https://picsum.photos/200/100/?random"
                 style={
                   Object {
                     "height": "200px",
@@ -189,7 +189,7 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
               <img
                 alt=""
                 className="grid__img layer"
-                src="https://picsum.photos/300/300/?random"
+                src="https://picsum.photos/300/200/?random"
                 style={
                   Object {
                     "height": "200px",
@@ -305,7 +305,7 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
               <img
                 alt=""
                 className="grid__img layer"
-                src="https://picsum.photos/500/500/?random"
+                src="https://picsum.photos/500/300/?random"
                 style={
                   Object {
                     "height": "200px",
@@ -363,7 +363,7 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
               <img
                 alt=""
                 className="grid__img layer"
-                src="https://picsum.photos/600/600/?random"
+                src="https://picsum.photos/700/500/?random"
                 style={
                   Object {
                     "height": "200px",
@@ -421,7 +421,7 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
               <img
                 alt=""
                 className="grid__img layer"
-                src="https://picsum.photos/200/300/?random"
+                src="https://picsum.photos/800/400/?random"
                 style={
                   Object {
                     "height": "200px",
@@ -479,7 +479,7 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
               <img
                 alt=""
                 className="grid__img layer"
-                src="https://picsum.photos/400/300/?random"
+                src="https://picsum.photos/100/100/?random"
                 style={
                   Object {
                     "height": "200px",
@@ -537,7 +537,7 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
               <img
                 alt=""
                 className="grid__img layer"
-                src="https://picsum.photos/200/500/?random"
+                src="https://picsum.photos/200/100/?random"
                 style={
                   Object {
                     "height": "200px",
@@ -552,6 +552,23 @@ exports[`Storyshots Advanced onGridLoaded Callback 1`] = `
     </div>
   </div>
   <br />
+  <form
+    action="https://codesandbox.io/api/v1/sandboxes/define"
+    id="codesandbox-form"
+    method="POST"
+  >
+    <input
+      id="codesandbox-parameters"
+      name="parameters"
+      type="hidden"
+    />
+  </form>
+  <button
+    className="sandboxButton"
+    onClick={[Function]}
+  >
+    PLAY WITH THIS CODE →
+  </button>
   <a
     className="sourceLink"
     href="https://github.com/wuweiweiwu/react-isometric-grid/blob/master/examples/storybooks/loaded-callback.js"
@@ -625,7 +642,7 @@ exports[`Storyshots Basics Basic Stack 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/100/100/?random"
             style={
               Object {
                 "height": "200px",
@@ -683,7 +700,7 @@ exports[`Storyshots Basics Basic Stack 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/200/100/?random"
             style={
               Object {
                 "height": "200px",
@@ -741,7 +758,7 @@ exports[`Storyshots Basics Basic Stack 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/300/200/?random"
             style={
               Object {
                 "height": "200px",
@@ -799,7 +816,7 @@ exports[`Storyshots Basics Basic Stack 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/400/400/?random"
             style={
               Object {
                 "height": "200px",
@@ -857,7 +874,7 @@ exports[`Storyshots Basics Basic Stack 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/500/300/?random"
             style={
               Object {
                 "height": "200px",
@@ -915,7 +932,7 @@ exports[`Storyshots Basics Basic Stack 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/700/500/?random"
             style={
               Object {
                 "height": "200px",
@@ -973,7 +990,7 @@ exports[`Storyshots Basics Basic Stack 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/800/400/?random"
             style={
               Object {
                 "height": "200px",
@@ -1031,7 +1048,7 @@ exports[`Storyshots Basics Basic Stack 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/100/100/?random"
             style={
               Object {
                 "height": "200px",
@@ -1089,7 +1106,7 @@ exports[`Storyshots Basics Basic Stack 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/200/100/?random"
             style={
               Object {
                 "height": "200px",
@@ -1102,6 +1119,23 @@ exports[`Storyshots Basics Basic Stack 1`] = `
     </ul>
   </div>
   <br />
+  <form
+    action="https://codesandbox.io/api/v1/sandboxes/define"
+    id="codesandbox-form"
+    method="POST"
+  >
+    <input
+      id="codesandbox-parameters"
+      name="parameters"
+      type="hidden"
+    />
+  </form>
+  <button
+    className="sandboxButton"
+    onClick={[Function]}
+  >
+    PLAY WITH THIS CODE →
+  </button>
   <a
     className="sourceLink"
     href="https://github.com/wuweiweiwu/react-isometric-grid/blob/master/examples/storybooks/basic-stack.js"
@@ -1175,7 +1209,7 @@ exports[`Storyshots Basics Basic Stack with Title 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/100/100/?random"
             style={
               Object {
                 "height": "200px",
@@ -1238,7 +1272,7 @@ exports[`Storyshots Basics Basic Stack with Title 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/200/100/?random"
             style={
               Object {
                 "height": "200px",
@@ -1301,7 +1335,7 @@ exports[`Storyshots Basics Basic Stack with Title 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/300/200/?random"
             style={
               Object {
                 "height": "200px",
@@ -1364,7 +1398,7 @@ exports[`Storyshots Basics Basic Stack with Title 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/400/400/?random"
             style={
               Object {
                 "height": "200px",
@@ -1427,7 +1461,7 @@ exports[`Storyshots Basics Basic Stack with Title 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/500/300/?random"
             style={
               Object {
                 "height": "200px",
@@ -1490,7 +1524,7 @@ exports[`Storyshots Basics Basic Stack with Title 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/700/500/?random"
             style={
               Object {
                 "height": "200px",
@@ -1553,7 +1587,7 @@ exports[`Storyshots Basics Basic Stack with Title 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/800/400/?random"
             style={
               Object {
                 "height": "200px",
@@ -1616,7 +1650,7 @@ exports[`Storyshots Basics Basic Stack with Title 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/100/100/?random"
             style={
               Object {
                 "height": "200px",
@@ -1679,7 +1713,7 @@ exports[`Storyshots Basics Basic Stack with Title 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/200/100/?random"
             style={
               Object {
                 "height": "200px",
@@ -1697,6 +1731,23 @@ exports[`Storyshots Basics Basic Stack with Title 1`] = `
     </ul>
   </div>
   <br />
+  <form
+    action="https://codesandbox.io/api/v1/sandboxes/define"
+    id="codesandbox-form"
+    method="POST"
+  >
+    <input
+      id="codesandbox-parameters"
+      name="parameters"
+      type="hidden"
+    />
+  </form>
+  <button
+    className="sandboxButton"
+    onClick={[Function]}
+  >
+    PLAY WITH THIS CODE →
+  </button>
   <a
     className="sourceLink"
     href="https://github.com/wuweiweiwu/react-isometric-grid/blob/master/examples/storybooks/basic-stack-with-title.js"
@@ -1773,7 +1824,7 @@ exports[`Storyshots Basics Side Stack 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/100/100/?random"
             style={
               Object {
                 "height": "200px",
@@ -1835,7 +1886,7 @@ exports[`Storyshots Basics Side Stack 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/200/100/?random"
             style={
               Object {
                 "height": "200px",
@@ -1897,7 +1948,7 @@ exports[`Storyshots Basics Side Stack 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/300/200/?random"
             style={
               Object {
                 "height": "200px",
@@ -1959,7 +2010,7 @@ exports[`Storyshots Basics Side Stack 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/400/400/?random"
             style={
               Object {
                 "height": "200px",
@@ -2021,7 +2072,7 @@ exports[`Storyshots Basics Side Stack 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/500/300/?random"
             style={
               Object {
                 "height": "200px",
@@ -2083,7 +2134,7 @@ exports[`Storyshots Basics Side Stack 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/700/500/?random"
             style={
               Object {
                 "height": "200px",
@@ -2145,7 +2196,7 @@ exports[`Storyshots Basics Side Stack 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/800/400/?random"
             style={
               Object {
                 "height": "200px",
@@ -2207,7 +2258,7 @@ exports[`Storyshots Basics Side Stack 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/100/100/?random"
             style={
               Object {
                 "height": "200px",
@@ -2269,7 +2320,7 @@ exports[`Storyshots Basics Side Stack 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/200/100/?random"
             style={
               Object {
                 "height": "200px",
@@ -2283,6 +2334,23 @@ exports[`Storyshots Basics Side Stack 1`] = `
     </ul>
   </div>
   <br />
+  <form
+    action="https://codesandbox.io/api/v1/sandboxes/define"
+    id="codesandbox-form"
+    method="POST"
+  >
+    <input
+      id="codesandbox-parameters"
+      name="parameters"
+      type="hidden"
+    />
+  </form>
+  <button
+    className="sandboxButton"
+    onClick={[Function]}
+  >
+    PLAY WITH THIS CODE →
+  </button>
   <a
     className="sourceLink"
     href="https://github.com/wuweiweiwu/react-isometric-grid/blob/master/examples/storybooks/side-stack.js"
@@ -2327,7 +2395,7 @@ exports[`Storyshots Basics Spread 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/100/100/?random"
             style={
               Object {
                 "border": "20px solid #fff",
@@ -2341,7 +2409,7 @@ exports[`Storyshots Basics Spread 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/700/500/?random"
             style={
               Object {
                 "border": "20px solid #fff",
@@ -2355,7 +2423,7 @@ exports[`Storyshots Basics Spread 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/100/100/?random"
             style={
               Object {
                 "border": "20px solid #fff",
@@ -2369,81 +2437,7 @@ exports[`Storyshots Basics Spread 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
-            style={
-              Object {
-                "border": "20px solid #fff",
-                "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
-                "height": "200px",
-                "width": "200px",
-              }
-            }
-          />
-        </a>
-      </li>
-      <li
-        className="grid__item"
-      >
-        <a
-          className="grid__link"
-          href={null}
-          onClick={null}
-          style={
-            Object {
-              "height": "200px",
-              "padding": "20px",
-              "transformStyle": "flat",
-              "width": "200px",
-            }
-          }
-        >
-          <img
-            alt=""
-            className="grid__img layer"
-            src="test-file-stub"
-            style={
-              Object {
-                "border": "20px solid #fff",
-                "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
-                "height": "200px",
-                "width": "200px",
-              }
-            }
-          />
-          <img
-            alt=""
-            className="grid__img layer"
-            src="test-file-stub"
-            style={
-              Object {
-                "border": "20px solid #fff",
-                "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
-                "height": "200px",
-                "width": "200px",
-              }
-            }
-          />
-          <img
-            alt=""
-            className="grid__img layer"
-            src="test-file-stub"
-            style={
-              Object {
-                "border": "20px solid #fff",
-                "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
-                "height": "200px",
-                "width": "200px",
-              }
-            }
-          />
-          <img
-            alt=""
-            className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/800/400/?random"
             style={
               Object {
                 "border": "20px solid #fff",
@@ -2475,7 +2469,7 @@ exports[`Storyshots Basics Spread 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/500/300/?random"
             style={
               Object {
                 "border": "20px solid #fff",
@@ -2489,7 +2483,7 @@ exports[`Storyshots Basics Spread 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/400/400/?random"
             style={
               Object {
                 "border": "20px solid #fff",
@@ -2503,7 +2497,7 @@ exports[`Storyshots Basics Spread 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/100/100/?random"
             style={
               Object {
                 "border": "20px solid #fff",
@@ -2517,81 +2511,7 @@ exports[`Storyshots Basics Spread 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
-            style={
-              Object {
-                "border": "20px solid #fff",
-                "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
-                "height": "200px",
-                "width": "200px",
-              }
-            }
-          />
-        </a>
-      </li>
-      <li
-        className="grid__item"
-      >
-        <a
-          className="grid__link"
-          href={null}
-          onClick={null}
-          style={
-            Object {
-              "height": "200px",
-              "padding": "20px",
-              "transformStyle": "flat",
-              "width": "200px",
-            }
-          }
-        >
-          <img
-            alt=""
-            className="grid__img layer"
-            src="test-file-stub"
-            style={
-              Object {
-                "border": "20px solid #fff",
-                "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
-                "height": "200px",
-                "width": "200px",
-              }
-            }
-          />
-          <img
-            alt=""
-            className="grid__img layer"
-            src="test-file-stub"
-            style={
-              Object {
-                "border": "20px solid #fff",
-                "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
-                "height": "200px",
-                "width": "200px",
-              }
-            }
-          />
-          <img
-            alt=""
-            className="grid__img layer"
-            src="test-file-stub"
-            style={
-              Object {
-                "border": "20px solid #fff",
-                "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
-                "height": "200px",
-                "width": "200px",
-              }
-            }
-          />
-          <img
-            alt=""
-            className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/200/100/?random"
             style={
               Object {
                 "border": "20px solid #fff",
@@ -2623,7 +2543,7 @@ exports[`Storyshots Basics Spread 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/100/100/?random"
             style={
               Object {
                 "border": "20px solid #fff",
@@ -2637,7 +2557,7 @@ exports[`Storyshots Basics Spread 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/100/100/?random"
             style={
               Object {
                 "border": "20px solid #fff",
@@ -2651,7 +2571,7 @@ exports[`Storyshots Basics Spread 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/500/300/?random"
             style={
               Object {
                 "border": "20px solid #fff",
@@ -2665,81 +2585,7 @@ exports[`Storyshots Basics Spread 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
-            style={
-              Object {
-                "border": "20px solid #fff",
-                "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
-                "height": "200px",
-                "width": "200px",
-              }
-            }
-          />
-        </a>
-      </li>
-      <li
-        className="grid__item"
-      >
-        <a
-          className="grid__link"
-          href={null}
-          onClick={null}
-          style={
-            Object {
-              "height": "200px",
-              "padding": "20px",
-              "transformStyle": "flat",
-              "width": "200px",
-            }
-          }
-        >
-          <img
-            alt=""
-            className="grid__img layer"
-            src="test-file-stub"
-            style={
-              Object {
-                "border": "20px solid #fff",
-                "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
-                "height": "200px",
-                "width": "200px",
-              }
-            }
-          />
-          <img
-            alt=""
-            className="grid__img layer"
-            src="test-file-stub"
-            style={
-              Object {
-                "border": "20px solid #fff",
-                "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
-                "height": "200px",
-                "width": "200px",
-              }
-            }
-          />
-          <img
-            alt=""
-            className="grid__img layer"
-            src="test-file-stub"
-            style={
-              Object {
-                "border": "20px solid #fff",
-                "borderWidth": "40px 20px",
-                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
-                "height": "200px",
-                "width": "200px",
-              }
-            }
-          />
-          <img
-            alt=""
-            className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/800/400/?random"
             style={
               Object {
                 "border": "20px solid #fff",
@@ -2771,7 +2617,7 @@ exports[`Storyshots Basics Spread 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/300/200/?random"
             style={
               Object {
                 "border": "20px solid #fff",
@@ -2785,7 +2631,7 @@ exports[`Storyshots Basics Spread 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/300/200/?random"
             style={
               Object {
                 "border": "20px solid #fff",
@@ -2799,7 +2645,7 @@ exports[`Storyshots Basics Spread 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/300/200/?random"
             style={
               Object {
                 "border": "20px solid #fff",
@@ -2813,7 +2659,7 @@ exports[`Storyshots Basics Spread 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/300/200/?random"
             style={
               Object {
                 "border": "20px solid #fff",
@@ -2845,7 +2691,7 @@ exports[`Storyshots Basics Spread 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/400/400/?random"
             style={
               Object {
                 "border": "20px solid #fff",
@@ -2859,7 +2705,7 @@ exports[`Storyshots Basics Spread 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/500/300/?random"
             style={
               Object {
                 "border": "20px solid #fff",
@@ -2873,7 +2719,7 @@ exports[`Storyshots Basics Spread 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/800/400/?random"
             style={
               Object {
                 "border": "20px solid #fff",
@@ -2887,7 +2733,229 @@ exports[`Storyshots Basics Spread 1`] = `
           <img
             alt=""
             className="grid__img layer"
-            src="test-file-stub"
+            src="https://picsum.photos/500/300/?random"
+            style={
+              Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+        </a>
+      </li>
+      <li
+        className="grid__item"
+      >
+        <a
+          className="grid__link"
+          href={null}
+          onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "padding": "20px",
+              "transformStyle": "flat",
+              "width": "200px",
+            }
+          }
+        >
+          <img
+            alt=""
+            className="grid__img layer"
+            src="https://picsum.photos/500/300/?random"
+            style={
+              Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <img
+            alt=""
+            className="grid__img layer"
+            src="https://picsum.photos/500/300/?random"
+            style={
+              Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <img
+            alt=""
+            className="grid__img layer"
+            src="https://picsum.photos/700/500/?random"
+            style={
+              Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <img
+            alt=""
+            className="grid__img layer"
+            src="https://picsum.photos/300/200/?random"
+            style={
+              Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+        </a>
+      </li>
+      <li
+        className="grid__item"
+      >
+        <a
+          className="grid__link"
+          href={null}
+          onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "padding": "20px",
+              "transformStyle": "flat",
+              "width": "200px",
+            }
+          }
+        >
+          <img
+            alt=""
+            className="grid__img layer"
+            src="https://picsum.photos/400/400/?random"
+            style={
+              Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <img
+            alt=""
+            className="grid__img layer"
+            src="https://picsum.photos/300/200/?random"
+            style={
+              Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <img
+            alt=""
+            className="grid__img layer"
+            src="https://picsum.photos/100/100/?random"
+            style={
+              Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <img
+            alt=""
+            className="grid__img layer"
+            src="https://picsum.photos/700/500/?random"
+            style={
+              Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+        </a>
+      </li>
+      <li
+        className="grid__item"
+      >
+        <a
+          className="grid__link"
+          href={null}
+          onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "padding": "20px",
+              "transformStyle": "flat",
+              "width": "200px",
+            }
+          }
+        >
+          <img
+            alt=""
+            className="grid__img layer"
+            src="https://picsum.photos/800/400/?random"
+            style={
+              Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <img
+            alt=""
+            className="grid__img layer"
+            src="https://picsum.photos/200/100/?random"
+            style={
+              Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <img
+            alt=""
+            className="grid__img layer"
+            src="https://picsum.photos/500/300/?random"
+            style={
+              Object {
+                "border": "20px solid #fff",
+                "borderWidth": "40px 20px",
+                "boxShadow": "-1px 1px 5px rgba(0, 0, 0, 0.1)",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <img
+            alt=""
+            className="grid__img layer"
+            src="https://picsum.photos/100/100/?random"
             style={
               Object {
                 "border": "20px solid #fff",
@@ -2903,6 +2971,23 @@ exports[`Storyshots Basics Spread 1`] = `
     </ul>
   </div>
   <br />
+  <form
+    action="https://codesandbox.io/api/v1/sandboxes/define"
+    id="codesandbox-form"
+    method="POST"
+  >
+    <input
+      id="codesandbox-parameters"
+      name="parameters"
+      type="hidden"
+    />
+  </form>
+  <button
+    className="sandboxButton"
+    onClick={[Function]}
+  >
+    PLAY WITH THIS CODE →
+  </button>
   <a
     className="sourceLink"
     href="https://github.com/wuweiweiwu/react-isometric-grid/blob/master/examples/storybooks/spread.js"
