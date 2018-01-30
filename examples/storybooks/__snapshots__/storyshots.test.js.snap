@@ -1113,6 +1113,601 @@ exports[`Storyshots Basics Basic Stack 1`] = `
 </div>
 `;
 
+exports[`Storyshots Basics Basic Stack with Title 1`] = `
+<div>
+  <div
+    className="isolayer isolayer--shadow"
+    style={
+      Object {
+        "height": "500px",
+        "width": "800px",
+      }
+    }
+  >
+    <ul
+      className="grid"
+    >
+      <li
+        className="grid__item"
+      >
+        <a
+          className="grid__link"
+          href={null}
+          onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "transformStyle": "preserve-3d",
+              "width": "200px",
+            }
+          }
+        >
+          <div
+            className="layer"
+            style={
+              Object {
+                "backgroundColor": "#9eb5c2",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <div
+            className="layer"
+            style={
+              Object {
+                "backgroundColor": "#c322a3",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <div
+            className="layer"
+            style={
+              Object {
+                "backgroundColor": "#9972fc",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <img
+            alt=""
+            className="grid__img layer"
+            src="test-file-stub"
+            style={
+              Object {
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <span
+            className="grid__title"
+          >
+            RANDOM TITLE
+          </span>
+        </a>
+      </li>
+      <li
+        className="grid__item"
+      >
+        <a
+          className="grid__link"
+          href={null}
+          onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "transformStyle": "preserve-3d",
+              "width": "200px",
+            }
+          }
+        >
+          <div
+            className="layer"
+            style={
+              Object {
+                "backgroundColor": "#9eb5c2",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <div
+            className="layer"
+            style={
+              Object {
+                "backgroundColor": "#c322a3",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <div
+            className="layer"
+            style={
+              Object {
+                "backgroundColor": "#9972fc",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <img
+            alt=""
+            className="grid__img layer"
+            src="test-file-stub"
+            style={
+              Object {
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <span
+            className="grid__title"
+          >
+            RANDOM TITLE
+          </span>
+        </a>
+      </li>
+      <li
+        className="grid__item"
+      >
+        <a
+          className="grid__link"
+          href={null}
+          onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "transformStyle": "preserve-3d",
+              "width": "200px",
+            }
+          }
+        >
+          <div
+            className="layer"
+            style={
+              Object {
+                "backgroundColor": "#9eb5c2",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <div
+            className="layer"
+            style={
+              Object {
+                "backgroundColor": "#c322a3",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <div
+            className="layer"
+            style={
+              Object {
+                "backgroundColor": "#9972fc",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <img
+            alt=""
+            className="grid__img layer"
+            src="test-file-stub"
+            style={
+              Object {
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <span
+            className="grid__title"
+          >
+            RANDOM TITLE
+          </span>
+        </a>
+      </li>
+      <li
+        className="grid__item"
+      >
+        <a
+          className="grid__link"
+          href={null}
+          onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "transformStyle": "preserve-3d",
+              "width": "200px",
+            }
+          }
+        >
+          <div
+            className="layer"
+            style={
+              Object {
+                "backgroundColor": "#9eb5c2",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <div
+            className="layer"
+            style={
+              Object {
+                "backgroundColor": "#c322a3",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <div
+            className="layer"
+            style={
+              Object {
+                "backgroundColor": "#9972fc",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <img
+            alt=""
+            className="grid__img layer"
+            src="test-file-stub"
+            style={
+              Object {
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <span
+            className="grid__title"
+          >
+            RANDOM TITLE
+          </span>
+        </a>
+      </li>
+      <li
+        className="grid__item"
+      >
+        <a
+          className="grid__link"
+          href={null}
+          onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "transformStyle": "preserve-3d",
+              "width": "200px",
+            }
+          }
+        >
+          <div
+            className="layer"
+            style={
+              Object {
+                "backgroundColor": "#9eb5c2",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <div
+            className="layer"
+            style={
+              Object {
+                "backgroundColor": "#c322a3",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <div
+            className="layer"
+            style={
+              Object {
+                "backgroundColor": "#9972fc",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <img
+            alt=""
+            className="grid__img layer"
+            src="test-file-stub"
+            style={
+              Object {
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <span
+            className="grid__title"
+          >
+            RANDOM TITLE
+          </span>
+        </a>
+      </li>
+      <li
+        className="grid__item"
+      >
+        <a
+          className="grid__link"
+          href={null}
+          onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "transformStyle": "preserve-3d",
+              "width": "200px",
+            }
+          }
+        >
+          <div
+            className="layer"
+            style={
+              Object {
+                "backgroundColor": "#9eb5c2",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <div
+            className="layer"
+            style={
+              Object {
+                "backgroundColor": "#c322a3",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <div
+            className="layer"
+            style={
+              Object {
+                "backgroundColor": "#9972fc",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <img
+            alt=""
+            className="grid__img layer"
+            src="test-file-stub"
+            style={
+              Object {
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <span
+            className="grid__title"
+          >
+            RANDOM TITLE
+          </span>
+        </a>
+      </li>
+      <li
+        className="grid__item"
+      >
+        <a
+          className="grid__link"
+          href={null}
+          onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "transformStyle": "preserve-3d",
+              "width": "200px",
+            }
+          }
+        >
+          <div
+            className="layer"
+            style={
+              Object {
+                "backgroundColor": "#9eb5c2",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <div
+            className="layer"
+            style={
+              Object {
+                "backgroundColor": "#c322a3",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <div
+            className="layer"
+            style={
+              Object {
+                "backgroundColor": "#9972fc",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <img
+            alt=""
+            className="grid__img layer"
+            src="test-file-stub"
+            style={
+              Object {
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <span
+            className="grid__title"
+          >
+            RANDOM TITLE
+          </span>
+        </a>
+      </li>
+      <li
+        className="grid__item"
+      >
+        <a
+          className="grid__link"
+          href={null}
+          onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "transformStyle": "preserve-3d",
+              "width": "200px",
+            }
+          }
+        >
+          <div
+            className="layer"
+            style={
+              Object {
+                "backgroundColor": "#9eb5c2",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <div
+            className="layer"
+            style={
+              Object {
+                "backgroundColor": "#c322a3",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <div
+            className="layer"
+            style={
+              Object {
+                "backgroundColor": "#9972fc",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <img
+            alt=""
+            className="grid__img layer"
+            src="test-file-stub"
+            style={
+              Object {
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <span
+            className="grid__title"
+          >
+            RANDOM TITLE
+          </span>
+        </a>
+      </li>
+      <li
+        className="grid__item"
+      >
+        <a
+          className="grid__link"
+          href={null}
+          onClick={null}
+          style={
+            Object {
+              "height": "200px",
+              "transformStyle": "preserve-3d",
+              "width": "200px",
+            }
+          }
+        >
+          <div
+            className="layer"
+            style={
+              Object {
+                "backgroundColor": "#9eb5c2",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <div
+            className="layer"
+            style={
+              Object {
+                "backgroundColor": "#c322a3",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <div
+            className="layer"
+            style={
+              Object {
+                "backgroundColor": "#9972fc",
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <img
+            alt=""
+            className="grid__img layer"
+            src="test-file-stub"
+            style={
+              Object {
+                "height": "200px",
+                "width": "200px",
+              }
+            }
+          />
+          <span
+            className="grid__title"
+          >
+            RANDOM TITLE
+          </span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <br />
+  <a
+    className="sourceLink"
+    href="https://github.com/wuweiweiwu/react-isometric-grid/blob/master/examples/storybooks/basic-stack-with-title.js"
+    rel="noopener noreferrer"
+    target="_top"
+  >
+    VIEW SOURCE →
+  </a>
+</div>
+`;
+
 exports[`Storyshots Basics Side Stack 1`] = `
 <div>
   <div
