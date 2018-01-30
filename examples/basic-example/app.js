@@ -78,38 +78,47 @@ class App extends Component {
                 <Cell
                   href="https://dribbble.com/fuviz"
                   layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']}
+                  title="Random Title"
                 />
                 <Cell
                   href="https://dribbble.com/fuviz"
                   layers={[img2, '#ac5cf5', '#5db4eb', '#5debb4']}
+                  title="Random Title"
                 />
                 <Cell
                   href="https://dribbble.com/fuviz"
                   layers={[img3, '#ac5cf5', '#5db4eb', '#5debb4']}
+                  title="Random Title"
                 />
                 <Cell
                   href="https://dribbble.com/fuviz"
                   layers={[img4, '#ac5cf5', '#5db4eb', '#5debb4']}
+                  title="Random Title"
                 />
                 <Cell
                   href="https://dribbble.com/fuviz"
                   layers={[img5, '#ac5cf5', '#5db4eb', '#5debb4']}
+                  title="Random Title"
                 />
                 <Cell
                   href="https://dribbble.com/fuviz"
                   layers={[img6, '#ac5cf5', '#5db4eb', '#5debb4']}
+                  title="Random Title"
                 />
                 <Cell
                   href="https://dribbble.com/fuviz"
                   layers={[img7, '#ac5cf5', '#5db4eb', '#5debb4']}
+                  title="Random Title"
                 />
                 <Cell
                   href="https://dribbble.com/fuviz"
                   layers={[img1, '#ac5cf5', '#5db4eb', '#5debb4']}
+                  title="Random Title"
                 />
                 <Cell
                   href="https://dribbble.com/fuviz"
                   layers={[img2, '#ac5cf5', '#5db4eb', '#5debb4']}
+                  title="Random Title"
                 />
               </IsometricGrid>
             </div>
