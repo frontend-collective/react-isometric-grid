@@ -2,9 +2,23 @@
 
 React Isometric Grids :stuck_out_tongue: Inspired by https://github.com/codrops/IsometricGrids
 
+[![NPM](https://nodei.co/npm/react-isometric-grid.png)](https://nodei.co/npm/react-isometric-grid/)
+
 ## [Demo](http://weiweiwu.me/react-isometric-grid)
 
 ![Example](https://media.giphy.com/media/l4pTkeY0fDzNwhMzK/giphy.gif)
+
+## Notes
+
+use with `normalize.css` for best results across browsers.
+
+```bash
+npm install normalize css
+
+# and in index.js add
+
+import 'normalize.css';
+```
 
 ## Usage
 
