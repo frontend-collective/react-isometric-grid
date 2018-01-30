@@ -16,9 +16,14 @@ class App extends Component {
       return Math.floor(Math.random() * (max - min + 1)) + min;
     }
 
+    const cellStyle = {
+      border: '20px solid #fff',
+      borderWidth: '40px 20px',
+      boxShadow: '-1px 1px 5px rgba(0, 0, 0, 0.08)',
+    };
+
     return (
       <IsometricGrid
-        shadow
         transform="rotateX(55deg) rotateZ(-45deg)"
         stackItemsAnimation={{
           properties() {
@@ -45,14 +50,14 @@ class App extends Component {
           width: '800px',
         }}
       >
-        <Cell layers={[img7, img1, img6, img1]} />
-        <Cell layers={[img2, img2, img2, img2]} />
-        <Cell layers={[img7, img5, img1, img1]} />
-        <Cell layers={[img3, img3, img3, img3]} />
-        <Cell layers={[img4, img4, img5, img4]} />
-        <Cell layers={[img3, img6, img5, img5]} />
-        <Cell layers={[img6, img1, img3, img4]} />
-        <Cell layers={[img1, img5, img2, img7]} />
+        <Cell layerStyle={cellStyle} layers={[img7, img1, img6, img1]} />
+        <Cell layerStyle={cellStyle} layers={[img2, img1, img4, img5]} />
+        <Cell layerStyle={cellStyle} layers={[img7, img5, img1, img1]} />
+        <Cell layerStyle={cellStyle} layers={[img3, img3, img3, img3]} />
+        <Cell layerStyle={cellStyle} layers={[img5, img7, img5, img4]} />
+        <Cell layerStyle={cellStyle} layers={[img3, img6, img5, img5]} />
+        <Cell layerStyle={cellStyle} layers={[img6, img1, img3, img4]} />
+        <Cell layerStyle={cellStyle} layers={[img1, img5, img2, img7]} />
       </IsometricGrid>
     );
   }
