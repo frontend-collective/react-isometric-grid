@@ -8,12 +8,12 @@ import styles from './react-isometric-grid.scss';
 import { isValidColor } from './utils/misc';
 
 const DEFAULT_STYLE = {
+  transformStyle: 'preserve-3d',
   width: '200px',
   height: '200px',
 };
 
 const DEFAULT_LAYER_STYLE = {
-  transformOrigin: '50% 100%',
   width: '200px',
   height: '200px',
 };

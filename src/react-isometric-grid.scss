@@ -66,11 +66,9 @@
 .layer {
   position: relative;
   display: block;
-  &:not(:first-child) {
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 /* Shadow effect */
