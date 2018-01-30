@@ -1,8 +1,6 @@
-# react-isometric-grids
+# react-isometric-grids [![Build Status](https://travis-ci.org/wuweiweiwu/react-isometric-grid.svg?branch=master)](https://travis-ci.org/wuweiweiwu/react-isometric-grid) [![npm version](https://badge.fury.io/js/react-isometric-grid.svg)](https://badge.fury.io/js/react-isometric-grid)
 
 React Isometric Grids :stuck_out_tongue: Inspired by https://github.com/codrops/IsometricGrids
-
-[![Test Coverage](https://api.codeclimate.com/v1/badges/23aa36958fab6bfee77a/test_coverage)](https://codeclimate.com/github/wuweiweiwu/react-isometric-grid/test_coverage)[![Build Status](https://travis-ci.org/wuweiweiwu/react-isometric-grid.svg?branch=master)](https://travis-ci.org/wuweiweiwu/react-isometric-grid)
 
 ## [Demo](http://weiweiwu.me/react-isometric-grid)
 
@@ -128,9 +126,9 @@ dynamic.js animations parameters
 | Prop                | Type            | Description                                                                                     | Default                                                            |
 | ------------------- | --------------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
 | layers _(required)_ | array of string | what each layer is in the cell. <br/> Can be image urls or valid css colors                     |                                                                    |
-| href                | string          | url that the image will link to when clicked                                                    | `""`                                                               |
+| href                | string          | url that the image will link to when clicked                                                    | `null`                                                               |
 | onClick             | function        | what is executed when the image is clicked. If using with `href`, be sure to `preventDefault()` | `null`                                                             |
-| title               | string          | title that is under the layers. Shown on mouse over                                             | `""`                                                               |
+| title               | string          | title that is under the layers. Shown on mouse over                                             | `null`                                                               |
 | style               | object          | inline styling for the inner item                                                               | `{ transformOrigin: '50% 100%', width: '200px', height: '200px' }` |
 
 ## Troubleshooting
