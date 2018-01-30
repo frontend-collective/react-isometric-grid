@@ -7,9 +7,20 @@ import uniqid from 'uniqid';
 import styles from './react-isometric-grid.scss';
 import { isValidColor } from './utils/misc';
 
+const DEFAULT_STYLE = {
+  width: '200px',
+  height: '200px',
+};
+
+const DEFAULT_LAYER_STYLE = {
+  transformOrigin: '50% 100%',
+  width: '200px',
+  height: '200px',
+};
+
 class Cell extends Component {
   render() {
-    const { layers, href, title, style, onClick } = this.props;
+    const { layers, href, title, style, layerStyle, onClick } = this.props;
 
     const layerList = layers.map(layer => {
       if (!layer) {
@@ -20,7 +31,11 @@ class Cell extends Component {
           <div
             className={styles.layer}
             key={uniqid()}
-            style={{ ...style, backgroundColor: layer }}
+            style={{
+              ...DEFAULT_LAYER_STYLE,
+              ...layerStyle,
+              backgroundColor: layer,
+            }}
           />
         );
       }
@@ -30,10 +45,11 @@ class Cell extends Component {
           className={classNames([styles.grid__img, styles.layer])}
           key={uniqid()}
           src={layer}
-          style={style}
+          style={{ ...DEFAULT_LAYER_STYLE, ...layerStyle }}
         />
       );
     });
+
     return (
       <li className={styles.grid__item}>
         <a
@@ -43,6 +59,7 @@ class Cell extends Component {
           })}
           href={href || null}
           onClick={onClick}
+          style={{ ...DEFAULT_STYLE, ...style }}
         >
           {layerList.reverse()}
           {!!title && <span className={styles.grid__title}>{title}</span>}
@@ -65,19 +82,19 @@ Cell.propTypes = {
   // optional tital for the stack
   title: PropTypes.string,
 
-  // styling
+  // styling for the Cell element
   style: stylePropType,
+
+  // styling for the individual layers
+  layerStyle: stylePropType,
 };
 
 Cell.defaultProps = {
   href: null,
   onClick: null,
   title: null,
-  style: {
-    transformOrigin: '50% 100%',
-    width: '200px',
-    height: '200px',
-  },
+  style: DEFAULT_STYLE,
+  layerStyle: DEFAULT_LAYER_STYLE,
 };
 
 export default Cell;
