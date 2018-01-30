@@ -13,7 +13,7 @@ React Isometric Grids :stuck_out_tongue: Inspired by https://github.com/codrops/
 use with `normalize.css` for best results across browsers.
 
 ```bash
-npm install normalize css
+npm i -S normalize.css
 
 # and in index.js add
 
