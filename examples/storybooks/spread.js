@@ -19,7 +19,12 @@ class App extends Component {
     const cellStyle = {
       border: '20px solid #fff',
       borderWidth: '40px 20px',
-      boxShadow: '-1px 1px 5px rgba(0, 0, 0, 0.08)',
+      boxShadow: '-1px 1px 5px rgba(0, 0, 0, 0.1)',
+    };
+
+    const style = {
+      transformStyle: 'flat',
+      padding: '20px',
     };
 
     return (
@@ -28,8 +33,8 @@ class App extends Component {
         stackItemsAnimation={{
           properties() {
             return {
-              translateX: getRandomInt(-20, 20),
-              translateY: getRandomInt(-20, 20),
+              translateX: getRandomInt(-60, 60),
+              translateY: getRandomInt(-60, 60),
               rotateZ: getRandomInt(-10, 10),
             };
           },
@@ -50,14 +55,46 @@ class App extends Component {
           width: '800px',
         }}
       >
-        <Cell layerStyle={cellStyle} layers={[img7, img1, img6, img1]} />
-        <Cell layerStyle={cellStyle} layers={[img2, img1, img4, img5]} />
-        <Cell layerStyle={cellStyle} layers={[img7, img5, img1, img1]} />
-        <Cell layerStyle={cellStyle} layers={[img3, img3, img3, img3]} />
-        <Cell layerStyle={cellStyle} layers={[img5, img7, img5, img4]} />
-        <Cell layerStyle={cellStyle} layers={[img3, img6, img5, img5]} />
-        <Cell layerStyle={cellStyle} layers={[img6, img1, img3, img4]} />
-        <Cell layerStyle={cellStyle} layers={[img1, img5, img2, img7]} />
+        <Cell
+          style={style}
+          layerStyle={cellStyle}
+          layers={[img7, img1, img6, img1]}
+        />
+        <Cell
+          style={style}
+          layerStyle={cellStyle}
+          layers={[img2, img1, img4, img5]}
+        />
+        <Cell
+          style={style}
+          layerStyle={cellStyle}
+          layers={[img7, img5, img1, img1]}
+        />
+        <Cell
+          style={style}
+          layerStyle={cellStyle}
+          layers={[img3, img3, img3, img3]}
+        />
+        <Cell
+          style={style}
+          layerStyle={cellStyle}
+          layers={[img5, img7, img5, img4]}
+        />
+        <Cell
+          style={style}
+          layerStyle={cellStyle}
+          layers={[img3, img6, img5, img5]}
+        />
+        <Cell
+          style={style}
+          layerStyle={cellStyle}
+          layers={[img6, img1, img3, img4]}
+        />
+        <Cell
+          style={style}
+          layerStyle={cellStyle}
+          layers={[img1, img5, img2, img7]}
+        />
       </IsometricGrid>
     );
   }

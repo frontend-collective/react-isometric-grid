@@ -12,6 +12,10 @@ import img7 from '../shared/img/7.jpg';
 
 class App extends Component {
   render() {
+    const layerStyle = {
+      transformOrigin: '50% 100%',
+    };
+
     return (
       <IsometricGrid
         transform="scale3d(0.8,0.8,1) rotateY(45deg) rotateZ(-10deg)"
@@ -33,15 +37,42 @@ class App extends Component {
           width: '800px',
         }}
       >
-        <Cell layers={[img1, '#9972fc', '#c322a3', '#9eb5c2']} />
-        <Cell layers={[img2, '#9972fc', '#c322a3', '#9eb5c2']} />
-        <Cell layers={[img3, '#9972fc', '#c322a3', '#9eb5c2']} />
-        <Cell layers={[img4, '#9972fc', '#c322a3', '#9eb5c2']} />
-        <Cell layers={[img5, '#9972fc', '#c322a3', '#9eb5c2']} />
-        <Cell layers={[img6, '#9972fc', '#c322a3', '#9eb5c2']} />
-        <Cell layers={[img7, '#9972fc', '#c322a3', '#9eb5c2']} />
-        <Cell layers={[img1, '#9972fc', '#c322a3', '#9eb5c2']} />
-        <Cell layers={[img2, '#9972fc', '#c322a3', '#9eb5c2']} />
+        <Cell
+          layerStyle={layerStyle}
+          layers={[img1, '#9972fc', '#c322a3', '#9eb5c2']}
+        />
+        <Cell
+          layerStyle={layerStyle}
+          layers={[img2, '#9972fc', '#c322a3', '#9eb5c2']}
+        />
+        <Cell
+          layerStyle={layerStyle}
+          layers={[img3, '#9972fc', '#c322a3', '#9eb5c2']}
+        />
+        <Cell
+          layerStyle={layerStyle}
+          layers={[img4, '#9972fc', '#c322a3', '#9eb5c2']}
+        />
+        <Cell
+          layerStyle={layerStyle}
+          layers={[img5, '#9972fc', '#c322a3', '#9eb5c2']}
+        />
+        <Cell
+          layerStyle={layerStyle}
+          layers={[img6, '#9972fc', '#c322a3', '#9eb5c2']}
+        />
+        <Cell
+          layerStyle={layerStyle}
+          layers={[img7, '#9972fc', '#c322a3', '#9eb5c2']}
+        />
+        <Cell
+          layerStyle={layerStyle}
+          layers={[img1, '#9972fc', '#c322a3', '#9eb5c2']}
+        />
+        <Cell
+          layerStyle={layerStyle}
+          layers={[img2, '#9972fc', '#c322a3', '#9eb5c2']}
+        />
       </IsometricGrid>
     );
   }
