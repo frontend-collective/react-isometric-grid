@@ -147,6 +147,11 @@ dynamic.js animations parameters
 | title               | string          | title that is under the layers. Shown on mouse over                                             | `null`                                                               |
 | style               | object          | inline styling for the Cell component                                                           | `{ width: '200px', height: '200px', transformStyle: 'preserve-3d' }` |
 | layerStyle          | object          | inline styling for each inner layer                                                             | `{ width: '200px', height: '200px' }`                                |
+## Compatibility 
+
+It is compatible in browsers where `transform-style: 3d` is supported.
+
+![chart](https://image.ibb.co/gH1R16/Screen_Shot_2018_01_29_at_10_07_54_PM.png)
 
 ## Troubleshooting
 
