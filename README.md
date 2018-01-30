@@ -2,6 +2,8 @@
 
 React Isometric Grids :stuck_out_tongue: Inspired by https://github.com/codrops/IsometricGrids
 
+Featured in Codrop [Collective 386](https://tympanus.net/codrops/collective/collective-386/)!
+
 [![NPM](https://nodei.co/npm/react-isometric-grid.png)](https://nodei.co/npm/react-isometric-grid/)
 
 ## [Demo](http://weiweiwu.me/react-isometric-grid)
