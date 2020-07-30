@@ -92,7 +92,7 @@ class App extends Component {
             '#9eb5c2',
           ]}
         />
-      </ReactIsometricGrid>
+      </IsometricGrid>
     );
   }
 }
