@@ -101,7 +101,7 @@
     "jest": "^22.0.6",
     "jest-enzyme": "^4.0.2",
     "json-loader": "^0.5.4",
-    "node-sass": "^4.7.2",
+    "node-sass": "^7.0.0",
     "postcss-loader": "^2.0.10",
     "prettier": "^1.10.2",
     "react": "^16.2.0",
